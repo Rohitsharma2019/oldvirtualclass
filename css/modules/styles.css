@@ -2410,6 +2410,10 @@
   border-left: 1px solid #bbb;
 }
 
+#virtualclassCont.congrea #virtualclassApp.collapsedRightbar #virtualclassAppRightPanel {
+  width: 60px;
+}
+
 #virtualclassCont.congrea #virtualclassAppRightPanel .ui-widget-header.ui-corner-top.ui-memblist-titlebar.ui-dialog-header {
   border-radius: 0;
   padding: 7px 0px 18px;
