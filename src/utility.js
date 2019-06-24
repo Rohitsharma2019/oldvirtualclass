@@ -2070,6 +2070,10 @@
       virtualclassApp.style.display = 'block';
 
       if (localStorage.getItem('precheck')) {
+        var virtualclassPreCheck = document.getElementById('preCheckcontainer');
+        virtualclassPreCheck.style.display = 'none';
+        var virtualclassApp = document.getElementById('virtualclassApp');
+        virtualclassApp.style.display = 'flex';
         virtualclass.videoHost._resetPrecheck();
       } else {
         /* TODO, this need to verify, it's using or not  * */

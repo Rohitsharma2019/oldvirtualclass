@@ -43,7 +43,8 @@ const gesture = {
   closeContinueWindow() {
     const virtualclassApp = document.querySelector('#virtualclassCont #virtualclassApp');
     const joinClassModal = document.querySelector('#joinClassModal');
-    virtualclassApp.style.display = 'block';
+
+    virtualclassApp.style.display = 'flex';
     joinClassModal.style.display = 'none';
   },
 
