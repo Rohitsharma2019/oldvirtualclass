@@ -1,21 +1,15 @@
 #virtualclassCont.congrea #networkStatusContainer {
-  position: relative;
-  top: -44px;
   width: 50px;
-  left: 0px;
   height: 44px;
   float: right;
   border-left: 1px solid rgba(254, 254, 254, 0.2) !important;
-  /*    border-right: 1px solid rgba(254,254,254,0.2) !important;*/
+  z-index: 1001;
 }
 
-#virtualclassCont.congrea #virtualclassAppRightPanel #proposedSpeed {
-  width: 30px;
-  height: 30px;
-  position: relative;
-  top: 9px;
-  padding: 4px;
-  left: 9px;
+#virtualclassCont.congrea #proposedSpeed {
+  width: 26px;
+  height: 26px;
+  padding: 12px;
 }
 
 #virtualclassCont.congrea #proposedSpeed[data-suggestion='high'] svg path.signalthree,
