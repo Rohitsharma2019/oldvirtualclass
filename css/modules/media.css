@@ -3,14 +3,6 @@
   left: 84px;
 }
 
-#virtualclassCont.congrea #audioWidget {
-  /*cursor: pointer;*/
-  float: left;
-  margin-left: 14px;
-  height: 45px;
-  overflow: hidden;
-}
-
 #virtualclassCont.congrea #audioWidget ul li {
   cursor: pointer;
 }
@@ -273,6 +265,7 @@
 #virtualclassCont.congrea.student #virtualclassAppRightPanel #audioWidget {
   margin: 0;
   width: 100%;
+  height: 48px;
 }
 
 #virtualclassCont.congrea .suggestion,
