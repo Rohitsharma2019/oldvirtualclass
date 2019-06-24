@@ -46,7 +46,7 @@ var videoHost = {
       canvas.id = 'dummyCanvas';
       canvas.width = 40;
       canvas.height = 40;
-      document.querySelector('#virtualclassApp').appendChild(canvas);
+      document.querySelector('#virtualclassCont').appendChild(canvas);
 
       WebPDecDemo('dummyCanvas');
 
