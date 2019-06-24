@@ -3028,6 +3028,11 @@
   float: left;
 }
 
+#virtualclassCont.congrea #virtualclassAppRightPanel #audioWidget {
+  float: left;
+  width: 100%;
+}
+
 #virtualclassCont.congrea.student #audioWidget .nav > li#speakerPressOnce > a {
   padding: 12px 30px 12px 30px !important;
 }
@@ -3112,6 +3117,10 @@
 #virtualclassCont.congrea.orginalTeacher #audioWidget #mainAudioPanel li {
   width: 33.3%; /*changed from 20% as remove some controls */
   text-align: center !important;
+}
+
+#virtualclassCont.congrea #virtualclassApp.collapsedRightbar #audioWidget #mainAudioPanel li {
+  width: 100%;
 }
 
 #virtualclassCont.congrea.student #virtualclassAppRightPanel #mainAudioPanel li {
@@ -4633,7 +4642,7 @@ and (max-device-width: 1024px) {
   background-image: linear-gradient(to bottom, #021317 0%, #2c393d 100%) !important;
 }
 
-#virtualclassCont.congrea.teacher .canvasWrapper::-webkit-scrollbar {
+#virtualclassCont.congrea .canvasWrapper::-webkit-scrollbar {
   width: 6px;
 }
 
@@ -4641,6 +4650,62 @@ and (max-device-width: 1024px) {
   position: absolute;
   right: 0;
   z-index: 1001;
+}
+
+#virtualclassCont.congrea #virtualclassAppLeftPanel #sidebarButton {
+  display:inline-block;
+}
+
+#virtualclassCont.congrea #virtualclassAppLeftPanel #sidebarButton .sidebarButton {
+  padding: 13px;
+}
+
+#virtualclassCont.congrea #virtualclassApp.collapsedRightbar #virtualclassAppRightPanel .footerCtr {
+  display:none;
+}
+
+#virtualclassCont.congrea #virtualclassApp.collapsedRightbar #virtualclassAppRightPanel #audioWidget {
+  margin-top:50px;
+  background-image: none !important;
+}
+
+#virtualclassCont.congrea #virtualclassApp.collapsedRightbar #audioWidget .audioTool,
+#virtualclassCont.congrea #virtualclassApp.collapsedRightbar #audioWidget,
+#virtualclassCont.congrea #virtualclassApp.collapsedRightbar #audioWidget li {
+  border: none !important;
+}
+
+#virtualclassCont.congrea #virtualclassApp.collapsedRightbar #audioWidget li a:hover,
+#virtualclassCont.congrea #virtualclassApp.collapsedRightbar #audioWidget li:hover {
+  background-image: none !important;
+  background: none !important;
+}
+
+#virtualclassCont.congrea #virtualclassApp.collapsedRightbar #audioWidget #appSettingCtrl .cgIcon:before {
+  color: #000 !important;
+}
+
+#virtualclassCont.congrea #virtualclassApp.collapsedRightbar #virtualclassAppRightPanel #videoHostContainer {
+  display:none;
+}
+
+#virtualclassCont.congrea #virtualclassApp.collapsedRightbar #audioWidget li#speakerPressOnce {
+  opacity: 1;
+  pointer-events: visible;
+  width: 46px;
+  margin: 0 7px;
+  border-radius: 50%;
+  border: 1px solid #ccc !important;
+  box-shadow: 0 0 1px rgb(96, 96, 97);
+}
+
+#virtualclassCont.congrea #virtualclassApp.collapsedRightbar #audioWidget li#speakerPressOnce a {
+  padding: 10px 11px !important;
+}
+
+#virtualclassApp.collapsedRightbar #virtualclassAppRightPanel #chatWidget .chatBarTab li#user_list,
+#virtualclassCont.congrea #virtualclassApp.collapsedRightbar #chatroom_bt2 .inner_bt #chatroom_text {
+  display: none;
 }
 
 /* ======== Firefox ========== */

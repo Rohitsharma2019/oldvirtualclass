@@ -19,10 +19,17 @@ div.ui-memblist-usr video {
 }
 
 div.ui-memblist-usr .userVideos {
-  width: 50px;
-  height: 38px;
+  display: block;
+  text-align: center;
+  font-size: 14px;
+  border: solid 1px #f3f3f3;
+  border-radius: 30px;
+  width: 42px;
+  height: 42px;
+  margin: 5px 5px 5px 2px;
+  line-height: 37px;
   margin-top: 6px;
-  outline: 1px solid #5a5757;
+  box-shadow: 0 0 2px rgb(96, 96, 97);
 }
 
 #graphCanvas {
@@ -36,10 +43,7 @@ div.ui-memblist-usr .userVideos {
 
 div.ui-memblist-usr video,
 div.ui-memblist-usr .userVideos {
-  border: #3c4953 solid 1px;
-  border-radius: 20%;
   outline: none;
-  margin: 5px 3px 5px 3px;
 }
 
 .controls {
@@ -93,14 +97,12 @@ div.ui-memblist-usr .user-details .media-object {
   display: block;
   text-align: center;
   font-size: 14px;
-  opacity: 0.8;
-  border: solid 1px transparent;
-  border-radius: 20%;
-  width: 50px;
-  height: auto;
+  border: solid 1px #bbb;
+  border-radius: 30px;
+  width: 42px;
+  height: 42px;
   margin: 5px 5px 5px 2px;
-  object-fit: cover;
-  padding: 10px 0;
+  line-height: 37px;
 }
 
 div.ui-memblist-usr .user-details img.media-object {
@@ -506,4 +508,8 @@ div.ui-memblist-usr .user-details a .media-object {
 
 :host([data-currapp="EditorRich"]) .icon-chatImg.chatImg {
   margin-right: 7px !important;
+}
+
+:host(.collapsedRightbar) .ui-memblist-usr .user-details .usern {
+  display:none
 }
