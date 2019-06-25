@@ -2509,15 +2509,22 @@
   z-index: 1104;
 }
 
-#virtualclassCont.congrea #virtualclassApp[data-currapp='DocumentShare'] .modal, #virtualclassCont.congrea #virtualclassApp[data-currapp='Video'] .modal, #virtualclassCont.congrea #virtualclassApp[data-currapp='SharePresentation'] .modal {
+#virtualclassCont.congrea #virtualclassApp[data-currapp='DocumentShare'] .modal,
+#virtualclassCont.congrea #virtualclassApp[data-currapp='Video'] .modal,
+#virtualclassCont.congrea #virtualclassApp[data-currapp='SharePresentation'] .modal {
   width: calc(100% - 372px);
   margin-left: 0;
-  /*background-color: rgba(0, 0, 0, 0.7);*/
   border-width: 0;
   border-radius: 0;
   margin-left: 53px;
   height: calc(100vh - 44px);
   background: none;
+}
+
+#virtualclassCont.congrea #virtualclassApp[data-currapp='DocumentShare'].collapsedRightbar .modal,
+#virtualclassCont.congrea #virtualclassApp[data-currapp='Video'].collapsedRightbar .modal,
+#virtualclassCont.congrea #virtualclassApp[data-currapp='SharePresentation'].collapsedRightbar .modal {
+  width: calc(100% - 112px);
 }
 
 #virtualclassCont.congrea .modal.fade.in {
@@ -4719,7 +4726,7 @@ and (max-device-width: 1024px) {
 #virtualclassCont #virtualclassApp.openRightbar #virtualclassAppRightPanel #sidebarButton {
 	position: absolute;
 	top: 48px;
-	left: -50px;
+	left: -45px;
 	cursor: pointer;
 }
 
