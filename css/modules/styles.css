@@ -522,34 +522,12 @@
   font-size: 11px;
 }
 
-#virtualclassCont.congrea .zoomControler .zoomIn .congtooltip:hover:after {
+#virtualclassCont.congrea .zoomControler .congtooltip:hover:after {
   border: #ccc solid 1px;
-  bottom: 215px;
-  width: 50px;
-  left: auto;
-  right: 395px;
-  height: 18px;
-  position: fixed;
-}
-
-#virtualclassCont.congrea .zoomOut .congtooltip:hover:after {
-  border: #ccc solid 1px;
-  bottom: 116px;
-  width: 60px;
-  left: auto;
-  right: 395px;
-  height: 18px;
-  position: fixed;
-}
-
-#virtualclassCont.congrea .fitScreen .congtooltip:hover:after {
-  border: #ccc solid 1px;
-  bottom: 165px;
-  width: 78px;
-  left: auto;
-  right: 395px;
-  height: 18px;
-  position: fixed;
+  position: absolute;
+  right: 36px;
+  bottom: -5px;
+  padding: 4px;
 }
 
 #virtualclassCont.congrea .reloadNote .congtooltip:hover:after {
@@ -3347,6 +3325,7 @@
 }
 
 #virtualclassCont.congrea .zoomControler div {
+  position: relative;
   font-size: 22px;
   padding: 10px;
   margin-top: 10px;
@@ -4727,7 +4706,10 @@ and (max-device-width: 1024px) {
 	position: absolute;
 	top: 48px;
 	left: -45px;
-	cursor: pointer;
+  cursor: pointer;
+  background-color: #f7f7f7;
+  box-shadow: 0px 3px 3px -3px #ababab;
+  z-index:11;
 }
 
 #virtualclassCont.congrea.student #virtualclassApp.openRightbar #virtualclassAppRightPanel #sidebarButton {

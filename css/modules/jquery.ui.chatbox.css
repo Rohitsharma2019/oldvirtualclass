@@ -912,3 +912,8 @@ virtualclassCont.congrea.playMode.student .ui-chatroom {
 #virtualclassCont.congrea .user-details.media-body a:hover {
   text-decoration: none;
 }
+
+#virtualclassCont.congrea #virtualclassApp.collapsedRightbar #chat_div {
+  height: calc(100vh - 255px);
+  overflow-y: auto;
+}
