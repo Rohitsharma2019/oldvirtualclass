@@ -13,6 +13,16 @@ body {
   text-align: center;
 }
 
+#audioWidget ul li a#appSettingCtrlAnchor {
+  padding-top: 12px !important;
+  padding-bottom: 12px !important;
+}
+
+#audioWidget ul li.settingActive a#appSettingCtrlAnchor {
+  padding-top: 13px !important;
+  padding-bottom: 9px !important;
+}
+
 #virtualclassCont.congrea #audioWidget .settingActive {
   background: #2d3741 none;
 }
@@ -524,9 +534,9 @@ body {
 }
 
 #audioWidget .chatActive .setting-btn:before {
-  content: "\e96f";
+  content: "\e9ac";
   font-weight: normal;
-  font-size: 20px;
+  font-size: 18px;
   font-family: 'icomoon';
   color: white;
   font-weight: normal;
@@ -733,15 +743,20 @@ body {
   top: 209px;
 }
 
-#virtualclassCont.congrea #virtualclassAppRightPanel #audioWidget #appSettingCtrl.congtooltip:hover:after {
+#virtualclassCont.congrea #virtualclassApp.openRightbar #virtualclassAppRightPanel #audioWidget #appSettingCtrl.congtooltip:hover:after {
   top: 210px;
+}
+
+#virtualclassCont.congrea #virtualclassApp.collapsedRightbar #virtualclassAppRightPanel #audioWidget #appSettingCtrl.congtooltip:hover:after {
+  top: 164px;
+  right: 66px;
 }
 
 #virtualclassCont.congrea.student.videoff #virtualclassAppRightPanel #audioWidget .congtooltip:hover:after {
   top: 51px !important;
 }
 
-#virtualclassCont.congrea #virtualclassAppRightPanel.vidHide #audioWidget .congtooltip:hover:after {
+#virtualclassCont.congrea #virtualclassApp.openRightbar #virtualclassAppRightPanel.vidHide #audioWidget .congtooltip:hover:after {
   top: 51px !important;
 }
 
@@ -754,7 +769,7 @@ body {
   top: 51px;
 }
 
-#virtualclassCont.congrea.meetingmode.nowebcam #virtualclassAppRightPanel #audioWidget .congtooltip:hover:after {
+#virtualclassCont.congrea.meetingmode.nowebcam #virtualclassApp.openRightbar #virtualclassAppRightPanel #audioWidget .congtooltip:hover:after {
   top: 51px !important;
 }
 
@@ -762,9 +777,19 @@ body {
   right: 126px;
 }
 
+#virtualclassCont.congrea #virtualclassApp.collapsedRightbar #virtualclassAppRightPanel #audioWidget .videoSwitchCont.congtooltip:hover:after {
+  right: 66px;
+  top: 115px !important;
+}
+
 #virtualclassCont.congrea #virtualclassAppRightPanel #audioWidget .audioTool a.congtooltip:hover:after {
   right: 233px;
   top: 209px;
+}
+
+#virtualclassCont.congrea #virtualclassApp.collapsedRightbar #virtualclassAppRightPanel #audioWidget .audioTool a.congtooltip:hover:after {
+  right: 66px;
+  top: 68px !important;
 }
 
 #virtualclassCont.congrea.nowebcam #virtualclassAppRightPanel #audioWidget .audioTool a.congtooltip:hover:after {

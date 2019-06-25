@@ -374,6 +374,7 @@ div.ui-memblist-usr {
 /** right-sidebar.css end **/
 div.ui-memblist-usr .user-details a .media-object {
   float: left;
+  line-height: 40px;
 }
 
 .user-details a {

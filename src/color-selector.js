@@ -243,7 +243,9 @@
         + '#virtualclassCont.congrea  #playController button'
         + `{background-image:none !important;color:${frontColor}!important; border-right: 1px solid ${allbg.fcolor}!important}`
         + '#virtualclassCont.congrea #virtualclassAppLeftPanel .containerWb .commandToolsWrapper .shapesToolbox.active'
-        + `{background-image: radial-gradient(ellipse at center, ${active.fcolor} 0%,${active.scolor} 100%);} `;
+        + `{background-image: radial-gradient(ellipse at center, ${active.fcolor} 0%,${active.scolor} 100%);} `
+        + '#virtualclassCont.congrea #virtualclassApp.openRightbar #sidebarButton .cgIcon:before'
+        + '{color: #000 !important;}';
       this.addCss(css);
     },
 

@@ -2408,6 +2408,7 @@
   width: 320px;
   height: 99.9vh;
   border-left: 1px solid #bbb;
+  position: relative;
 }
 
 #virtualclassCont.congrea #virtualclassApp.collapsedRightbar #virtualclassAppRightPanel {
@@ -3391,6 +3392,20 @@
 
 #virtualclassCont.congrea.teacher .vmchat_room_bt, #virtualclassCont.congrea.teacher .vmchat_bar_button {
   width: 50% !important; /* Changed from 40% */
+}
+
+#virtualclassCont.congrea #virtualclassApp.collapsedRightbar #stickycontainer ul.chatBarTab {
+  width: 60px;
+}
+
+#virtualclassCont.congrea #virtualclassApp.collapsedRightbar #stickycontainer .vmchat_room_bt {
+  width: 100% !important;
+}
+
+#virtualclassCont.congrea #virtualclassApp.collapsedRightbar #virtualclassAppRightPanel #audioWidget #mainAudioPanel::after {
+  border: 1px solid #ccc;
+  width: 30px;
+  margin: 10px 15px;
 }
 
 #virtualclassCont.congrea #stickycontainer .uiMuteAll {
@@ -4631,13 +4646,6 @@ and (max-device-width: 1024px) {
   display: none;
 }
 
-/* ======== MEDIA FOR MOBILE ========== */
-@media only screen and (min-device-width: 320px) and (max-device-width: 768px) {
-  #virtualclassCont.congrea #preCheckcontainer.bootstrap .modal-dialog {
-    width: 870px !important;
-  }
-}
-
 #virtualclassCont.congrea #sessionEndMsgCont .endHeader {
   background-image: linear-gradient(to bottom, #021317 0%, #2c393d 100%) !important;
 }
@@ -4665,7 +4673,7 @@ and (max-device-width: 1024px) {
 }
 
 #virtualclassCont.congrea #virtualclassApp.collapsedRightbar #virtualclassAppRightPanel #audioWidget {
-  margin-top:50px;
+  margin-top:60px;
   background-image: none !important;
 }
 
@@ -4706,6 +4714,53 @@ and (max-device-width: 1024px) {
 #virtualclassApp.collapsedRightbar #virtualclassAppRightPanel #chatWidget .chatBarTab li#user_list,
 #virtualclassCont.congrea #virtualclassApp.collapsedRightbar #chatroom_bt2 .inner_bt #chatroom_text {
   display: none;
+}
+
+#virtualclassCont #virtualclassApp.openRightbar #virtualclassAppRightPanel #sidebarButton {
+	position: absolute;
+	top: 48px;
+	left: -50px;
+	cursor: pointer;
+}
+
+#virtualclassCont.congrea.student #virtualclassApp.openRightbar #virtualclassAppRightPanel #sidebarButton {
+  top: 0;
+}
+
+#virtualclassCont #virtualclassApp.collapsedRightbar #virtualclassAppRightPanel #sidebarButton {
+	position: fixed;
+	top: 0px;
+  z-index: 10000000;
+	right: 0px;
+	width: 60px;
+	background-image: linear-gradient(to bottom, #021317 0%,#2c393d 100%) !important;
+	cursor: pointer;
+}
+
+#virtualclassCont #virtualclassAppRightPanel #sidebarButton .sidebarButton {
+	padding:13px 15px;
+}
+
+#virtualclassCont.congrea.teacher #virtualclassApp.openRightbar #virtualclassAppRightPanel #sidebarButton .sidebarButton {
+	box-shadow: 0 0 4px rgb(152, 152, 152);
+	padding:10px 13px;
+}
+
+#virtualclassCont.congrea.student #virtualclassAppRightPanel #sidebarButton .sidebarButton {
+  padding: 13px;
+  box-shadow: 0 0 4px rgb(152, 152, 152);
+}
+
+#virtualclassCont.congrea #virtualclassApp #sidebarButton .congtooltip:hover:after {
+  bottom: -32px;
+  right: 0;
+}
+
+/* ======== MEDIA FOR MOBILE ========== */
+@media only screen and (min-device-width: 320px) and (max-device-width: 768px) {
+  #virtualclassCont.congrea #preCheckcontainer.bootstrap .modal-dialog {
+    width: 870px !important;
+  }
 }
 
 /* ======== Firefox ========== */
