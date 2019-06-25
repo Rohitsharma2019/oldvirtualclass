@@ -4712,6 +4712,10 @@ and (max-device-width: 1024px) {
   z-index:11;
 }
 
+#virtualclassCont[data-currapp="ScreenShare"] #virtualclassApp.openRightbar #virtualclassAppRightPanel #sidebarButton {
+  top:0;
+}
+
 #virtualclassCont.congrea.student #virtualclassApp.openRightbar #virtualclassAppRightPanel #sidebarButton {
   top: 0;
 }
@@ -4738,6 +4742,10 @@ and (max-device-width: 1024px) {
 #virtualclassCont.congrea.student #virtualclassAppRightPanel #sidebarButton .sidebarButton {
   padding: 13px;
   box-shadow: 0 0 4px rgb(152, 152, 152);
+}
+
+#virtualclassCont[data-currapp="ScreenShare"] #virtualclassApp.openRightbar #virtualclassAppRightPanel #sidebarButton .sidebarButton {
+  padding: 13px !important;
 }
 
 #virtualclassCont.congrea #virtualclassApp #sidebarButton .congtooltip:hover:after {

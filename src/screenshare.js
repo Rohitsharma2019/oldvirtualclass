@@ -732,8 +732,8 @@ let globalImageData = {};
 
         const vidContainer = document.getElementById(this.local);
         // const dimension = this.html.getDimension(container);
-        vidContainer.style.width = `${Math.round(container.width)}px`;
-        vidContainer.style.height = `${Math.round(container.height)}px`;
+        // vidContainer.style.width = `${Math.round(container.width)}px`;
+        // vidContainer.style.height = `${Math.round(container.height)}px`;
 
         // setStyleToElement(vidContainer, width, height);
         /**
