@@ -547,7 +547,7 @@ body {
 }
 
 #audioWidget .chatActive .setting-btn:before {
-  content: "\e9ac";
+  content: "\e9b0";
   font-weight: normal;
   font-size: 18px;
   font-family: 'icomoon';
