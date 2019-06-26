@@ -14,10 +14,15 @@ div.ui-memblist-usr video {
   font-size: 14px;
   border: solid 1px #f3f3f3;
   border-radius: 30px;
-  width: 40px;
-  height: 40px;
+  width: 42px;
+  height: 42px;
   margin: 5px 5px 5px 2px;
   box-shadow: 0 0 2px rgb(96, 96, 97);
+}
+
+:host(.collapsedRightbar) div.ui-memblist-usr video {
+  width: 40px;
+  height: 40px;
 }
 
 div.ui-memblist-usr .userVideos {
@@ -26,12 +31,17 @@ div.ui-memblist-usr .userVideos {
   font-size: 14px;
   border: solid 1px #f3f3f3;
   border-radius: 30px;
-  width: 40px;
-  height: 40px;
+  width: 42px;
+  height: 42px;
   margin: 5px 5px 5px 2px;
   line-height: 37px;
   margin-top: 6px;
   box-shadow: 0 0 2px rgb(96, 96, 97);
+}
+
+:host(.collapsedRightbar) div.ui-memblist-usr .userVideos {
+  width: 40px;
+  height: 40px;
 }
 
 #graphCanvas {

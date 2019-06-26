@@ -3599,6 +3599,10 @@
   border-radius: 0;
 }
 
+#virtualclassCont.congrea #virtualclassApp.collapsedRightbar #congHr.enable {
+  display: none;
+}
+
 #virtualclassCont.congrea #congHr.disable {
   width: 20%;
   position: relative;

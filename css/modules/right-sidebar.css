@@ -680,6 +680,10 @@ body {
   color: #00ff10 !important;
 }
 
+#virtualclassCont.congrea.student #virtualclassApp.collapsedRightbar #rightSubContainer #chatroom_bt2 a.inner_bt {
+  padding: 10.5px 9px 7.5px 21px;
+}
+
 #virtualclassCont.congrea.teacher .chatBarTab .hand_bt {
   width: auto;
   height: 22px;
