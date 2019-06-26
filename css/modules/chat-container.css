@@ -11,11 +11,13 @@
 }
 
 div.ui-memblist-usr video {
-  width: 50px;
-  height: 38px;
-  margin: 0;
-  outline: 1px solid #5a5757;
-  margin-left: 2px;
+  font-size: 14px;
+  border: solid 1px #f3f3f3;
+  border-radius: 30px;
+  width: 42px;
+  height: 42px;
+  margin: 5px 5px 5px 2px;
+  box-shadow: 0 0 2px rgb(96, 96, 97);
 }
 
 div.ui-memblist-usr .userVideos {
@@ -103,6 +105,11 @@ div.ui-memblist-usr .user-details .media-object {
   height: 42px;
   margin: 5px 5px 5px 2px;
   line-height: 37px;
+}
+
+:host(.collapsedRightbar) div.ui-memblist-usr .user-details .media-object  {
+  width: 40px;
+  height: 40px;
 }
 
 div.ui-memblist-usr .user-details img.media-object {

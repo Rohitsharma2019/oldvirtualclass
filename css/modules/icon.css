@@ -214,6 +214,10 @@
   font-size: 16px;
 }
 
+#virtualclassCont.congrea #virtualclassApp.collapsedRightbar #chatroom_icon .icon-chatroom:before {
+  font-size: 18px;
+}
+
 #virtualclassCont.congrea .ui-memblist-usr .icon-assignImg:before {
   content: "\f064";
   color: #535151;
@@ -315,6 +319,11 @@
   z-index: -1;
 }
 
+#virtualclassCont.congrea #virtualclassApp.collapsedRightbar #virtualclassAppRightPanel .active #speakerPressingbtnIcon:before {
+  color: #191919 !important;
+  content: "\e9aa";
+}
+
 #virtualclassCont.congrea #virtualclassAppRightPanel #audioWidget .audioMute:before {
   content: "\e997";
   font-weight: normal;
@@ -342,6 +351,13 @@
   font-family: 'icomoon';
   color: red !important;
 }
+
+#virtualclassCont.congrea #virtualclassApp.collapsedRightbar #virtualclassAppRightPanel .deactive #speakerPressingbtnIcon.silenceDetect[data-silence-detect="stop"]:before {
+  font-size: 20px;
+  color:#fff !important;
+  content: "\e9aa";
+}
+
 
 #virtualclassCont.congrea .commandToolsWrapper .icon-rectangle:before {
   content: "\e60b";
@@ -683,6 +699,11 @@
   font-family: 'icomoon';
   font-size: 23px;
   color: red;
+}
+
+#virtualclassCont.congrea #virtualclassApp.collapsedRightbar #virtualclassAppRightPanel span#videoSwitch.video.off:before {
+  color: #fff !important;
+  font-size: 20px;
 }
 
 #virtualclassCont.congrea.nowebcam #virtualclassAppRightPanel span#videoSwitch.video.on:before {

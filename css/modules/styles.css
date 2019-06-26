@@ -1153,7 +1153,6 @@
 
 #virtualclassCont.congrea.student #speakerPressOnce {
   width: 25%;
-  height: 48px;
 }
 
 /*#virtualclassCont.congrea #chat_div .controleCont, #virtualclassCont.congrea #chat_div .controleCont {*/
@@ -3109,6 +3108,23 @@
   width: 100%;
 }
 
+#virtualclassCont.congrea #virtualclassApp.collapsedRightbar #audioWidget #mainAudioPanel li.videoSwitchCont {
+  width: 42px;
+  height: 44px;
+  margin: 10px 9px;
+  border-radius: 50%;
+  background-color: #ff3a3a;
+}
+
+#virtualclassCont.congrea #virtualclassApp.collapsedRightbar #audioWidget #mainAudioPanel li.videoSwitchCont:hover {
+  background-color: #ff3a3a;
+}
+
+#virtualclassCont.congrea #virtualclassApp.collapsedRightbar #audioWidget #mainAudioPanel li.videoSwitchCont[data-title="Video off"] {
+  background-color: transparent;
+  box-shadow: 0 0 3px rgb(96, 96, 97)
+}
+
 #virtualclassCont.congrea.student #virtualclassAppRightPanel #mainAudioPanel li {
   width: 33.3%;
 }
@@ -3391,7 +3407,7 @@
 #virtualclassCont.congrea #virtualclassApp.collapsedRightbar #virtualclassAppRightPanel #audioWidget #mainAudioPanel::after {
   border: 1px solid #ccc;
   width: 30px;
-  margin: 10px 15px;
+  margin: 15px;
 }
 
 #virtualclassCont.congrea #stickycontainer .uiMuteAll {
@@ -4671,12 +4687,11 @@ and (max-device-width: 1024px) {
 
 #virtualclassCont.congrea #virtualclassApp.collapsedRightbar #audioWidget li a:hover,
 #virtualclassCont.congrea #virtualclassApp.collapsedRightbar #audioWidget li:hover {
-  background-image: none !important;
-  background: none !important;
+  background-image: red !important;
 }
 
 #virtualclassCont.congrea #virtualclassApp.collapsedRightbar #audioWidget #appSettingCtrl .cgIcon:before {
-  color: #000 !important;
+  color: #191919 !important;
 }
 
 #virtualclassCont.congrea #virtualclassApp.collapsedRightbar #virtualclassAppRightPanel #videoHostContainer {
@@ -4684,17 +4699,21 @@ and (max-device-width: 1024px) {
 }
 
 #virtualclassCont.congrea #virtualclassApp.collapsedRightbar #audioWidget li#speakerPressOnce {
-  opacity: 1;
-  pointer-events: visible;
-  width: 46px;
-  margin: 0 7px;
+  width: 42px;
+  margin: 0 9px;
   border-radius: 50%;
-  border: 1px solid #ccc !important;
-  box-shadow: 0 0 1px rgb(96, 96, 97);
+  /* border: 1px solid #ccc !important;
+  box-shadow: 0 0 1px rgb(96, 96, 97); */
+  background-color: #ff3a3a;
+}
+
+#virtualclassCont.congrea #virtualclassApp.collapsedRightbar #audioWidget li#speakerPressOnce.active {
+  background-color: transparent;
+  box-shadow: 0 0 3px rgb(96, 96, 97);
 }
 
 #virtualclassCont.congrea #virtualclassApp.collapsedRightbar #audioWidget li#speakerPressOnce a {
-  padding: 10px 11px !important;
+  padding: 10px 10px !important;
 }
 
 #virtualclassApp.collapsedRightbar #virtualclassAppRightPanel #chatWidget .chatBarTab li#user_list,
@@ -4705,11 +4724,11 @@ and (max-device-width: 1024px) {
 #virtualclassCont #virtualclassApp.openRightbar #virtualclassAppRightPanel #sidebarButton {
 	position: absolute;
 	top: 48px;
-	left: -45px;
+	left: -47px;
   cursor: pointer;
   background-color: #f7f7f7;
   box-shadow: 0px 3px 3px -3px #ababab;
-  z-index:11;
+  z-index:1000;
 }
 
 #virtualclassCont[data-currapp="ScreenShare"] #virtualclassApp.openRightbar #virtualclassAppRightPanel #sidebarButton {
@@ -4726,8 +4745,9 @@ and (max-device-width: 1024px) {
   z-index: 10000000;
 	right: 0px;
 	width: 60px;
-	background-image: linear-gradient(to bottom, #021317 0%,#2c393d 100%) !important;
-	cursor: pointer;
+	background-image: linear-gradient(to top, #021317 0%,#2c393d 100%) !important;
+  cursor: pointer;
+  transform: rotate(180deg);
 }
 
 #virtualclassCont #virtualclassAppRightPanel #sidebarButton .sidebarButton {
@@ -4735,8 +4755,8 @@ and (max-device-width: 1024px) {
 }
 
 #virtualclassCont.congrea.teacher #virtualclassApp.openRightbar #virtualclassAppRightPanel #sidebarButton .sidebarButton {
-	box-shadow: 0 0 4px rgb(152, 152, 152);
-	padding:10px 13px;
+	box-shadow: 0 0 2px rgb(152, 152, 152);
+	padding:11px 14px;
 }
 
 #virtualclassCont.congrea.student #virtualclassAppRightPanel #sidebarButton .sidebarButton {

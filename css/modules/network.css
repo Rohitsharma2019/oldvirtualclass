@@ -7,8 +7,8 @@
 }
 
 #virtualclassCont.congrea #proposedSpeed {
-  width: 26px;
-  height: 26px;
+  width: 24px;
+  height: 24px;
   padding: 12px;
 }
 
@@ -114,7 +114,7 @@
   }
 }
 
-#virtualclassCont.congrea.student #virtualclassAppRightPanel.vidShow #videoHostContainer {
+#virtualclassCont.congrea.student #virtualclassApp.openRightbar #virtualclassAppRightPanel.vidShow #videoHostContainer {
   display: block !important;
 }
 

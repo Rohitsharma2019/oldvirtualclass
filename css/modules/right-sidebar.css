@@ -13,6 +13,14 @@ body {
   text-align: center;
 }
 
+#virtualclassApp.collapsedRightbar #audioWidget ul li a {
+  padding: 10px !important;
+}
+
+#virtualclassApp.collapsedRightbar #audioWidget ul li a:hover {
+  background-color: transparent;
+}
+
 #audioWidget ul li a#appSettingCtrlAnchor {
   padding-top: 12px !important;
   padding-bottom: 12px !important;
@@ -250,6 +258,11 @@ body {
 
 #virtualclassCont.congrea #virtualclassAppRightPanel span#videoSwitch.video.on:before {
   color: #09b208;
+}
+
+#virtualclassCont.congrea #virtualclassApp.collapsedRightbar #virtualclassAppRightPanel span#videoSwitch.video.on:before {
+  color: #191919;
+  font-size: 22px;
 }
 
 #virtualclassCont #appSettingDetail input:focus + .slider {
@@ -542,6 +555,10 @@ body {
   font-weight: normal;
 }
 
+#virtualclassApp.collapsedRightbar #audioWidget .chatActive .setting-btn:before {
+  font-size: 20px;
+}
+
 #appSettingDetail .list-group {
   font-size: 15px !important;
 }
@@ -648,6 +665,10 @@ body {
   padding: 15px 0 12px;
 }
 
+#virtualclassCont.congrea #virtualclassApp.collapsedRightbar #rightSubContainer #chatroom_bt2 a.inner_bt {
+  padding: 12px 0 12px;
+}
+
 #virtualclassCont.congrea #rightSubContainer a.inner_bt span#usertab_text {
   float: none;
 }
@@ -748,7 +769,7 @@ body {
 }
 
 #virtualclassCont.congrea #virtualclassApp.collapsedRightbar #virtualclassAppRightPanel #audioWidget #appSettingCtrl.congtooltip:hover:after {
-  top: 164px;
+  top: 178px;
   right: 66px;
 }
 
@@ -779,7 +800,7 @@ body {
 
 #virtualclassCont.congrea #virtualclassApp.collapsedRightbar #virtualclassAppRightPanel #audioWidget .videoSwitchCont.congtooltip:hover:after {
   right: 66px;
-  top: 115px !important;
+  top: 124px !important;
 }
 
 #virtualclassCont.congrea #virtualclassAppRightPanel #audioWidget .audioTool a.congtooltip:hover:after {
