@@ -4704,6 +4704,7 @@ and (max-device-width: 1024px) {
 
 #virtualclassCont.congrea #virtualclassApp.collapsedRightbar #audioWidget li#speakerPressOnce {
   width: 42px;
+  height: 43px;
   margin: 0 9px;
   border-radius: 50%;
   /* border: 1px solid #ccc !important;

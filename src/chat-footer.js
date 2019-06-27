@@ -35,6 +35,10 @@
 
 
       $('#chatroom_bt2 .inner_bt').click(() => {
+        if(virtualclass.gObj.hideRightbar == "true" || virtualclass.gObj.hideRightbar == true) {
+          virtualclass.vutil.switchRightbar();
+          virtualclass.gObj.hideRightbar = false;
+        }
         const vmchat_room_bt = document.querySelector('#chatwidget .vmchat_room_bt');
         chatroom_bt2.classList.add('active');
         user_list.classList.remove('active');

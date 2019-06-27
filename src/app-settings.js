@@ -17,6 +17,10 @@
 
         if (toggle) {
           toggle.addEventListener('click', () => {
+            if(virtualclass.gObj.hideRightbar == "true" || virtualclass.gObj.hideRightbar == true) {
+              virtualclass.vutil.switchRightbar();
+              virtualclass.gObj.hideRightbar = false;
+            }
             if (toggle.classList.contains('chatActive')) {
               toggle.classList.remove('chatActive');
               toggle.classList.add('settingActive');

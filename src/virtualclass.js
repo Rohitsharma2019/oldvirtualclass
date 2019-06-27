@@ -375,7 +375,7 @@
         var chat_div = document.getElementById("chat_div");
         var rightSidebarBtn = document.getElementById("sidebarButton");
         if(rightSidebarBtn != null) {
-          rightSidebarBtn.addEventListener('click', virtualclass.vutil.switchRightbar); 
+          rightSidebarBtn.addEventListener('click', virtualclass.vutil.switchRightbar);
         }
 
         var virtualclassApp = document.getElementById("virtualclassApp");

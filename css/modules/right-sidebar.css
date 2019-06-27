@@ -31,10 +31,6 @@ body {
   padding-bottom: 9px !important;
 }
 
-#virtualclassCont.congrea #audioWidget .settingActive {
-  background: #2d3741 none;
-}
-
 #virtualclassCont.congrea #appSettingCtrl span a {
   font-size: 22px;
   cursor: pointer;
