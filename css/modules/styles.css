@@ -2467,7 +2467,7 @@
 }
 
 #virtualclassCont.congrea .bootstrap .modal-dialog {
-  width: 800px !important;
+  width: 800px;
   position: absolute;
   top: 50%;
   left: 50%;
