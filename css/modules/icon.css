@@ -284,6 +284,10 @@
   color: #09b208;
 }
 
+#virtualclassCont.congrea #virtualclassApp.collapsedRightbar #virtualclassAppRightPanel span#videoSwitch.video.on:before {
+  content: "\e9af";
+}
+
 #virtualclassCont.congrea #virtualclassAppRightPanel .deactive #speakerPressingbtn:before {
   content: "off";
   font-weight: normal;

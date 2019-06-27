@@ -126,6 +126,10 @@ body {
   height: calc(100% - 287px);
 }
 
+#virtualclassCont.congrea #virtualclassApp.collapsedRightbar #rightSubContainer {
+  height: calc(100% - 271px);
+}
+
 #virtualclassCont.congrea.student #rightSubContainer {
   height: calc(100% - 288px);
 }
@@ -262,7 +266,7 @@ body {
 
 #virtualclassCont.congrea #virtualclassApp.collapsedRightbar #virtualclassAppRightPanel span#videoSwitch.video.on:before {
   color: #191919;
-  font-size: 22px;
+  font-size: 21px;
 }
 
 #virtualclassCont #appSettingDetail input:focus + .slider {
