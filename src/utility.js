@@ -371,6 +371,26 @@
       elem.classList.remove('fullScreenMode');
     },
 
+    switchRightbar() {
+      var elem = document.getElementById("virtualclassApp");
+      if (elem.classList.contains('openRightbar')) {
+        elem.classList.remove("openRightbar");
+        elem.classList.add("collapsedRightbar");
+        chat_div.classList.add("collapsedRightbar");
+        localStorage.setItem('hideRightbar',true);
+        virtualclass.gObj.hideRightbar = localStorage.getItem('hideRightbar');
+        virtualclass.zoom.fitToScreen(); 
+      } else {
+        localStorage.removeItem('hideRightbar');
+        localStorage.setItem('hideRightbar',false);
+        virtualclass.gObj.hideRightbar = localStorage.getItem('hideRightbar');
+        elem.classList.remove("collapsedRightbar");
+        elem.classList.add("openRightbar");
+        chat_div.classList.remove("collapsedRightbar");
+        virtualclass.zoom.fitToScreen();
+      }
+    },
+
     // TODO
     /** *
      * Add class at body according to role
