@@ -72,7 +72,8 @@ body {
 #virtualclassCont.congrea #rightSubContainer #congreaChatMainCont {
   /*    display:none;*/
   height: calc(100% - 44px);
-  border-left: 1px solid #dfdfdf
+  border-left: 1px solid #dfdfdf;
+  position: relative;
 }
 
 #virtualclassCont.congrea.student #rightSubContainer #congreaChatMainCont {
@@ -157,7 +158,7 @@ body {
 
 #virtualclassCont .footerCtr {
   position: absolute;
-  bottom: 49px;
+  bottom: 2px;
   width: 100%;
   text-align: right;
   background: #fff;

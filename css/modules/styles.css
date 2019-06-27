@@ -4778,10 +4778,15 @@ and (max-device-width: 1024px) {
 }
 
 /* ======== MEDIA FOR MOBILE ========== */
-@media only screen and (min-device-width: 320px) and (max-device-width: 768px) {
+@media only screen and (min-device-width: 320px) and (max-device-width: 1024px) {
   #virtualclassCont.congrea #preCheckcontainer.bootstrap .modal-dialog {
     width: 870px !important;
   }
+
+  #virtualclassCont.congrea #virtualclassAppRightPanel {
+    width: 280px;
+  }
+
 }
 
 /* ======== Firefox ========== */
