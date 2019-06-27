@@ -529,5 +529,9 @@ div.ui-memblist-usr .user-details a .media-object {
 }
 
 :host(.collapsedRightbar) .ui-memblist-usr .user-details .usern {
-  display:none
+  display: none
+}
+
+:host(.collapsedRightbar) #subchat .ui-memblist-usr .controls {
+  display: none;
 }
