@@ -360,7 +360,7 @@ span.sch {
 }
 
 #virtualclassCont.congrea.student #layoutQuizBody #stdQuizMszLayout {
-  background-color: #f9f9f9;
+  /* background-color: #f9f9f9;
   border: 1px solid #c8ddb8;
   border-radius: 5px;
   color: #3a773c;
@@ -373,7 +373,7 @@ span.sch {
   box-shadow: 0 0 8px #ddd;
   left: 0;
   right: 320px;
-  font-size: medium;
+  font-size: medium; */
 }
 
 #virtualclassQuiz #layoutQuiz .nav.navbar, #virtualclassPoll #layoutPoll .nav.navbar {

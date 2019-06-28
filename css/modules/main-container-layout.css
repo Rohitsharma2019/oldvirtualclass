@@ -127,10 +127,6 @@ and (max-device-width: 1024px) {
     height: calc(100vh - 92px);
   }
 
-  #virtualclassCont.congrea #docMsgStudent {
-    margin: calc(40vh - var(--vh-offset));
-  }
-
   #virtualclassCont.congrea.fullscreenMode #docMsgStudent {
     margin: 40vh;
   }
