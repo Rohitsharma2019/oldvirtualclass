@@ -4683,7 +4683,7 @@ and (max-device-width: 1024px) {
 }
 
 #virtualclassCont.congrea #virtualclassApp.collapsedRightbar #virtualclassAppRightPanel #audioWidget {
-  margin-top:60px;
+  margin-top: 15px;
   background-image: none !important;
 }
 
@@ -4730,13 +4730,13 @@ and (max-device-width: 1024px) {
   display: none;
 }
 
-#virtualclassCont #virtualclassApp.openRightbar #virtualclassAppRightPanel #sidebarButton {
+#virtualclassCont #virtualclassApp #virtualclassAppRightPanel #sidebarButton {
 	position: absolute;
 	top: 48px;
-	left: -47px;
+	left: -43px;
   cursor: pointer;
   background-color: #f7f7f7;
-  box-shadow: 0px 3px 3px -3px #ababab;
+  box-shadow: 0px 3px 3px -3px #dedede;
   z-index:1000;
 }
 
@@ -4744,11 +4744,11 @@ and (max-device-width: 1024px) {
   top:0;
 }
 
-#virtualclassCont.congrea.student #virtualclassApp.openRightbar #virtualclassAppRightPanel #sidebarButton {
+#virtualclassCont.congrea.student #virtualclassApp #virtualclassAppRightPanel #sidebarButton {
   top: 0;
 }
 
-#virtualclassCont #virtualclassApp.collapsedRightbar #virtualclassAppRightPanel #sidebarButton {
+/* #virtualclassCont #virtualclassApp.collapsedRightbar #virtualclassAppRightPanel #sidebarButton {
 	position: fixed;
 	top: 0px;
   z-index: 10000000;
@@ -4757,19 +4757,19 @@ and (max-device-width: 1024px) {
 	background-image: linear-gradient(to top, #021317 0%,#2c393d 100%) !important;
   cursor: pointer;
   transform: rotate(180deg);
-}
+} */
 
 #virtualclassCont #virtualclassAppRightPanel #sidebarButton .sidebarButton {
 	padding:13px 15px;
 }
 
-#virtualclassCont.congrea.teacher #virtualclassApp.openRightbar #virtualclassAppRightPanel #sidebarButton .sidebarButton {
-	box-shadow: 0 0 2px rgb(152, 152, 152);
-	padding:11px 14px;
+#virtualclassCont.congrea.teacher #virtualclassApp #virtualclassAppRightPanel #sidebarButton .sidebarButton {
+	box-shadow: 0 0 2px rgb(177, 177, 177);
+	padding: 13px 12px;
 }
 
 #virtualclassCont.congrea.student #virtualclassAppRightPanel #sidebarButton .sidebarButton {
-  padding: 13px;
+  padding: 9px 12px;
   box-shadow: 0 0 4px rgb(152, 152, 152);
 }
 

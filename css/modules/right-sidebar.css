@@ -258,7 +258,7 @@ body {
 }
 
 #virtualclassCont.congrea #virtualclassAppRightPanel span#videoSwitch.video.on:before {
-  color: #09b208;
+  color: #01cc00 ;
 }
 
 #virtualclassCont.congrea #virtualclassApp.collapsedRightbar #virtualclassAppRightPanel span#videoSwitch.video.on:before {
@@ -548,7 +548,7 @@ body {
 }
 
 #audioWidget .chatActive .setting-btn:before {
-  content: "\e9b0";
+  content: "\e971";
   font-weight: normal;
   font-size: 18px;
   font-family: 'icomoon';
