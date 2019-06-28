@@ -320,7 +320,8 @@ and (max-device-width: 1024px) {
     bottom: 25px;
   }
 
-  #virtualclassCont.congrea[device="mobile"] #virtualclassPreCheck .result div {
+  #virtualclassCont.congrea[device="mobile"] #virtualclassPreCheck .result div,
+  #virtualclassCont.congrea[device="mobile"] .bootstrap #joinClassModal .modal-dialog button {
     font-size: 12px;
   }
 
@@ -337,5 +338,17 @@ and (max-device-width: 1024px) {
 
   #virtualclassCont.congrea[device="mobile"] #preCheckcontainer #vcWebCamCheck .testName {
     height: 50px;
+  }
+
+  #virtualclassCont.congrea[device="mobile"] #joinClass #joinClassModal .modal-dialog {
+    width: 48%;
+  }
+
+  #virtualclassCont.congrea[device="mobile"] #joinClass #joinClassModal .modal-body {
+    padding: 5px;
+  }
+
+  #virtualclassCont.congrea[device="mobile"] .bootstrap #joinClassModal .modal-dialog .textCont {
+    font-size: 17px;
   }
 }

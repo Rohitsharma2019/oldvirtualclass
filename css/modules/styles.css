@@ -1932,7 +1932,7 @@
   font-family: inherit;
   padding: 8px 17px;
   letter-spacing: 1px;
-  /* font-weight: 600; */
+  font-weight: lighter;
   margin: 0;
 }
 
@@ -4149,12 +4149,11 @@ span#usertab_text {
   #virtualclassCont.congrea .ui-memblist-usr .icon-audioEnaGreen:before {
     font-size: 110%;
   }
-
 }
 
-#virtualclassCont.congrea .bootstrap #joinClassModal .modal-dialog {
+#virtualclassCont.congrea #joinClass #joinClassModal .modal-dialog  {
   margin: 20% auto;
-  width: 400px !important;
+  width: 400px;
 }
 
 #virtualclassCont.congrea .bootstrap #joinClassModal .modal-dialog .textCont {
