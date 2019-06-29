@@ -543,14 +543,14 @@
   }
 
   #virtualclassCont.congrea #virtualclassPoll #layoutPoll {
-    height: 90%;
+    height: 100%;
   }
 
   #virtualclassCont.congrea.student #resultLayout {
-    width: 67.4%;
-    position: fixed;
+    width: 100%;
+    position: absolute;
     top: 49px;
-    bottom: 60px;
+    bottom: 16%;
     overflow: auto;
   }
 }

@@ -163,10 +163,6 @@ and (max-device-width: 1024px) {
     height: calc(100vh - var(--vh-offset) - 300px);
   }
 
-  #virtualclassCont.congrea.fullScreenMode #slickQuiz .quizArea {
-    height: calc(100vh - 300px);
-  }
-
   #virtualclassCont.congrea.playMode #virtualclassApp {
     height: calc(100vh - var(--vh-offset));
   }
@@ -201,11 +197,15 @@ and (max-device-width: 1024px) {
   }
 
   #virtualclassCont.congrea #slickQuiz .quizArea {
-    height: calc(100vh - var(--vh-offset) - 255px);
+    height: calc(100vh - var(--vh-offset) - 185px);
+  }
+
+  #virtualclassCont.congrea .collapsedRightbar #slickQuiz .quizArea {
+    height: calc(100vh - var(--vh-offset) - 180px);
   }
 
   #virtualclassCont.congrea.fullScreenMode #slickQuiz .quizArea {
-    height: calc(100vh - 336px);
+    height: calc(100vh - 180px);
   }
 
   #virtualclassCont.congrea a.vceditor-btn {
@@ -317,7 +317,8 @@ and (max-device-width: 1024px) {
   }
 
   #virtualclassCont.congrea[device="mobile"] #virtualclassPreCheck .result div,
-  #virtualclassCont.congrea[device="mobile"] .bootstrap #joinClassModal .modal-dialog button {
+  #virtualclassCont.congrea[device="mobile"] .bootstrap #joinClassModal .modal-dialog button,
+  #virtualclassCont.congrea #layoutQuizBody #timeText {
     font-size: 12px;
   }
 
@@ -346,5 +347,9 @@ and (max-device-width: 1024px) {
 
   #virtualclassCont.congrea[device="mobile"] .bootstrap #joinClassModal .modal-dialog .textCont {
     font-size: 17px;
+  }
+
+  #virtualclassCont.congrea[device="mobile"] #virtualclassAppLeftPanel #congrealogo img {
+    height: 26px;
   }
 }
