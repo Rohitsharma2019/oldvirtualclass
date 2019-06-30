@@ -13,6 +13,10 @@ body {
   text-align: center;
 }
 
+#audioWidget ul li a span#videoSwitch {
+  position: relative;
+}
+
 #virtualclassApp.collapsedRightbar #audioWidget ul li a {
   padding: 10px !important;
 }
@@ -774,8 +778,8 @@ body {
 }
 
 #virtualclassCont.congrea #virtualclassApp.collapsedRightbar #virtualclassAppRightPanel #audioWidget #appSettingCtrl.congtooltip:hover:after {
-  top: 178px;
-  right: 66px;
+  top: 132px;
+  right: 59px;
 }
 
 #virtualclassCont.congrea.student.videoff #virtualclassAppRightPanel #audioWidget .congtooltip:hover:after {
@@ -804,8 +808,8 @@ body {
 }
 
 #virtualclassCont.congrea #virtualclassApp.collapsedRightbar #virtualclassAppRightPanel #audioWidget .videoSwitchCont.congtooltip:hover:after {
-  right: 66px;
-  top: 124px !important;
+  right: 59px;
+  top: 74px !important;
 }
 
 #virtualclassCont.congrea #virtualclassAppRightPanel #audioWidget .audioTool a.congtooltip:hover:after {
@@ -814,8 +818,8 @@ body {
 }
 
 #virtualclassCont.congrea #virtualclassApp.collapsedRightbar #virtualclassAppRightPanel #audioWidget .audioTool a.congtooltip:hover:after {
-  right: 66px;
-  top: 68px !important;
+  right: 59px;
+  top: 24px !important;
 }
 
 #virtualclassCont.congrea.nowebcam #virtualclassAppRightPanel #audioWidget .audioTool a.congtooltip:hover:after {

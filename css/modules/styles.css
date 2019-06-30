@@ -3018,6 +3018,10 @@
   float: left;
 }
 
+#virtualclassCont.congrea #audioWidget .nav > li#speakerPressOnce > a span {
+  position: relative;
+}
+
 #virtualclassCont.congrea #virtualclassAppRightPanel #audioWidget {
   float: left;
   width: 100%;
