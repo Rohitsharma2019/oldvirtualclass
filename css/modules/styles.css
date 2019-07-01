@@ -4737,10 +4737,11 @@ and (max-device-width: 1024px) {
 #virtualclassCont #virtualclassApp #virtualclassAppRightPanel #sidebarButton {
 	position: absolute;
 	top: 48px;
-	left: -43px;
+	left: -45px;
   cursor: pointer;
   background-color: #f7f7f7;
-  box-shadow: 0px 3px 3px -3px #dedede;
+  box-shadow: 0 0 3px rgb(177, 177, 177);
+  border-bottom-left-radius: 6px;
   z-index:1000;
 }
 
@@ -4750,6 +4751,7 @@ and (max-device-width: 1024px) {
 
 #virtualclassCont.congrea.student #virtualclassApp #virtualclassAppRightPanel #sidebarButton {
   top: 0;
+  left: -50px;
 }
 
 /* #virtualclassCont #virtualclassApp.collapsedRightbar #virtualclassAppRightPanel #sidebarButton {
@@ -4764,17 +4766,15 @@ and (max-device-width: 1024px) {
 } */
 
 #virtualclassCont #virtualclassAppRightPanel #sidebarButton .sidebarButton {
-	padding:13px 15px;
+	padding:13px 13px;
 }
 
 #virtualclassCont.congrea.teacher #virtualclassApp #virtualclassAppRightPanel #sidebarButton .sidebarButton {
-	box-shadow: 0 0 2px rgb(177, 177, 177);
-	padding: 13px 12px;
+	padding: 13px 13px;
 }
 
 #virtualclassCont.congrea.student #virtualclassAppRightPanel #sidebarButton .sidebarButton {
-  padding: 9px 12px;
-  box-shadow: 0 0 4px rgb(152, 152, 152);
+  padding: 13px 15px;
 }
 
 #virtualclassCont[data-currapp="ScreenShare"] #virtualclassApp.openRightbar #virtualclassAppRightPanel #sidebarButton .sidebarButton {

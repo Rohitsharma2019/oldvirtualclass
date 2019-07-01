@@ -261,9 +261,9 @@ body {
   background-color: #05b688;
 }
 
-#virtualclassCont.congrea #virtualclassAppRightPanel span#videoSwitch.video.on:before {
+/* #virtualclassCont.congrea #virtualclassAppRightPanel span#videoSwitch.video.on:before {
   color: #01cc00 ;
-}
+} */
 
 #virtualclassCont.congrea #virtualclassApp.collapsedRightbar #virtualclassAppRightPanel span#videoSwitch.video.on:before {
   color: #191919;
@@ -552,7 +552,7 @@ body {
 }
 
 #audioWidget .chatActive .setting-btn:before {
-  content: "\e971";
+  content: "\e9b0";
   font-weight: normal;
   font-size: 18px;
   font-family: 'icomoon';

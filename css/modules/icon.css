@@ -276,12 +276,12 @@
 }
 
 #virtualclassCont.congrea #virtualclassAppRightPanel span#videoSwitch.video.on:before {
-  content: "\e96c";
+  content: "\e9af";
   font-weight: normal;
   font-size: 11px;
   font-family: 'icomoon';
   font-size: 23px;
-  color: #09b208;
+  color: #fff;
 }
 
 #virtualclassCont.congrea #virtualclassApp.collapsedRightbar #virtualclassAppRightPanel span#videoSwitch.video.on:before {
