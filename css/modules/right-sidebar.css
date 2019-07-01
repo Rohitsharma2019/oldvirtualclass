@@ -8,8 +8,8 @@ body {
 }
 
 #audioWidget ul li a {
-  padding-top: 11px !important;
-  padding-bottom: 11px !important;
+  padding-top: 13px !important;
+  padding-bottom: 10px !important;
   text-align: center;
 }
 
@@ -72,7 +72,6 @@ body {
 #virtualclassCont.congrea #rightSubContainer #congreaChatMainCont {
   /*    display:none;*/
   height: calc(100% - 44px);
-  border-left: 1px solid #dfdfdf;
   position: relative;
 }
 
@@ -150,6 +149,10 @@ body {
 #virtualclassCont.congrea .vidHide #rightSubContainer {
   height: calc(100% - 48px) !important;
   width: 320px;
+}
+
+#virtualclassCont.congrea #virtualclassApp.openRightbar #congreaChatMainCont{
+  border-left: 1px solid #dfdfdf;
 }
 
 #virtualclassCont.congrea.playMode .vidHide #rightSubContainer {

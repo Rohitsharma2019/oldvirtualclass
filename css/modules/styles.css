@@ -2390,6 +2390,7 @@
 
 #virtualclassCont.congrea #virtualclassApp.collapsedRightbar #virtualclassAppRightPanel {
   width: 60px;
+  border-left: 1px solid #dfdfdf;
 }
 
 #virtualclassCont.congrea #virtualclassAppRightPanel .ui-widget-header.ui-corner-top.ui-memblist-titlebar.ui-dialog-header {
@@ -3274,6 +3275,11 @@
   right: 25px;
 }
 
+#virtualclassCont.congrea[device="mobile"] .zoomControler {
+  bottom:87px;
+  right:18px;
+}
+
 #virtualclassCont.congrea.playMode.student .zoomControler {
   /* right:370px; */
 }
@@ -3362,6 +3368,10 @@
   vertical-align: middle;
   cursor: pointer;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#virtualclassCont.congrea[device="mobile"] .zoomControler div {
+  padding: 8px;
 }
 
 #virtualclassCont.congrea .zoomControler div:hover {

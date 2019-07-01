@@ -358,14 +358,14 @@
 }
 
 #virtualclassCont.congrea #virtualclassAppRightPanel .deactive #speakerPressingbtnIcon.silenceDetect[data-silence-detect="stop"]:after {
-  content: "\e997";
+  content: "\f00e";
   font-weight: normal;
-  font-size: 14px;
+  font-size: 17px;
   font-family: 'icomoon';
   color: red;
   position: absolute;
   top: 0px;
-  right: -12px;
+  right: -9px;
 }
 
 #virtualclassCont.congrea #virtualclassApp.collapsedRightbar #virtualclassAppRightPanel .deactive #speakerPressingbtnIcon.silenceDetect[data-silence-detect="stop"]:before {
@@ -717,13 +717,13 @@
 }
 
 #virtualclassCont.congrea #virtualclassApp.openRightbar #virtualclassAppRightPanel span#videoSwitch.video.off:after {
-  content: "\e997";
+  content: "\f00e";
   font-weight: normal;
-  font-size: 14px;
+  font-size: 17px;
   font-family: 'icomoon';
   color: red;
   position: absolute;
-  top: 0px;
+  top: -1px;
   right: -12px;
 }
 
