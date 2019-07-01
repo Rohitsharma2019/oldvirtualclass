@@ -24,6 +24,11 @@
   margin-bottom: 15px;
 }
 
+#virtualclassCont.congrea[device="mobile"] #virtualclassPreCheck .result div {
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
 #virtualclassCont.congrea #virtualclassPreCheck .result div.errorMsg {
   text-align: left;
   padding-left: 15px;

@@ -17,6 +17,10 @@ body {
 
 }
 
+#virtualclassCont.congrea[device="mobile"] #preCheckProgress .progressbar {
+  margin: 12px 0;
+}
+
 #virtualclassCont.congrea .progressbar li {
   list-style-type: none;
   width: 20%;
@@ -27,6 +31,10 @@ body {
   text-transform: uppercase;
   color: #7d7d7d;
   margin-bottom: 28px;
+}
+
+#virtualclassCont.congrea[device="mobile"] .progressbar li  {
+  margin-bottom: 10px;
 }
 
 #virtualclassCont.congrea .progressbar li:before {
