@@ -519,7 +519,17 @@ span.sch {
 
   .path-mod-congrea-quiz span.questext,
   #virtualclassCont.congrea #virtualclassQuiz #layoutQuizBody .quizResults h4 {
-    font-size: 13px;
+    font-size: 15px;
+  }
+
+  #virtualclassCont.congrea #virtualclassQuiz .path-mod-congrea-quiz .questions span.questext span {
+    font-family: inherit !important;
+    font-size: inherit !important;
+  }
+
+  #virtualclassCont.congrea #virtualclassQuiz .path-mod-congrea-quiz .questions .answers span {
+    font-family: inherit !important;
+    font-size: 12px;
   }
 
   #virtualclassCont.congrea #virtualclassQuiz #layoutQuizBody .quizResults h3 {

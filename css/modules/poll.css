@@ -372,11 +372,11 @@
 }
 
 #virtualclassCont.congrea.teacher #layoutPollBody .table-responsive .pollList thead {
-  position: fixed;
+  position: absolute;
   top: 122px;
   left: 73px;
   right: 0;
-  width: calc(100% - 412px);
+  width: calc(100% - 93px);
   height: 41px;
   background: #eee;
   table-layout: fixed;
