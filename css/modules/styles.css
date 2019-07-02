@@ -4693,9 +4693,9 @@ and (max-device-width: 1024px) {
   display:inline-block;
 }
 
-#virtualclassCont.congrea #virtualclassAppLeftPanel #sidebarButton .sidebarButton {
+/* #virtualclassCont.congrea #virtualclassAppLeftPanel #sidebarButton .sidebarButton {
   padding: 13px;
-}
+} */
 
 #virtualclassCont.congrea #virtualclassApp.collapsedRightbar #virtualclassAppRightPanel .footerCtr {
   display:none;
@@ -4749,10 +4749,10 @@ and (max-device-width: 1024px) {
   display: none;
 }
 
-#virtualclassCont #virtualclassApp #virtualclassAppRightPanel #sidebarButton {
+#virtualclassCont #virtualclassApp #virtualclassAppLeftPanel #sidebarButton {
 	position: absolute;
 	top: 48px;
-	left: -45px;
+	right: 0;
   cursor: pointer;
   background-color: #f7f7f7;
   box-shadow: 0 0 3px rgb(177, 177, 177);
@@ -4760,13 +4760,13 @@ and (max-device-width: 1024px) {
   z-index:1000;
 }
 
-#virtualclassCont[data-currapp="ScreenShare"] #virtualclassApp.openRightbar #virtualclassAppRightPanel #sidebarButton {
+#virtualclassCont[data-currapp="ScreenShare"] #virtualclassApp.openRightbar #virtualclassAppLeftPanel #sidebarButton {
   top:0;
 }
 
-#virtualclassCont.congrea.student #virtualclassApp #virtualclassAppRightPanel #sidebarButton {
+#virtualclassCont.congrea.student #virtualclassApp #virtualclassAppLeftPanel #sidebarButton {
   top: 0;
-  left: -50px;
+  right: 0;
 }
 
 /* #virtualclassCont #virtualclassApp.collapsedRightbar #virtualclassAppRightPanel #sidebarButton {
@@ -4780,19 +4780,19 @@ and (max-device-width: 1024px) {
   transform: rotate(180deg);
 } */
 
-#virtualclassCont #virtualclassAppRightPanel #sidebarButton .sidebarButton {
+#virtualclassCont #virtualclassAppLeftPanel #sidebarButton .sidebarButton {
 	padding:13px 13px;
 }
 
-#virtualclassCont.congrea.teacher #virtualclassApp #virtualclassAppRightPanel #sidebarButton .sidebarButton {
+#virtualclassCont.congrea.teacher #virtualclassApp #virtualclassAppLeftPanel #sidebarButton .sidebarButton {
 	padding: 13px 13px;
 }
 
-#virtualclassCont.congrea.student #virtualclassAppRightPanel #sidebarButton .sidebarButton {
-  padding: 13px 15px;
+#virtualclassCont.congrea.student #virtualclassAppLeftPanel #sidebarButton .sidebarButton {
+  padding: 13.5px 14px;
 }
 
-#virtualclassCont[data-currapp="ScreenShare"] #virtualclassApp.openRightbar #virtualclassAppRightPanel #sidebarButton .sidebarButton {
+#virtualclassCont[data-currapp="ScreenShare"] #virtualclassApp.openRightbar #virtualclassAppLeftPanel #sidebarButton .sidebarButton {
   padding: 13px !important;
 }
 
