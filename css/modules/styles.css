@@ -2397,7 +2397,8 @@
 }
 
 #virtualclassCont.congrea #virtualclassApp.collapsedRightbar #virtualclassAppRightPanel {
-  width: 60px;
+  min-width: 60px;
+  max-width: 60px;
   border-left: 1px solid #dfdfdf;
 }
 
@@ -4804,7 +4805,7 @@ and (max-device-width: 1024px) {
   }
 
   #virtualclassCont.congrea #virtualclassAppRightPanel {
-    width: 280px;
+    min-width: 35%;
   }
 
 }

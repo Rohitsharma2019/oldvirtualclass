@@ -271,11 +271,11 @@ and (max-device-width: 1024px) {
   }
 
   #virtualclassCont.congrea .vidHide #rightSubContainer {
-    width: 280px;
+    width: 100%;
   }
 
   #virtualclassCont.congrea #virtualclassAppRightPanel #stickybar {
-    width: calc(100% - 280px);
+    width: calc(100% - 35%);
   }
 
   #virtualclassCont.congrea[device="mobile"] .bootstrap .modal-dialog {
@@ -349,5 +349,9 @@ and (max-device-width: 1024px) {
 
   #virtualclassCont.congrea[device="mobile"] #virtualclassAppLeftPanel #congrealogo img {
     height: 26px;
+  }
+
+  #virtualclassCont.congrea #rightSubContainer #chatWidget .chatBarTab {
+    width: 35%;
   }
 }
