@@ -170,6 +170,10 @@ body {
   z-index: 1000;
 }
 
+/* #virtualclassCont[device="mobile"] #virtualclassAppRightPanel.vidShow .footerCtr {
+  display:none;
+} */
+
 #virtualclassCont.playMode.student .footerCtr {
   bottom: 55px;
 }

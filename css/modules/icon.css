@@ -357,7 +357,7 @@
   color: #fff !important;
 }
 
-#virtualclassCont.congrea #virtualclassAppRightPanel .deactive #speakerPressingbtnIcon.silenceDetect[data-silence-detect="stop"]:after {
+#virtualclassCont.congrea #virtualclassApp.openRightbar #virtualclassAppRightPanel .deactive #speakerPressingbtnIcon.silenceDetect[data-silence-detect="stop"]::after {
   content: "\f00e";
   font-weight: normal;
   font-size: 17px;

@@ -2001,11 +2001,14 @@
   border-radius: 5px;
   color: #3a773c;
   margin: 0 auto;
-  /* margin-top: 40vh; */
   padding: 30px 20px;
   width: fit-content;
   text-align: center;
   box-shadow: 0 0 8px #ddd;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
 }
 
 #virtualclassCont.congrea [placeholder="I want youTube video URL."], #virtualclassCont.congrea [placeholder="Insert image url"] {
@@ -4761,7 +4764,7 @@ and (max-device-width: 1024px) {
   z-index:1000;
 }
 
-#virtualclassCont[data-currapp="ScreenShare"] #virtualclassApp.openRightbar #virtualclassAppLeftPanel #sidebarButton {
+#virtualclassCont[data-currapp="ScreenShare"] #virtualclassApp #virtualclassAppLeftPanel #sidebarButton {
   top:0;
 }
 
@@ -4783,14 +4786,6 @@ and (max-device-width: 1024px) {
 
 #virtualclassCont #virtualclassAppLeftPanel #sidebarButton .sidebarButton {
 	padding:13px 13px;
-}
-
-#virtualclassCont.congrea.teacher #virtualclassApp #virtualclassAppLeftPanel #sidebarButton .sidebarButton {
-	padding: 13px 13px;
-}
-
-#virtualclassCont.congrea.student #virtualclassAppLeftPanel #sidebarButton .sidebarButton {
-  padding: 13.5px 14px;
 }
 
 #virtualclassCont[data-currapp="ScreenShare"] #virtualclassApp.openRightbar #virtualclassAppLeftPanel #sidebarButton .sidebarButton {
