@@ -3617,7 +3617,7 @@
 /*}*/
 
 #virtualclassCont.congrea #congHr.enable {
-  width: 20%;
+  width: 14%;
   position: relative;
   left: 0;
   top: 0;
@@ -3647,7 +3647,7 @@
 /*}*/
 #virtualclassCont.congrea #icHr:before {
   content: "\e962";
-  font-size: 21px;
+  font-size: 19px;
   color: #fdfafa;
 }
 

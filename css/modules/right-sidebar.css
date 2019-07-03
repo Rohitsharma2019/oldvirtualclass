@@ -643,30 +643,26 @@ body {
 
 #virtualclassCont.congrea #rightSubContainer a.inner_bt span#usertab_text #onlineusertext {
   position: relative;
+  margin-left: 22px;
 }
 
-#virtualclassCont.congrea #rightSubContainer a.inner_bt span#usertab_text #onlineusertext:before {
+#virtualclassCont.congrea #rightSubContainer a.inner_bt span#usertab_text:before {
   font-weight: normal;
   content: "\e971";
   font-size: 18px;
   font-family: 'icomoon';
   line-height: 19px;
   color: #fff;
-  margin-right: 5px;
-  margin: 1px 0 -3px -23px;
   position: absolute;
 }
 
-#virtualclassCont.congrea.student #rightSubContainer a.inner_bt {
-  padding: 11.5px 8px 12.5px 14px;
-}
-
 #virtualclassCont.congrea.student #rightSubContainer #user_list a.inner_bt {
-  padding: 11.5px 8px 12.5px 14px;
+  padding: 12px 18px;
+  text-align: left;
 }
 
 #virtualclassCont.congrea.student #rightSubContainer #chatroom_bt2 a.inner_bt {
-  padding: 14.5px 8px 9.5px 14px;
+  padding: 14px 18px 10px 18px;
 }
 
 #virtualclassCont.congrea #rightSubContainer a.inner_bt {
@@ -720,11 +716,6 @@ body {
   position: fixed;
   right: 9em !important;
   z-index: 1001;
-}
-
-#virtualclassCont.congrea.student #rightSubContainer a.inner_bt span#usertab_text {
-  float: none;
-  text-align: center;
 }
 
 #virtualclassCont.congrea #rightSubContainer .vmchat_room_bt .inner_bt {
