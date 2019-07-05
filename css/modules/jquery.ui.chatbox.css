@@ -596,6 +596,7 @@ virtualclassCont.congrea.playMode.student .ui-chatroom {
 
 #virtualclassCont.congrea[data-currapp="Whiteboard"] .ui-memblist {
   right: -1px !important;
+  height: 100%;
 }
 
 #virtualclassCont.congrea[data-currapp="ScreenShare"] .vmchat_bar_button {
@@ -691,7 +692,7 @@ virtualclassCont.congrea.playMode.student .ui-chatroom {
 }
 
 #virtualclassCont.congrea #chat_room {
-  height: calc(100vh - 390px);
+  height: 100%;
   margin: 0px;
 }
 
@@ -709,7 +710,7 @@ virtualclassCont.congrea.playMode.student .ui-chatroom {
 }
 
 #virtualclassCont.congrea.teacher .vidHide #chat_room {
-  height: calc(100vh - 160px);
+  height: 100%;
   margin: 0px;
   /*    pointer-events: none;*/
 }
@@ -898,11 +899,11 @@ virtualclassCont.congrea.playMode.student .ui-chatroom {
 }
 
 #virtualclassCont.congrea #chat_div {
-  height: calc(100vh - 388px);
+  height: 100%;
 }
 
 #virtualclassCont.congrea .vidHide #chat_div, #virtualclassCont.congrea.nowebcam.teacher #chat_div {
-  height: calc(100vh - 148px);
+  height: calc(100% - 53px);
 }
 
 #virtualclassCont.congrea.teacher #chatroom_bt2 .inner_bt #chatroom_text {

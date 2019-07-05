@@ -2368,6 +2368,7 @@
 
 #virtualclassCont.congrea #virtualclassApp {
   overflow: hidden;
+  height: 100%;
 }
 
 #virtualclassCont.congrea #virtualclassAppLeftPanel #canvasWrapper {
@@ -2391,7 +2392,7 @@
 
 #virtualclassCont.congrea #virtualclassAppRightPanel {
   width: 320px;
-  height: 99.9vh;
+  height: 100%;
   border-left: 1px solid #bbb;
   position: relative;
 }
@@ -3458,6 +3459,7 @@
 #virtualclassCont.congrea.teacher .ui-widget-content,
 #virtualclassCont.congrea.student .ui-widget-content {
   background-color: #ffffff;
+  height: 100%;
 }
 
 #virtualclassCont.congrea.teacher .ui-widget-content textarea,

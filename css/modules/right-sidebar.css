@@ -1,10 +1,11 @@
 /* New Id's & Classes */
 
-body {
+body, html {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   letter-spacing: 1px;
+  height: 100%;
 }
 
 #audioWidget ul li a {
@@ -153,6 +154,10 @@ body {
 
 #virtualclassCont.congrea #virtualclassApp.openRightbar #congreaChatMainCont{
   border-left: 1px solid #dfdfdf;
+}
+
+#virtualclassCont.congrea #virtualclassApp.openRightbar #congreaChatMainCont #congreaChatCont {
+  height: 100%;
 }
 
 #virtualclassCont.congrea.playMode .vidHide #rightSubContainer {
