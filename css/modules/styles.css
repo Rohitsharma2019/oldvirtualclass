@@ -2388,6 +2388,12 @@
   width: 100%;
   overflow: hidden;
   position: relative;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+#virtualclassCont.congrea #virtualclassAppLeftPanel #virtualclassAppOptionsCont {
+  flex-basis: 55px;
 }
 
 #virtualclassCont.congrea #virtualclassAppRightPanel {
@@ -4692,6 +4698,7 @@ and (max-device-width: 1024px) {
 #virtualclassCont.congrea #virtualclassAppLeftPanel #footerButtons {
   position: absolute;
   right: 0;
+  bottom: 0;
   z-index: 1001;
 }
 
@@ -4797,6 +4804,22 @@ and (max-device-width: 1024px) {
 #virtualclassCont.congrea #virtualclassApp #sidebarButton .congtooltip:hover:after {
   bottom: -32px;
   right: 0;
+}
+
+#virtualclassCont.congrea[data-currapp="Whiteboard"] #virtualclassAppLeftPanel #virtualclassWhiteboard .whiteboardContainer, 
+#virtualclassCont.congrea[data-currapp="Whiteboard"] #virtualclassAppLeftPanel #virtualclassWhiteboard .whiteboardContainer .canvasContainer.current, 
+#virtualclassCont.congrea[data-currapp="Whiteboard"] #virtualclassAppLeftPanel #virtualclassWhiteboard .whiteboardContainer .canvasContainer.current .vcanvas.socketon {
+  height: 100%;
+}
+
+#virtualclassCont.congrea[data-currapp="Whiteboard"] #virtualclassAppLeftPanel #virtualclassWhiteboard .whiteboardContainer .canvasContainer.current .vcanvas.socketon .containerWb {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#virtualclassCont.congrea[data-currapp="Whiteboard"] #virtualclassWhiteboard .whiteboardContainer .canvasContainer.current .vcanvas.socketon .containerWb .canvasWrapper {
+  flex: 1;
 }
 
 /* ======== MEDIA FOR MOBILE ========== */

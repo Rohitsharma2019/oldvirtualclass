@@ -3,7 +3,8 @@
 }
 
 #virtualclassCont #virtualclassAppContainer {
-  height: calc(100% - 44px);
+  height: 100%;
+  width: 100%;
 }
 
 #virtualclassCont.congrea #layoutPollBody, #virtualclassCont.congrea #layoutQuizBody {
@@ -38,7 +39,7 @@
 }
 
 #virtualclassCont.congrea.orginalTeacher #virtualclassAppContainer {
-  margin-left: 53px;
+  flex: 1;
 }
 
 #virtualclassCont.congrea.student #virtualclassScreenShare {
@@ -51,7 +52,7 @@
 }
 
 #virtualclassCont.congrea.teacher .canvasWrapper {
-  height: calc(100vh - 93px);
+  height: 100%;
 }
 
 #virtualclassCont.congrea.teacher .canvasWrapper {

@@ -86,6 +86,12 @@
 
 #virtualclassCont.congrea .pageContainer .note.current {
   display: block;
+  height: 100%;
+}
+
+#virtualclassCont.congrea .pageContainer .note.current .whiteboard, #virtualclassCont.congrea .pageContainer .note.current .whiteboard .vcanvas.socketon, 
+#virtualclassCont.congrea .pageContainer .note.current .whiteboard .vcanvas.socketon .containerWb{
+  height: 100%;
 }
 
 /*#virtualclassCont.congrea #virtualclassDocumentShare.container, #virtualclassCont.congrea #virtualclassDocumentShare #documentScreen {*/
@@ -201,7 +207,7 @@
 }
 
 #virtualclassCont.congrea #virtualclassDocumentShare.virtualclass #screen-docs {
-  /*height: auto;*/
+  height: 100%;
 }
 
 #virtualclassCont.congrea #virtualclassDocumentShare.virtualclass.container #newdocsBtnCont {
@@ -530,6 +536,11 @@
 
 #screen-docs .pageContainer {
   margin: auto;
+  height: 100%;
+}
+
+#screen-docs .pageContainer #notesContainer {
+  height: 100%;
 }
 
 #virtualclassCont.congrea .note canvas {
