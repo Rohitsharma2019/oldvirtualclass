@@ -572,6 +572,10 @@ virtualclassCont.congrea.playMode.student .ui-chatroom {
   cursor: pointer;
 }
 
+#virtualclassCont.congrea #virtualclassApp.collapsedRightbar .vmchat_bar_button {
+  display: none;
+}
+
 #virtualclassCont.congrea .vmchat_bar_button.active {
   background-color: rgba(0, 0, 0, 0.25);
 }
@@ -731,7 +735,7 @@ virtualclassCont.congrea.playMode.student .ui-chatroom {
   margin-left: 6px;
 }
 
-#virtualclassCont.congrea #chatWidget .chatBarTab {
+#virtualclassCont.congrea .chatBarTab {
   width: 100%;
   /*
       border-top-left-radius: 4px;
@@ -868,10 +872,12 @@ virtualclassCont.congrea.playMode.student .ui-chatroom {
 
 #virtualclassCont.congrea .chat_enabled #memlist.enable {
   display: block;
+  height: 100%;
 }
 
 #virtualclassCont.congrea .chat_enabled #chatrm.enable {
   display: block;
+  height: 100%;
 }
 
 /*#virtualclassCont.congrea  #virtualclassAppRightPanel.chat_disabled .ui-memblist-usr.online {*/
@@ -902,10 +908,6 @@ virtualclassCont.congrea.playMode.student .ui-chatroom {
   height: 100%;
 }
 
-#virtualclassCont.congrea .vidHide #chat_div, #virtualclassCont.congrea.nowebcam.teacher #chat_div {
-  height: calc(100% - 53px);
-}
-
 #virtualclassCont.congrea.teacher #chatroom_bt2 .inner_bt #chatroom_text {
   margin-left: 7px;
 }
@@ -915,7 +917,6 @@ virtualclassCont.congrea.playMode.student .ui-chatroom {
 }
 
 #virtualclassCont.congrea #virtualclassApp.collapsedRightbar #chat_div {
-  height: calc(100vh - 272px);
   overflow-y: auto;
   overflow-x: hidden;
 }

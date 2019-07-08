@@ -79,29 +79,29 @@
 and (min-device-width: 368px)
 and (max-device-width: 1024px) {
 
-  #virtualclassCont.congrea #virtualclassAppRightPanel {
+  /* #virtualclassCont.congrea #virtualclassAppRightPanel {
     height: calc(100vh - var(--vh-offset));
   }
 
   #virtualclassCont.congrea.fullScreenMode #virtualclassAppRightPanel {
     height: 100vh;
-  }
+  } */
 
-  #virtualclassCont.congrea {
+  /* #virtualclassCont.congrea {
     height: calc(100vh - var(--vh-offset));
-  }
+  } */
 
   #virtualclassCont.congrea.fullScreenMode {
     height: 100vh;
   }
 
-  #virtualclassCont.congrea #chat_div {
+  /* #virtualclassCont.congrea #chat_div {
     height: calc(100vh - var(--vh-offset) - 388px);
   }
 
   #virtualclassCont.congrea.fullScreenMode #chat_div {
     height: calc(100vh - 388px);
-  }
+  } */
 
   #virtualclassCont #virtualclassAppContainer {
     height: calc(100vh - var(--vh-offset) - 44px);
@@ -135,7 +135,7 @@ and (max-device-width: 1024px) {
     display: none;
   }
 
-  #virtualclassCont.congrea .vidHide #chat_div {
+  /* #virtualclassCont.congrea .vidHide #chat_div {
     height: calc(100vh - var(--vh-offset) - 148px);
   }
 
@@ -157,7 +157,7 @@ and (max-device-width: 1024px) {
 
   #virtualclassCont.congrea.student.fullScreenMode #chat_room {
     height: calc(100vh - 400px) !important;
-  }
+  } */
 
   #virtualclassCont.congrea #slickQuiz .quizArea {
     height: calc(100vh - var(--vh-offset) - 300px);
@@ -171,13 +171,13 @@ and (max-device-width: 1024px) {
     height: 100vh;
   }
 
-  #virtualclassCont.congrea.playMode #virtualclassAppRightPanel {
+  /* #virtualclassCont.congrea.playMode #virtualclassAppRightPanel {
     height: calc(100vh - var(--vh-offset));
   }
 
   #virtualclassCont.congrea.playMode.fullScreenMOde #virtualclassAppRightPanel {
     height: 100vh;
-  }
+  } */
 
   #virtualclassCont.congrea.student.playMode .canvasWrapper {
     height: calc(100vh - var(--vh-offset) - 48px);

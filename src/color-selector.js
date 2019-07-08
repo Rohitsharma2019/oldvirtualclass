@@ -284,7 +284,7 @@
       const css = `${'#virtualclassCont.congrea #recordPlay .rv-vanilla-modal-body #downloadPcCont #downloadSessionText,'
         + '#virtualclassCont.congrea #virtualclassAppRightPanel #audioWidget'
         + '{background-image: linear-gradient(to bottom, '}${allbg.fcolor} 0%,${allbg.scolor} 100%) !important}`
-        + '#virtualclassCont.congrea #chatWidget .chatBarTab'
+        + '#virtualclassCont.congrea .chatBarTab'
         + `{background: linear-gradient(to bottom, ${allbg.fcolor} 0%,${allbg.scolor} 100%) !important}`
 
         + '#virtualclassCont.congrea #stickycontainer .inner_bt:hover, '
