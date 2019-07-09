@@ -543,6 +543,7 @@
 
 #virtualclassCont.congrea #chatroom_bt2 .inner_bt #chatroom_text {
   margin-top: -7px;
+  margin-left: 8px;
 }
 
 #virtualclassCont.congrea.playMode #chat_div {
@@ -687,6 +688,7 @@ virtualclassCont.congrea.playMode.student .ui-chatroom {
 
 #virtualclassCont.congrea .ui-widget-content {
   /*    border: none;*/
+  background-color: #fff;
 }
 
 #virtualclassCont.congrea .ui-tabs-active .ui-widget-content.ui-chatbox-log::-webkit-scrollbar {
@@ -845,7 +847,7 @@ virtualclassCont.congrea.playMode.student .ui-chatroom {
 
 #virtualclassCont.congrea a.stdRaiseHand, #virtualclassCont.congrea a.stdRaiseHand:hover {
   height: 44px;
-  line-height: 27px;
+  padding: 13px;
 }
 
 #virtualclasscont.congrea.student a.inner_bt:hover {

@@ -3,7 +3,7 @@
 }
 
 #virtualclassCont #virtualclassAppContainer {
-  height: 100%;
+  height: calc(100% - 44px);
   width: 100%;
 }
 

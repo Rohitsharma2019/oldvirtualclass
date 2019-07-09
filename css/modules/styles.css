@@ -2393,7 +2393,7 @@
 }
 
 #virtualclassCont.congrea #virtualclassAppLeftPanel #virtualclassAppOptionsCont {
-  flex-basis: 55px;
+  flex-basis: 54px;
 }
 
 #virtualclassCont.congrea #virtualclassAppRightPanel {
@@ -3464,8 +3464,8 @@
   border-top: 1px;
 }
 
-#virtualclassCont.congrea.teacher .ui-widget-content,
-#virtualclassCont.congrea.student .ui-widget-content {
+#virtualclassCont.congrea.teacher .ui-widget-content.ui-memblist-content,
+#virtualclassCont.congrea.student .ui-widget-content.ui-memblist-content {
   background-color: #ffffff;
   height: 100%;
 }
@@ -3685,7 +3685,6 @@
 
 #virtualclassCont.congrea #icHr {
   display: inline;
-  position: absolute;
   font-size: 14px;
 }
 
@@ -4695,11 +4694,14 @@ and (max-device-width: 1024px) {
   width: 6px;
 }
 
-#virtualclassCont.congrea #virtualclassAppLeftPanel #footerButtons {
-  position: absolute;
-  right: 0;
-  bottom: 0;
+#virtualclassCont.congrea #virtualclassAppLeftPanel #leftbarFooter {
+  flex: 100%;
   z-index: 1001;
+  align-self: flex-end;
+}
+
+#virtualclassCont.congrea #virtualclassAppLeftPanel #leftbarFooter #footerButtons {
+  float: right;
 }
 
 #virtualclassCont.congrea #virtualclassAppLeftPanel #sidebarButton {
