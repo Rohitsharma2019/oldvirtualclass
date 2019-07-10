@@ -19,8 +19,6 @@ let msg;
       title: null, // title of the chatbox
       user: null, // can be anything associated with this chatbox
       hidden: false,
-      offset: 6, // relative to right edge of the browser window
-      width: 311, // width of the chatbox
       messageSent(user, msg) {
         this.boxManager.addMsg(user.name, msg);
       },

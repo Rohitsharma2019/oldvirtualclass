@@ -121,6 +121,7 @@ body, html {
 
 #virtualclassCont.congrea #virtualclassApp.openRightbar #congreaChatMainCont #congreaChatCont {
   flex: 1;
+  height: 100px;
 }
 
 #virtualclassCont.congrea.playMode .vidHide #rightSubContainer {
