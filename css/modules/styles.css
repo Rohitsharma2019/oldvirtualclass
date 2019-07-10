@@ -2397,7 +2397,10 @@
 }
 
 #virtualclassCont.congrea #virtualclassAppRightPanel {
-  width: 320px;
+  flex: 1 0 auto;
+  width: 35%;
+  max-width: 320px;
+  min-width: 190px;
   height: 100%;
   border-left: 1px solid #bbb;
   position: relative;
@@ -4825,16 +4828,11 @@ and (max-device-width: 1024px) {
 }
 
 /* ======== MEDIA FOR MOBILE ========== */
-@media only screen and (min-device-width: 320px) and (max-device-width: 1024px) {
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) {
   #virtualclassCont.congrea #preCheckcontainer.bootstrap .modal-dialog {
     width: 870px !important;
   }
 
-  #virtualclassCont.congrea #virtualclassAppRightPanel {
-    min-width: 35%;
-  }
-
-}
 
 /* ======== Firefox ========== */
 
@@ -4848,7 +4846,6 @@ and (max-device-width: 1024px) {
   #virtualclassCont.congrea #fullScreenButton .fullScreen, #virtualclassCont.congrea #fullScreenExitButton [data-title="Exit Full Screen"] {
     padding: 11px 18px 10px 18px;
   }
-
 }
 
 
