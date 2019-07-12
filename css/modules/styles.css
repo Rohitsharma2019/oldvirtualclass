@@ -2382,13 +2382,22 @@
   border-width: 0;
 }
 
-#virtualclassCont.congrea #virtualclassAppLeftPanel {
+#virtualclassCont.congrea.teacher #virtualclassAppLeftPanel {
   float: none;
   width: 100%;
   overflow: hidden;
   position: relative;
   display: flex;
   flex-flow: row wrap;
+}
+
+#virtualclassCont.congrea.student #virtualclassAppLeftPanel {
+  float: none;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column;
 }
 
 #virtualclassCont.congrea #virtualclassAppLeftPanel #virtualclassAppOptionsCont {
@@ -4698,12 +4707,15 @@ and (max-device-width: 1024px) {
   width: 6px;
 }
 
-#virtualclassCont.congrea #virtualclassAppLeftPanel #leftbarFooter {
-  flex: 100%;
+#virtualclassCont.congrea.student #virtualclassAppLeftPanel #leftbarFooter {
   z-index: 1001;
-  align-self: flex-end;
 }
 
+#virtualclassCont.congrea.teacher #virtualclassAppLeftPanel #leftbarFooter {
+  z-index: 1001;
+  flex: 100%;
+  align-self: flex-end;
+}
 #virtualclassCont.congrea #virtualclassAppLeftPanel #leftbarFooter #footerButtons {
   float: right;
 }
@@ -4829,7 +4841,7 @@ and (max-device-width: 1024px) {
 }
 
 /* ======== MEDIA FOR MOBILE ========== */
-@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) {
+@media only screen and (min-device-width: 320px) and (max-device-width: 1024px) {
   #virtualclassCont.congrea #preCheckcontainer.bootstrap .modal-dialog {
     width: 870px !important;
   }

@@ -529,7 +529,7 @@ span.sch {
 
   #virtualclassCont.congrea #virtualclassQuiz .path-mod-congrea-quiz .questions .answers span {
     font-family: inherit !important;
-    font-size: 12px;
+    font-size: 12px !important;
   }
 
   #virtualclassCont.congrea #virtualclassQuiz #layoutQuizBody .quizResults h3 {
