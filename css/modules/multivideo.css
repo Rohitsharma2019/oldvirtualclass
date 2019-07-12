@@ -140,9 +140,9 @@
   display: none;
 }
 
-#virtualclassCont.congrea.meetingmode.nowebcam #rightSubContainer, #virtualclassCont.meetingmode.nowebcam #congreaChatMainCont {
+/* #virtualclassCont.congrea.meetingmode.nowebcam #rightSubContainer, #virtualclassCont.meetingmode.nowebcam #congreaChatMainCont {
   height: calc(100% - 48px) !important;
-}
+} */
 
 #virtualclassCont.congrea.meetingmode.nowebcam #chat_div {
   height: calc(100vh - 148px);
@@ -188,9 +188,9 @@ and (max-device-width: 1024px) {
     height: calc(100vh - var(--vh-offset) - 160px);
   }
 
-  #virtualclassCont.congrea.meetingmode[data-totaluser="one"] #rightSubContainer, #virtualclassCont.meetingmode[data-totaluser="one"] #congreaChatMainCont {
+  /* #virtualclassCont.congrea.meetingmode[data-totaluser="one"] #rightSubContainer, #virtualclassCont.meetingmode[data-totaluser="one"] #congreaChatMainCont {
     height: calc(100% - 288px);
-  }
+  } */
 }
 
 #virtualclassCont.congrea.meetingmode .videoCont.selfVideo {
