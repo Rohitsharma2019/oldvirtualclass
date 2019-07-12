@@ -211,7 +211,7 @@
 
 #virtualclassCont.congrea #chatroom_icon .icon-chatroom:before {
   content: "\f0e6";
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 #virtualclassCont.congrea #virtualclassApp.collapsedRightbar #chatroom_icon .icon-chatroom:before {
@@ -344,7 +344,7 @@
 #virtualclassCont.congrea #virtualclassAppRightPanel #speakerPressingbtnIcon.silenceDetect[data-silence-detect="notSending"]:before {
   content: "\e982";
   font-weight: normal;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-family: 'icomoon';
   color: orange !important;
 }
@@ -352,7 +352,7 @@
 #virtualclassCont.congrea #virtualclassAppRightPanel .deactive #speakerPressingbtnIcon.silenceDetect[data-silence-detect="stop"]:before {
   content: "\e9ad";
   font-weight: normal;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-family: 'icomoon';
   color: #fff !important;
 }
@@ -712,14 +712,14 @@
   font-size: 11px;
   color: gray;
   font-family: 'icomoon';
-  font-size: 21px;
+  font-size: 1.31rem;
   color: #fff;
 }
 
 #virtualclassCont.congrea #virtualclassApp.openRightbar #virtualclassAppRightPanel span#videoSwitch.video.off:after {
   content: "\f00e";
   font-weight: normal;
-  font-size: 17px;
+  font-size: 1.0625rem;
   font-family: 'icomoon';
   color: red;
   position: absolute;

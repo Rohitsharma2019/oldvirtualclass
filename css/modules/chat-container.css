@@ -111,8 +111,8 @@ div.ui-memblist-usr .user-details .media-object {
   font-size: 14px;
   border: solid 1px #bbb;
   border-radius: 30px;
-  width: 42px;
-  height: 42px;
+  width: 2.625rem;
+  height: 2.625rem;
   margin: 5px 5px 5px 2px;
   line-height: 37px;
 }
@@ -317,15 +317,15 @@ span.icon-stdscreenImg[data-dcolor="green"]::before {
 .ui-memblist-usr .user-details .usern {
   width: 40%;
   float: left;
-  font-size: 14px;
+  font-size: .875rem;
   text-transform: capitalize;
-  margin: 16px 6px;
+  margin: 1rem .375rem;
   text-align: left;
   overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
-  line-height: 16px;
-  max-height: 16px;
+  line-height: 1rem;
+  max-height: 1rem;
   -webkit-line-clamp: 1;
   -webkit-box-orient: vertical;
   cursor: pointer;

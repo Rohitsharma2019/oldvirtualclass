@@ -358,7 +358,7 @@ body, html {
 #virtualclassCont #appSettingDetail .enable #usersGroupChatSwitch::before {
   content: "\e9b9";
   font-weight: normal;
-  font-size: 17px;
+  font-size: 1.0625rem;
   margin-top: 3px;
   float: left;
   font-family: 'icomoon';
@@ -529,7 +529,7 @@ body, html {
 #audioWidget .chatActive .setting-btn:before {
   content: "\e9b0";
   font-weight: normal;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-family: 'icomoon';
   color: white;
   font-weight: normal;
@@ -612,12 +612,13 @@ body, html {
 #virtualclassCont.congrea #stickycontainer a.inner_bt span#usertab_text #onlineusertext {
   position: relative;
   margin-left: 22px;
+  font-size: .875rem;
 }
 
 #virtualclassCont.congrea #stickycontainer a.inner_bt span#usertab_text:before {
   font-weight: normal;
   content: "\e971";
-  font-size: 18px;
+  font-size: 1.125rem;
   font-family: 'icomoon';
   line-height: 19px;
   color: #fff;
