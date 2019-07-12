@@ -1,14 +1,14 @@
 #virtualclassCont.congrea #networkStatusContainer {
-  width: 50px;
-  height: 44px;
+  width: 3.125rem;
+  height: 2.75rem;
   float: right;
   border-left: 1px solid rgba(254, 254, 254, 0.2) !important;
   z-index: 1001;
 }
 
 #virtualclassCont.congrea #proposedSpeed {
-  width: 24px;
-  height: 24px;
+  width: 1.5rem;
+  height: 1.5rem;
   padding: 12px;
 }
 

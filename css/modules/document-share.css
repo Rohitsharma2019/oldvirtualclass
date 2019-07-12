@@ -1040,7 +1040,7 @@
 
 .congrea #stdPageNo {
   color: white;
-  font-size: 14px;
+  font-size: .875rem;
 }
 
 .congrea #totalPages {
@@ -1065,7 +1065,7 @@
 @media (max-width: 1150px) {
 
   .congrea #totalPages {
-    font-size: 14px;
+    font-size: .875rem;
     margin-right: 10px;
   }
 
@@ -1108,7 +1108,7 @@
   position: relative;
   color: #fff;
   margin-right: 10px;
-  font-size: 14px;
+  font-size: .875rem;
 }
 
 #virtualclassCont.congrea #ancCont, #virtualclassCont.congrea #pageAnc {
