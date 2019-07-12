@@ -1467,7 +1467,7 @@
 
         clearAllChatBox();
 
-        const allChat = document.getElementById('chatWidget').getElementsByClassName('ui-chatbox-msg');
+        const allChat = document.getElementById('rightSubContainer').getElementsByClassName('ui-chatbox-msg');
         if (allChat.length > 0) {
           while (allChat[0] != null) {
             allChat[0].parentNode.removeChild(allChat[0]);

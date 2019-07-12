@@ -31,7 +31,7 @@
       const user_list = document.getElementById('user_list');
       const setting = document.querySelector('#appSettingCtrl');
       const settingD = document.querySelector('#virtualclassCont.congrea #appSettingDetail');
-      const chat = document.querySelector('#virtualclassCont.congrea #chatWidget');
+      const chat = document.querySelector('#virtualclassCont.congrea #rightSubContainer');
 
 
       $('#chatroom_bt2 .inner_bt').click(() => {
@@ -39,7 +39,7 @@
           virtualclass.vutil.switchRightbar();
           virtualclass.gObj.hideRightbar = false;
         }
-        const vmchat_room_bt = document.querySelector('#chatwidget .vmchat_room_bt');
+        const vmchat_room_bt = document.querySelector('#rightSubContainer .vmchat_room_bt');
         chatroom_bt2.classList.add('active');
         user_list.classList.remove('active');
 
@@ -126,7 +126,7 @@
         // $('#user_list').addClass('active');
         user_list.classList.add('active');
         const setting = document.getElementById('appSettingCtrl');
-        const chat = document.getElementById('chatWidget');
+        const chat = document.getElementById('rightSubContainer');
         const settingD = document.getElementById('appSettingDetail');
         if (setting.classList.contains('settingActive')) {
           setting.classList.remove('settingActive');

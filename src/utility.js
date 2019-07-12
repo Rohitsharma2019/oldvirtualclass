@@ -47,7 +47,7 @@
     isSystemCompatible() {
       if (virtualclass.error.length > 0) {
         const errorMsg = (virtualclass.error.length > 1) ? (virtualclass.error.join('<br />')) : virtualclass.error[0];
-        virtualclass.view.createErrorMsg(errorMsg, 'errorContainer', 'chatWidget');
+        virtualclass.view.createErrorMsg(errorMsg, 'errorContainer', 'rightSubContainer');
 
         if (Object.prototype.hasOwnProperty.call(virtualclass.gObj, 'errIE')) {
           virtualclass.vutil.disableVirtualClass();
@@ -282,7 +282,7 @@
       _attachClickOutSideCanvas('commandToolsWrapper');
       _attachClickOutSideCanvas('virtualclassOptionsCont');
       _attachClickOutSideCanvas('audioWidget');
-      _attachClickOutSideCanvas('chatWidget');
+      _attachClickOutSideCanvas('rightSubContainer');
 
       function _attachClickOutSideCanvas(id) {
         const elem = document.getElementById(id);
@@ -390,7 +390,7 @@
         virtualclass.zoom.fitToScreen();
       }
           const toggle = document.querySelector('#virtualclassCont.congrea #appSettingCtrl');
-          const chat = document.querySelector('#virtualclassCont.congrea #chatWidget');
+          const chat = document.querySelector('#virtualclassCont.congrea #rightSubContainer');
           const setting = document.querySelector('#virtualclassCont.congrea #appSettingDetail');
           if (setting.classList.contains("active")) {
               toggle.classList.add('chatActive');
@@ -1475,7 +1475,7 @@
 
     setChatContHeight(height) {
       return;
-      $('#chatWidget').height(height);
+      $('#rightSubContainer').height(height);
       this.setChatHeight(height);
     },
     // removejquery

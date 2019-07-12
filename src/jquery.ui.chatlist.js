@@ -114,7 +114,7 @@
       const title = options.title || 'No Title';
       // chatbox
       const uiChatbox = (self.uiChatbox = $('<div></div>'))
-        .appendTo(document.getElementById('congreaChatCont'))
+        .insertAfter(document.getElementById('appSettingDetail'))
         .addClass('ui-widget '
             + 'ui-corner-top '
             + 'ui-memblist')

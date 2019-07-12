@@ -574,7 +574,7 @@
   font-size: 15px;
 }
 
-.ui-chatroom-titlebar.ui-dialog-header.ui-state-highlight .icon-minus:before, #virtualclassCont.congrea #chatWidget .mySelf span {
+.ui-chatroom-titlebar.ui-dialog-header.ui-state-highlight .icon-minus:before, #virtualclassCont.congrea #rightSubContainer .mySelf span {
   color: #333;
 }
 

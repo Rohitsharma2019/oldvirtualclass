@@ -1078,7 +1078,7 @@
 
 
         changeAttrToAssign(action) {
-          const allUserElem = document.getElementById('chatWidget').getElementsByClassName('assignImg');
+          const allUserElem = document.getElementById('rightSubContainer').getElementsByClassName('assignImg');
           for (let i = 0; i < allUserElem.length; i++) {
             if (action == 'enable') {
               allUserElem[i].classList.remove('block');

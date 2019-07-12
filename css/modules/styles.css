@@ -24,7 +24,7 @@
 #virtualclassCont.congrea .msgBoxCanvasimg,
 #virtualclassCont.congrea .msgBoxCanvasimg,
 #virtualclassCont.congrea #mainContainer,
-#virtualclassCont.congrea #chatWidget,
+#virtualclassCont.congrea #rightSubContainer,
 #virtualclassCont.congrea #preCheckcontainer #vcMicCheck .result,
 #virtualclassCont.congrea #preCheckcontainer #vcWebCamCheck .result,
 #virtualclassCont.congrea #virtualclassApp {
@@ -561,13 +561,13 @@
   left: 3em;
 }
 
-#virtualclassCont.congrea.student #chatWidget #memlist .controleCont .congtooltip {
+#virtualclassCont.congrea.student #rightSubContainer #memlist .controleCont .congtooltip {
   pointer-events: none;
 }
 
 /* select the only id which end with contrAssignAnch */
 
-#virtualclassCont.congrea.presenter #chatWidget #memlist [id $=contrAssignAnch].congtooltip {
+#virtualclassCont.congrea.presenter #rightSubContainer #memlist [id $=contrAssignAnch].congtooltip {
   pointer-events: visible;
 }
 
@@ -2768,12 +2768,6 @@
   font-size: 25px;
 }
 
-#virtualclassCont.congrea #virtualclassAppRightPanel #chatWidget {
-  width: 100%;
-  float: left;
-  position: relative;
-}
-
 #virtualclassCont.congrea #virtualclassVideo .linkvideo.playing {
   border: solid green 1px;
 }
@@ -4769,7 +4763,7 @@ and (max-device-width: 1024px) {
   padding: 10px 10px !important;
 }
 
-#virtualclassApp.collapsedRightbar #virtualclassAppRightPanel #chatWidget .chatBarTab li#user_list,
+#virtualclassApp.collapsedRightbar #virtualclassAppRightPanel #rightSubContainer .chatBarTab li#user_list,
 #virtualclassCont.congrea #virtualclassApp.collapsedRightbar #chatroom_bt2 .inner_bt #chatroom_text {
   display: none;
 }

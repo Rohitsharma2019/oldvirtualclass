@@ -164,7 +164,7 @@ let msg;
       const title = options.title || 'No Title';
       // chatbox, commonchat box
       const uiChatbox = (self.uiChatbox = $('<div></div>'))
-        .appendTo(document.getElementById('congreaChatCont'))
+        .insertAfter(document.getElementById('appSettingDetail'))
         .addClass(`${'ui-widget '
             + 'ui-corner-top '
             + 'ui-chatroom '}${

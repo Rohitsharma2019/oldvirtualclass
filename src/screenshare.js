@@ -798,7 +798,7 @@ let globalImageData = {};
         }
 
         if (resA === 0 && resB === 0) {
-          virtualclass.view.createErrorMsg('screensharereload', 'errorContainer', 'chatWidget');
+          virtualclass.view.createErrorMsg('screensharereload', 'errorContainer', 'rightSubContainer');
         }
 
         let screenIntervalTime = 1000;

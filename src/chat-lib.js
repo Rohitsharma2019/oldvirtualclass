@@ -553,12 +553,12 @@ function display_error(msg) {
   // $("<div id = 'dialog' title = 'VmChat Error:'></div>").prependTo("#stickybar");
   // $("#dialog").html(msg);
   // $('#dialog').dialog();
-  virtualclass.view.createErrorMsg(msg, 'errorContainer', 'chatWidget', { className: 'Unauthenticated' });
+  virtualclass.view.createErrorMsg(msg, 'errorContainer', 'rightSubContainer', { className: 'Unauthenticated' });
 }
 
 
 function clearAllChatBox() {
-  $('#chatWidget .icon-close').trigger('click');
+  $('#rightSubContainer .icon-close').trigger('click');
   // $("#chatrm .ui-icon-minusthick").trigger("click");
 }
 

@@ -352,7 +352,7 @@ and (max-device-width: 1024px) {
     height: 26px;
   }
 
-  #virtualclassCont.congrea #rightSubContainer #chatWidget .chatBarTab {
+  #virtualclassCont.congrea #rightSubContainer .chatBarTab {
     width: 35%;
   }
 }

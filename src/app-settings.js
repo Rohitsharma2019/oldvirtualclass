@@ -9,7 +9,7 @@
     return {
       init() {
         const toggle = document.querySelector('#virtualclassCont.congrea #appSettingCtrl');
-        const chat = document.querySelector('#virtualclassCont.congrea #chatWidget');
+        const chat = document.querySelector('#virtualclassCont.congrea #rightSubContainer');
         const setting = document.querySelector('#virtualclassCont.congrea #appSettingDetail');
 
         const privateChatTab = document.querySelector('#virtualclassCont.congrea .vmchat_bar_button');

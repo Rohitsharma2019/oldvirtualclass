@@ -57,7 +57,7 @@ body, html {
   z-index: 1000;
 }
 
-#virtualclassCont.congrea.playMode #rightSubContainer #chatWidget .chatBarTab {
+#virtualclassCont.congrea.playMode #rightSubContainer .chatBarTab {
   z-index: 0;
 }
 
@@ -102,10 +102,6 @@ body, html {
   display: none !important;
 }
 
-#virtualclassCont.congrea #chatWidget {
-  height: 100%;
-}
-
 #virtualclassCont.congrea #virtualclassAppRightPanel {
   border-left-width: 0;
 }
@@ -113,6 +109,8 @@ body, html {
 #virtualclassCont.congrea #rightSubContainer {
   flex: 1;
   width: 320px;
+  display: flex;
+  flex-direction: column;
 }
 
 #virtualclassCont.congrea #virtualclassApp.openRightbar #congreaChatMainCont{
@@ -483,11 +481,11 @@ body, html {
   display: none;
 }
 
-#virtualclassCont.congrea #chatWidget.deactive #congreaChatMainCont {
+#virtualclassCont.congrea #rightSubContainer.deactive #congreaChatMainCont {
   display: none;
 }
 
-#virtualclassCont.congrea #chatWidget.active #congreaChatMainCont {
+#virtualclassCont.congrea #rightSubContainer.active #congreaChatMainCont {
   display: flex;
   flex-direction: column;
 }
@@ -861,7 +859,7 @@ body, html {
   height: calc(100% - 284px);
 }
 
-#virtualclassCont.congrea #chatWidget.deactive {
+#virtualclassCont.congrea #rightSubContainer.deactive {
   height: 0;
 }
 
@@ -959,4 +957,8 @@ body, html {
 
 #virtualclassCont.edge .chat_disabled .ui-memblist-usr.online {
   pointer-events: none;
+}
+
+#virtualclassCont.congrea #rightSubContainer.deactive .footerCtr {
+  display: none;
 }
