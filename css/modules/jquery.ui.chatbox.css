@@ -1,8 +1,8 @@
 /* style sheets */
 /*css for chatbox*/
 #virtualclassCont.congrea .ui-chatbox {
-  position: relative;
-  bottom: 255px;
+  position: absolute;
+  bottom: 37px;
   padding: 0px;
   border-bottom: none;
   z-index: 13;
@@ -155,9 +155,7 @@
 
 /*css for sticky footer bar*/
 #virtualclassCont.congrea #stickybar {
-  font-size: 14px;
-  font-weight: bold;
-  position: fixed;
+  position: absolute;
   bottom: 0;
   z-index: 1000;
 }
@@ -675,12 +673,6 @@ virtualclassCont.congrea.playMode.student .ui-chatroom {
   overflow-y: auto;
   position: relative;
   padding-top: 51px;
-
-}
-
-#virtualclassCont.congrea .ui-widget-content {
-  /*    border: none;*/
-  background-color: #fff;
 }
 
 #virtualclassCont.congrea .ui-tabs-active .ui-widget-content.ui-chatbox-log::-webkit-scrollbar {
@@ -839,9 +831,9 @@ virtualclassCont.congrea.playMode.student .ui-chatroom {
   opacity: 0.4;
 }
 
-#virtualclassCont.congrea #virtualclassAppRightPanel #stickybar {
+/* #virtualclassCont.congrea #virtualclassAppRightPanel #stickybar {
   width: calc(100% - 320px);
-}
+} */
 
 #virtualclassCont.congrea #virtualclassApp.collapsedRightbar #virtualclassAppRightPanel #stickybar {
   width: calc(100% - 60px);

@@ -117,7 +117,8 @@
     },
 
     makeThemeReadyMainCont(frontColor, allbg, active, hover) {
-      const css = `${'#virtualclassCont.congrea .ui-widget-header'
+      const css = `${'#virtualclassCont.congrea #virtualclassAppLeftPanel #leftbarFooter, '
+        + '#virtualclassCont.congrea .ui-widget-header.ui-corner-top.ui-chatbox-titlebar.ui-dialog-header'
         + '{background-image: linear-gradient(to bottom, '}${allbg.fcolor} 0%,${allbg.scolor} 100%) !important} `
 
         + '#virtualclassCont.congrea #virtualclassAppLeftPanel #dashboardnav .btn'
@@ -329,8 +330,7 @@
         iconColor = active.fcolor;
       }
 
-      const css = `${'#virtualclassCont.congrea .ui-widget-header,'
-        + '#virtualclassCont.congrea #congdashboard .modal-header '
+      const css = `${'#virtualclassCont.congrea #congdashboard .modal-header,'
         + '{background-image: linear-gradient(to bottom, '}${allbg.fcolor} 0%,${allbg.scolor} 100%) !important}`
         + '#virtualclassCont.congrea #listvideo .linkvideo .videoTitleCont:before, '
         + '#virtualclassCont.congrea #listvideo .linkvideo .controls .editanch:before, '

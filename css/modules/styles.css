@@ -4715,6 +4715,7 @@ and (max-device-width: 1024px) {
   z-index: 1001;
   flex: 100%;
   align-self: flex-end;
+  position: relative;
 }
 #virtualclassCont.congrea #virtualclassAppLeftPanel #leftbarFooter #footerButtons {
   float: right;
