@@ -379,7 +379,7 @@
         chat_div.classList.add("collapsedRightbar");
         localStorage.setItem('hideRightbar',true);
         virtualclass.gObj.hideRightbar = localStorage.getItem('hideRightbar');
-        virtualclass.zoom.fitToScreen(); 
+        virtualclass.zoom.fitToScreen();
       } else {
         localStorage.removeItem('hideRightbar');
         localStorage.setItem('hideRightbar',false);
@@ -389,17 +389,18 @@
         chat_div.classList.remove("collapsedRightbar");
         virtualclass.zoom.fitToScreen();
       }
-          const toggle = document.querySelector('#virtualclassCont.congrea #appSettingCtrl');
-          const chat = document.querySelector('#virtualclassCont.congrea #rightSubContainer');
-          const setting = document.querySelector('#virtualclassCont.congrea #appSettingDetail');
-          if (setting.classList.contains("active")) {
-              toggle.classList.add('chatActive');
-              toggle.classList.remove('settingActive');
-              chat.classList.remove('deactive');
-              chat.classList.add('active');
-              setting.classList.remove('active');
-              setting.classList.add('deactive');
-          }
+      const toggle = document.querySelector('#virtualclassCont.congrea #appSettingCtrl');
+      const chat = document.querySelector('#virtualclassCont.congrea #rightSubContainer');
+      const setting = document.querySelector('#virtualclassCont.congrea #appSettingDetail');
+      if (setting.classList.contains("active")) {
+        toggle.classList.add('chatActive');
+        toggle.classList.remove('settingActive');
+        chat.classList.remove('deactive');
+        chat.classList.add('active');
+        setting.classList.remove('active');
+        setting.classList.add('deactive');
+      }
+      virtualclass.leftBarWidth();
     },
 
     // TODO

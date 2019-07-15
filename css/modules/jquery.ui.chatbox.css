@@ -155,7 +155,7 @@
 
 /*css for sticky footer bar*/
 #virtualclassCont.congrea #stickybar {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   z-index: 1000;
 }

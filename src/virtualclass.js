@@ -386,7 +386,7 @@
           } else {
               console.log("Already Hide");
           }
-              
+
 
         document.onfullscreenchange = function (event) {
           if (!virtualclass.gObj.fullScreenMode) {
@@ -394,6 +394,7 @@
           } else {
             virtualclass.vutil.showFullScreenButton();
           }
+          virtualclass.leftBarWidth();
         };
       },
 
@@ -1473,6 +1474,11 @@
             allChat[0].parentNode.removeChild(allChat[0]);
           }
         }
+      },
+      leftBarWidth() {
+        // const leftBar = (document.querySelector('#virtualclassApp').offsetWidth - document.querySelector('#stickycontainer').offsetWidth) + 'px';
+        const leftBar = (document.querySelector('#virtualclassApp #leftbarFooter').offsetWidth) + 'px';
+        document.querySelector('#stickybar').style.width = leftBar;
       },
     };
 
