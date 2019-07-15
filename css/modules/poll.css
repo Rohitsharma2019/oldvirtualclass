@@ -17,7 +17,9 @@
 
 #virtualclassCont.congrea .bootstrap .pollNavBar {
   border-bottom: none !important;
-  margin-left: 20px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
 }
 
 #virtualclassCont.congrea .bootstrap .pollNavBar li {
@@ -38,6 +40,7 @@
 
 #virtualclassCont.congrea #navigator.nav.navbar {
   margin-bottom: 0;
+  position: relative;
 }
 
 #virtualclassCont.congrea #layoutPollBody {

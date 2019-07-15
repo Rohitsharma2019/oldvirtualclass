@@ -3640,8 +3640,8 @@
   cursor: pointer;
   border-radius: 0;
 }
-
-#virtualclassCont.congrea #virtualclassApp.collapsedRightbar #congHr.enable {
+#virtualclassCont.congrea #virtualclassApp.collapsedRightbar #congHr.enable,
+#virtualclassCont.congrea #virtualclassApp.collapsedRightbar #congHr.disable {
   display: none;
 }
 
