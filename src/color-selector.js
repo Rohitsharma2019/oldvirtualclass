@@ -118,6 +118,7 @@
 
     makeThemeReadyMainCont(frontColor, allbg, active, hover) {
       const css = `${'#virtualclassCont.congrea #virtualclassAppLeftPanel #leftbarFooter, '
+        + '#virtualclassCont.congrea #congdashboard.modal .modal-header, '
         + '#virtualclassCont.congrea .ui-widget-header.ui-corner-top.ui-chatbox-titlebar.ui-dialog-header'
         + '{background-image: linear-gradient(to bottom, '}${allbg.fcolor} 0%,${allbg.scolor} 100%) !important} `
 
