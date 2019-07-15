@@ -4850,6 +4850,7 @@ and (max-device-width: 1024px) {
 
 #virtualclassCont.congrea #virtualclassApp.dashboard #virtualclassAppLeftPanel #virtualclassAppContainer #dashboardContainer .modal-dialog .modal-content {
   height: 100%;
+  border: none;
 }
 
 /* ======== MEDIA FOR MOBILE ========== */
