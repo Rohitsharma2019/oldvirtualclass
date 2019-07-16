@@ -381,9 +381,7 @@
         virtualclass.gObj.hideRightbar = localStorage.getItem('hideRightbar');
         virtualclass.zoom.fitToScreen();
         const vmList = document.querySelector('.vmchat_bar_button .inner_bt');
-        const vmChat = document.querySelector('.vmchat_room_bt');
         vmList.click();
-        vmChat.classList.add('disable');
       } else {
         localStorage.removeItem('hideRightbar');
         localStorage.setItem('hideRightbar',false);
