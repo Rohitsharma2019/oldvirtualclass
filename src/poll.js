@@ -1098,9 +1098,9 @@
         virtualclass.poll.dataToStd.options = item.options;
 
         const cont = document.getElementById('layoutPollBody');
-        const elem = document.createElement('div');
-        elem.className = 'container';
-        cont.appendChild(elem);
+        // const elem = document.createElement('div');
+        // elem.className = 'container';
+        // cont.appendChild(elem);
         const modal = document.getElementById('editPollModal');
         if (modal) {
           modal.remove();
