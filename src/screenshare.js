@@ -335,8 +335,8 @@ let globalImageData = {};
 
       setCanvasContainerDimension(width, height) {
         const canvaScontainer = document.querySelector('#virtualclassScreenShareLocal');
-        canvaScontainer.style.width = `${width}px`;
-        canvaScontainer.style.height = `${height}px`;
+        // canvaScontainer.style.width = `${width}px`;
+        // canvaScontainer.style.height = `${height}px`;
       },
 
 
@@ -1080,8 +1080,8 @@ let globalImageData = {};
 
         if (Object.prototype.hasOwnProperty.call(msg, 'vc')) {
           const vc = document.getElementById(virtualclass[app].local);
-          vc.style.width = `${msg.vc.w}px`;
-          vc.style.height = `${msg.vc.h}px`;
+          // vc.style.width = `${msg.vc.w}px`;
+          // vc.style.height = `${msg.vc.h}px`;
         }
 
         if (virtualclass.previous === 'virtualclassScreenShare') {
