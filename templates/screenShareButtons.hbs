@@ -1,0 +1,18 @@
+{{#if control}}
+  {{#if scrctrl}}
+    <div id="stopScreenShare" class="ss" data-title="{{getString 'ssStop'}}">
+      <button type="button"> {{getString 'ssBtn'}}</button>
+    </div>
+  {{/if}}
+{{else}}
+  {{#if scrctrl}}
+    <div id="stopScreenShare" class="ss" data-title="{{getString 'ssStop'}}">
+      <button type="button"> {{getString 'ssBtn'}}</button>
+    </div>
+    <div id="screenController">
+      <div class="share selfView">
+        <button type="button">{{getString 'sharetoall'}}</button>
+      </div>
+    </div>
+  {{/if}}
+{{/if}}

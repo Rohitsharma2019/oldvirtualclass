@@ -335,8 +335,8 @@ let globalImageData = {};
 
       setCanvasContainerDimension(width, height) {
         const canvaScontainer = document.querySelector('#virtualclassScreenShareLocal');
-        // canvaScontainer.style.width = `${width}px`;
-        // canvaScontainer.style.height = `${height}px`;
+        canvaScontainer.style.width = `${width}px`;
+        canvaScontainer.style.height = `${height}px`;
       },
 
 
@@ -1080,8 +1080,8 @@ let globalImageData = {};
 
         if (Object.prototype.hasOwnProperty.call(msg, 'vc')) {
           const vc = document.getElementById(virtualclass[app].local);
-          // vc.style.width = `${msg.vc.w}px`;
-          // vc.style.height = `${msg.vc.h}px`;
+          vc.style.width = `${msg.vc.w}px`;
+          vc.style.height = `${msg.vc.h}px`;
         }
 
         if (virtualclass.previous === 'virtualclassScreenShare') {
@@ -1109,6 +1109,8 @@ let globalImageData = {};
           const viewcontrol = roles.hasControls();
           const { recImgPlay } = virtualclass.recorder;
           const main = virtualclass.getTemplate('ssmainDiv');
+          const footer = document.querySelector('#virtualclassAppLeftPanel #leftbarFooter #footerButtons');
+          const ssbutton = virtualclass.getTemplate('screenShareButtons');
           const roleControl = {
             control: hascontrol,
             recImg: recImgPlay,
@@ -1116,7 +1118,10 @@ let globalImageData = {};
           };
 
           const mainConthtml = main(roleControl);
-
+          if (roles.hasControls() && (virtualclass.currApp == 'ScreenShare' || virtualclass.gObj.studentSSstatus.mesharing)) {
+            const ssButtonhtml = ssbutton(roleControl);
+            footer.insertAdjacentHTML('afterbegin', ssButtonhtml);
+          }
           // $('#virtualclassAppLeftPanel').append(mainConthtml);
 
           virtualclass.vutil.insertAppLayout(mainConthtml);
@@ -1125,6 +1130,7 @@ let globalImageData = {};
             const ss = document.querySelector('#virtualclassCont  #stopScreenShare');
             if (ss) {
               ss.addEventListener('click', () => {
+                ss.remove();
                 virtualclass.vutil.initDefaultApp();
               });
             }
@@ -1150,8 +1156,11 @@ let globalImageData = {};
 
           if (roles.hasControls() && virtualclass.gObj.studentSSstatus.mesharing) {
             const ss = document.querySelector('#virtualclassCont  #stopScreenShare');
+            const shareAllbtn = document.querySelector('#virtualclassCont #screenController');
             if (ss) {
               ss.addEventListener('click', () => {
+                ss.remove();
+                shareAllbtn.remove();
                 virtualclass.vutil.initDefaultApp();
                 const cont = document.querySelector('#virtualclassCont.studentScreenSharing');
                 if (cont) {

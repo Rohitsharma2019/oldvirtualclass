@@ -403,6 +403,9 @@
         setting.classList.add('deactive');
       }
       virtualclass.leftBarWidth();
+      if (roles.isStudent() && virtualclass.currApp == 'ScreenShare') {
+        virtualclass.studentScreen.fitToScreen();
+      }
     },
 
     // TODO
