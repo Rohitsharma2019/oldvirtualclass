@@ -278,9 +278,8 @@
 #virtualclassCont.congrea #virtualclassAppRightPanel span#videoSwitch.video.on:before {
   content: "\e9af";
   font-weight: normal;
-  font-size: 11px;
   font-family: 'icomoon';
-  font-size: 21px;
+  font-size: 1.3125rem;
   color: #fff;
 }
 
@@ -309,7 +308,7 @@
 #virtualclassCont.congrea #virtualclassAppRightPanel .deactive #speakerPressingbtnIcon:before {
   content: "\e983";
   font-weight: normal;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-family: 'icomoon';
   color: red !important;
 }
@@ -317,7 +316,7 @@
 #virtualclassCont.congrea #virtualclassAppRightPanel .active #speakerPressingbtnIcon:before {
   content: "\e9ad";
   font-weight: normal;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-family: 'icomoon';
   color: #fff !important;
   z-index: -1;
@@ -360,7 +359,7 @@
 #virtualclassCont.congrea #virtualclassApp.openRightbar #virtualclassAppRightPanel .deactive #speakerPressingbtnIcon.silenceDetect[data-silence-detect="stop"]::after {
   content: "\f00e";
   font-weight: normal;
-  font-size: 17px;
+  font-size: 1.062rem;
   font-family: 'icomoon';
   color: red;
   position: absolute;
@@ -808,7 +807,7 @@
 
 #virtualclassCont.congrea .icon-zoonIn:before {
   content: "\e9a4";
-  font-size: 12px;
+  font-size: 0.75rem;
   color: #464646;
   font-weight: 100;
   font-variant: normal;
@@ -818,7 +817,7 @@
 
 #virtualclassCont.congrea .icon-zoomOut:before {
   content: "\e9a5";
-  font-size: 12px;
+  font-size: 0.75rem;
   color: #464646;
   font-weight: 100;
   font-variant: normal;
@@ -828,7 +827,7 @@
 
 #virtualclassCont.congrea .icon-fitScreen:before {
   content: "\e99b";
-  font-size: 15px;
+  font-size: 0.9375rem;
   color: #464646;
   font-weight: 100;
   font-variant: normal;
@@ -908,5 +907,5 @@
   content: "\e9ac";
   font-weight: normal;
   font-family: 'icomoon';
-  font-size: 18px;
+  font-size: 1.125rem;
 }

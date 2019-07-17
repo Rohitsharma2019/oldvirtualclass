@@ -15,7 +15,7 @@
   margin-left: 5px;
 }
 
-#virtualclassCont.congrea .bootstrap .pollNavBar {
+#virtualclassCont.congrea.student .bootstrap .pollNavBar {
   border-bottom: none !important;
   position: absolute;
   left: 50%;
@@ -30,7 +30,7 @@
 
 #virtualclassCont.congrea .bootstrap .pollNavBar > li > a {
   text-shadow: none;
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 #virtualclassCont.congrea #virtualclassPoll .pollNavBar > li.active > a {
@@ -317,7 +317,7 @@
 }
 
 #virtualclassCont.congrea.student #virtualclassPoll #pollHead {
-  font-size: 18px;
+  font-size: 1.125rem;
   color: #34404c;
   letter-spacing: .01em;
   padding: 2px;
@@ -403,7 +403,7 @@
 #virtualclassCont.congrea #editPollModal #receivedVotes,
 #virtualclassCont.congrea #editPollModal #nonVotTqn,
 #virtualclassCont.congrea.student #stdPollContainer #timerCont {
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 
 #virtualclassCont.congrea #virtualclassPoll #stdPollContainer #stdOptionCont span {
@@ -412,7 +412,7 @@
 
 #virtualclassCont.congrea #virtualclassPoll #stdPollContainer .alert-success {
   padding: 12px !important;
-
+  font-size: 1rem;
 }
 
 #virtualclassCont.congrea.student #virtualclassPoll .pollNavBar > li.active {
@@ -422,11 +422,11 @@
 
 #virtualclassCont.congrea.student .bootstrap .pollNavBar > li {
   text-shadow: none;
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 #virtualclassCont.congrea.student .bootstrap .pollNavBar #stdPollHeader {
-  font-size: 18px;
+  font-size: 1.125rem;
 }
 
 #virtualclassCont.congrea.teacher #virtualclassPoll #resultLayoutHead .alert-success {

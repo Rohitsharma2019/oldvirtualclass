@@ -477,7 +477,7 @@
 #virtualclassCont.congrea .congtooltip {
   /*	display : inline;*/
   position: relative;
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 
 /*#virtualclassCont.congrea .user-details .controls .congtooltip  {*/
@@ -2223,7 +2223,6 @@
 #virtualclassCont.congrea .pollResultNotify .close {
   position: relative;
   top: -2px;
-  /* font-size: 14px !important; */
   float: right;
   right: -21px;
   line-height: 20px;
@@ -2232,7 +2231,7 @@
   background: transparent;
   border: 0;
   -webkit-appearance: none;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 700;
   color: #000;
   opacity: .2;
@@ -2611,6 +2610,7 @@
   /*-moz-border-radius: 6px;*/
   /*border-radius: 4px;*/
   position: relative;
+  font-size: 0.875rem;
 }
 
 #virtualclassCont.congrea #newPollBtncourse,
@@ -3371,7 +3371,7 @@
 
 #virtualclassCont.congrea .zoomControler div {
   position: relative;
-  font-size: 22px;
+  font-size: 1.375rem;
   padding: 10px;
   margin-top: 10px;
   border: 0.5px solid #e6e6e673;
@@ -3540,7 +3540,7 @@
   margin-bottom: 20px;
   text-shadow: 0 1px 0 rgba(255, 255, 255, .5);
   border-radius: 4px;
-  font-size: 14px;
+  font-size: .875rem;
 }
 
 #virtualclassCont.congrea.student #resultLayoutBody label,
@@ -3563,7 +3563,7 @@
   margin-bottom: 20px;
   text-shadow: 0 1px 0 rgba(255, 255, 255, .5);
   border-radius: 4px;
-  font-size: 14px;
+  font-size: .875rem;
 }
 
 #virtualclassCont.congrea #pollModalBody #optsTxCont {
@@ -3655,7 +3655,7 @@
 /*}*/
 #virtualclassCont.congrea #icHr:before {
   content: "\e962";
-  font-size: 19px;
+  font-size: 1.1875rem;
   color: #fdfafa;
 }
 
@@ -3682,7 +3682,7 @@
 
 #virtualclassCont.congrea #icHr {
   display: inline;
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 
 /* border color     */
@@ -3990,6 +3990,7 @@ span#usertab_text {
   top: -2px;
   right: 3px;
   color: inherit;
+  font-size: 1.3125rem;
 }
 
 #virtualclassCont.congrea #dashboardContainer .dashboardContainer .dbContainer #docsUploadMsz .alert-dismissable {

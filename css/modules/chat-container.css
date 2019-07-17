@@ -108,7 +108,7 @@ div.ui-memblist-usr .userVideos {
 div.ui-memblist-usr .user-details .media-object {
   display: block;
   text-align: center;
-  font-size: 14px;
+  font-size: 0.875rem;
   border: solid 1px #bbb;
   border-radius: 30px;
   width: 2.625rem;
@@ -138,7 +138,7 @@ div.ui-memblist-usr .user-details img.media-object {
 }
 
 .ui-memblist-usr .controls span {
-  font-size: 13px;
+  font-size: 0.8125rem;
   font-weight: 200;
   float: left;
   margin-top: 3px;
@@ -332,7 +332,7 @@ span.icon-stdscreenImg[data-dcolor="green"]::before {
 }
 
 #subchat div.ui-memblist-usr a span {
-  font-size: 12px;
+  font-size: 0.75rem;
   text-transform: capitalize;
 }
 
@@ -443,7 +443,7 @@ div.ui-memblist-usr .user-details a .media-object {
   color: #7d7a7a;
   padding-right: 0;
   margin-right: 7px;
-  font-size: 120%;
+  font-size: 0.9375rem;
   position: relative;
   top: -1px;
   left: 2px;
