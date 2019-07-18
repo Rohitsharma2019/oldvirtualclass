@@ -215,7 +215,7 @@
 }
 
 #virtualclassCont.congrea #virtualclassApp.collapsedRightbar #chatroom_icon .icon-chatroom:before {
-  font-size: 18px;
+  font-size: 1.125rem;
 }
 
 #virtualclassCont.congrea .ui-memblist-usr .icon-assignImg:before {
@@ -368,7 +368,7 @@
 }
 
 #virtualclassCont.congrea #virtualclassApp.collapsedRightbar #virtualclassAppRightPanel .deactive #speakerPressingbtnIcon.silenceDetect[data-silence-detect="stop"]:before {
-  font-size: 19px;
+  font-size: 1.1875rem;
   color:#fff !important;
 }
 
@@ -728,7 +728,7 @@
 
 #virtualclassCont.congrea #virtualclassApp.collapsedRightbar #virtualclassAppRightPanel span#videoSwitch.video.off:before {
   color: #fff !important;
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 
 #virtualclassCont.congrea.nowebcam #virtualclassAppRightPanel span#videoSwitch.video.on:before {

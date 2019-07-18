@@ -354,6 +354,10 @@ and (max-device-width: 900px) {
     letter-spacing: .7px !important;
   }
 
+  .bootstrap .navbar-nav > li > a {
+    line-height: unset !important;
+  }
+
   #virtualclassCont.congrea[device="mobile"] #virtualclassPreCheck #preCheckcontainer .modal-dialog.modal-lg {
     width: 90%;
   }
@@ -389,8 +393,4 @@ and (max-device-width: 1024px) {
   #virtualclassCont.congrea[device="mobile"] #joinClass #joinClassModal .modal-dialog {
     width: 35%;
   }
-}
-
-.bootstrap .navbar-nav > li > a {
-  line-height: unset !important;
 }

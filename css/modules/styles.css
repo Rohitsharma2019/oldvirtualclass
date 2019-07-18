@@ -3134,8 +3134,8 @@
 }
 
 #virtualclassCont.congrea #virtualclassApp.collapsedRightbar #audioWidget #mainAudioPanel li.videoSwitchCont {
-  width: 42px;
-  height: 43px;
+  width: 2.625rem;
+  height: 2.6875rem;
   margin: 10px 9px;
   border-radius: 50%;
   background-color: #ff3a3a;
@@ -4751,8 +4751,8 @@ and (max-device-width: 1024px) {
 }
 
 #virtualclassCont.congrea #virtualclassApp.collapsedRightbar #audioWidget li#speakerPressOnce {
-  width: 42px;
-  height: 43px;
+  width: 2.625rem;
+  height: 2.6875rem;
   margin: 0 9px;
   border-radius: 50%;
   /* border: 1px solid #ccc !important;
@@ -4766,7 +4766,7 @@ and (max-device-width: 1024px) {
 }
 
 #virtualclassCont.congrea #virtualclassApp.collapsedRightbar #audioWidget li#speakerPressOnce a {
-  padding: 10px 10px !important;
+  padding: .625rem .625rem !important;
 }
 
 #virtualclassApp.collapsedRightbar #virtualclassAppRightPanel #rightSubContainer .chatBarTab li#user_list,
