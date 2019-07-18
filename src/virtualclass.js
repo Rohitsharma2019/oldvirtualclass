@@ -1342,7 +1342,7 @@
         const contPara = { whiteboardPath };
 
         /** Registering the partials which have setting paramter * */
-        const initTemplates = ['precheck', 'teacherVideo', 'audioWidget', 'appTools', 'popupCont', 'appToolsMeeting', 'appSettingDetail', 'joinclass'];
+        const initTemplates = ['precheck', 'teacherVideo', 'audioWidget', 'appTools', 'popupCont', 'appToolsMeeting', 'appSettingDetail', 'joinclass', 'screenShareButtons'];
 
         const isControl = { hasControl: roles.hasControls() };
         let context;
@@ -1354,7 +1354,8 @@
             context = virtualclassSetting;
             context.isControl = roles.hasControls();
             context.isMettingMode = (virtualclass.gObj.meetingMode) && (roles.isStudent());
-          } else if (initTemplates[i] == 'teacherVideo' || initTemplates[i] == 'appTools' || initTemplates[i] == 'appSettingDetail') {
+          } else if (initTemplates[i] == 'teacherVideo' || initTemplates[i] == 'appTools'
+            || initTemplates[i] == 'appSettingDetail' || initTemplates[i] == 'screenShareButtons') {
             context = isControl;
           }
           this.makeReadyTemplate(initTemplates[i], context);
@@ -1371,7 +1372,6 @@
           whiteboard: this.getTemplate('main', 'whiteboard'),
           dashboardCont: this.getTemplate('dashboardCont'),
           multiVideo: this.getTemplate('multiVideo'),
-
         });
       },
 

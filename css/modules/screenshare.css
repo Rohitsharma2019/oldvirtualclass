@@ -242,3 +242,25 @@
   }
 
 }
+/*.studentScreenSharing*/
+
+#virtualclassCont.congrea #virtualclassApp #virtualclassAppLeftPanel #footerButtons #screenController,
+#virtualclassCont.congrea #virtualclassApp #virtualclassAppLeftPanel #footerButtons #stopScreenShare {
+  display: none;
+}
+
+#virtualclassCont.congrea.studentScreenSharing[data-currapp='ScreenShare'] #virtualclassApp #virtualclassAppLeftPanel #footerButtons #screenController {
+  display: block;
+}
+
+#virtualclassCont.congrea[data-currapp='ScreenShare'] #virtualclassApp #virtualclassAppLeftPanel #footerButtons #stopScreenShare {
+  display: block;
+}
+
+#virtualclassCont.congrea #virtualclassApp #virtualclassAppLeftPanel #footerButtons #alleditorRichContainer {
+  display: none;
+}
+
+#virtualclassCont.congrea[data-currapp='EditorRich'] #virtualclassApp #virtualclassAppLeftPanel #footerButtons #alleditorRichContainer {
+  display: block;
+}
