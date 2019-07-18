@@ -348,6 +348,12 @@ and (max-device-width: 1024px) {
 @media only screen
 and (min-device-width: 368px)
 and (max-device-width: 900px) {
+
+  html, body {
+    font-size: 15px;
+    letter-spacing: .7px !important;
+  }
+
   #virtualclassCont.congrea[device="mobile"] #virtualclassPreCheck #preCheckcontainer .modal-dialog.modal-lg {
     width: 90%;
   }
@@ -370,8 +376,7 @@ and (max-device-width: 900px) {
   }
 
   #virtualclassCont.congrea a.stdRaiseHand, #virtualclassCont.congrea a.stdRaiseHand:hover {
-    height: 44px;
-    padding: 12px 8px;
+    line-height: 1.25rem;
 }
 }
 @media only screen
@@ -384,4 +389,8 @@ and (max-device-width: 1024px) {
   #virtualclassCont.congrea[device="mobile"] #joinClass #joinClassModal .modal-dialog {
     width: 35%;
   }
+}
+
+.bootstrap .navbar-nav > li > a {
+  line-height: unset !important;
 }

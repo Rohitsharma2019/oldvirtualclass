@@ -9,7 +9,7 @@
 #virtualclassCont.congrea #proposedSpeed {
   width: 1.5rem;
   height: 1.5rem;
-  padding: 12px;
+  padding: .75rem;
 }
 
 #virtualclassCont.congrea #proposedSpeed[data-suggestion='high'] svg path.signalthree,

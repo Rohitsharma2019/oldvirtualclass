@@ -1222,7 +1222,7 @@
   outline-width: 0;
   z-index: 1103 !important;
   text-align: center;
-  line-height: 20px;
+  line-height: 1.25rem;
   display: block;
 }
 
@@ -3044,7 +3044,7 @@
 }
 
 #virtualclassCont.congrea.student #audioWidget .nav > li#speakerPressOnce > a {
-  padding: 12px 30px 12px 30px !important;
+  padding: .75rem 1.875rem!important;
 }
 
 #virtualclassCont.congrea #virtualclassAppRightPanel .active #speakerPressingbtn {
@@ -3655,7 +3655,7 @@
 /*}*/
 #virtualclassCont.congrea #icHr:before {
   content: "\e962";
-  font-size: 1.1875rem;
+  font-size: 1.125rem;
   color: #fdfafa;
 }
 
@@ -4519,7 +4519,7 @@ and (max-device-width: 1024px) {
   border-left: 0.05em solid #021317 !important;
 }
 #virtualclassCont.congrea #fullScreenButton .fullScreen, #virtualclassCont.congrea #fullScreenExitButton [data-title="Exit Full Screen"] {
-  padding: 11px 18px 9px 18px;
+  padding: .6875rem 1.125rem .5625rem 1.125rem;
 }
 
 #virtualclassCont.congrea.playMode #fullScreenButton, #virtualclassCont.congrea.playMode #fullScreenExitButton {
@@ -4806,7 +4806,7 @@ and (max-device-width: 1024px) {
 } */
 
 #virtualclassCont #virtualclassAppLeftPanel #sidebarButton .sidebarButton {
-	padding:13px 13px;
+	padding: .8125rem;
 }
 
 #virtualclassCont[data-currapp="ScreenShare"] #virtualclassApp.openRightbar #virtualclassAppLeftPanel #sidebarButton .sidebarButton {

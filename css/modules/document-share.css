@@ -1021,7 +1021,7 @@
 #virtualclassCont.congrea[data-currapp = 'DocumentShare'].student #docShareNav,
 #virtualclassCont.congrea[data-currapp = 'Whiteboard'].student #docShareNav {
   display: inline-block;
-  padding: 12.5px 16px 13.5px 16px;
+  padding: .8125rem 1rem;
   float: left;
 }
 
