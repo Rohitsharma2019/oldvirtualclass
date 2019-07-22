@@ -2865,10 +2865,13 @@
 }
 
 #virtualclassCont.congrea .vchead {
-  margin: 12.5px 15px;
+  /* margin: 12.5px 15px; */
   font-size: 1.2em;
   text-shadow: none;
   text-align: center;
+}
+#virtualclassCont.congrea.teacher #virtualclassQuiz #layoutQuiz .nav.navbar .vchead {
+  padding: 0.8125rem;
 }
 
 /* congrea quiz end*/
@@ -3919,7 +3922,7 @@ span#usertab_text {
 /** suman end **/
 .bootstrap .navbar {
   border: none !important;
-  min-height: 48px !important;
+  /* min-height: 48px !important; */
 }
 
 .bootstrap .modal-content {
