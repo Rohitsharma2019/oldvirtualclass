@@ -210,8 +210,13 @@
 }
 
 #virtualclassCont.congrea #chatroom_icon .icon-chatroom:before {
-  content: "\f0e6";
-  font-size: 1rem;
+  content: "\e9b4";
+  font-size: 1.125rem;
+  color: #000 !important;
+}
+
+#virtualclassCont.congrea #chatBarTab .vmchat_room_bt.active .icon-chatroom:before {
+  color: #fff !important;
 }
 
 #virtualclassCont.congrea #virtualclassApp.collapsedRightbar #chatroom_icon .icon-chatroom:before {
@@ -279,7 +284,7 @@
   content: "\e9af";
   font-weight: normal;
   font-family: 'icomoon';
-  font-size: 1.3125rem;
+  font-size: 1.1875rem;
   color: #fff;
 }
 
@@ -316,7 +321,7 @@
 #virtualclassCont.congrea #virtualclassAppRightPanel .active #speakerPressingbtnIcon:before {
   content: "\e9ad";
   font-weight: normal;
-  font-size: 1.25rem;
+  font-size: 1.1875rem;
   font-family: 'icomoon';
   color: #fff !important;
   z-index: -1;
@@ -351,7 +356,7 @@
 #virtualclassCont.congrea #virtualclassAppRightPanel .deactive #speakerPressingbtnIcon.silenceDetect[data-silence-detect="stop"]:before {
   content: "\e9ad";
   font-weight: normal;
-  font-size: 1.25rem;
+  font-size: 1.1875rem;
   font-family: 'icomoon';
   color: #fff !important;
 }
@@ -359,17 +364,12 @@
 #virtualclassCont.congrea #virtualclassApp.openRightbar #virtualclassAppRightPanel .deactive #speakerPressingbtnIcon.silenceDetect[data-silence-detect="stop"]::after {
   content: "\f00e";
   font-weight: normal;
-  font-size: 1.062rem;
+  font-size: .875rem;
   font-family: 'icomoon';
   color: red;
   position: absolute;
   top: 0px;
-  right: -9px;
-}
-
-#virtualclassCont.congrea #virtualclassApp.collapsedRightbar #virtualclassAppRightPanel .deactive #speakerPressingbtnIcon.silenceDetect[data-silence-detect="stop"]:before {
-  font-size: 1.1875rem;
-  color:#fff !important;
+  right: -7px;
 }
 
 
@@ -708,22 +708,21 @@
 #virtualclassCont.congrea #virtualclassAppRightPanel span#videoSwitch.video.off:before {
   content: "\e9af";
   font-weight: normal;
-  font-size: 11px;
   color: gray;
   font-family: 'icomoon';
-  font-size: 1.31rem;
+  font-size: 1.1875rem;
   color: #fff;
 }
 
 #virtualclassCont.congrea #virtualclassApp.openRightbar #virtualclassAppRightPanel span#videoSwitch.video.off:after {
   content: "\f00e";
   font-weight: normal;
-  font-size: 1.0625rem;
+  font-size: .875rem;
   font-family: 'icomoon';
   color: red;
   position: absolute;
   top: -1px;
-  right: -12px;
+  right: -11px;
 }
 
 #virtualclassCont.congrea #virtualclassApp.collapsedRightbar #virtualclassAppRightPanel span#videoSwitch.video.off:before {

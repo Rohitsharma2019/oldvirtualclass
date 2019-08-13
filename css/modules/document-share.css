@@ -997,7 +997,7 @@
 }
 
 #virtualclassCont.congrea[data-currapp = 'DocumentShare'].teacher #docShareNav, #virtualclassCont.congrea[data-currapp = 'Whiteboard'].teacher #docShareNav {
-  display: inline-block;
+  display: none;
   padding: 12.5px 16px 13.5px 16px;
   float: left;
 }
@@ -1020,9 +1020,7 @@
 
 #virtualclassCont.congrea[data-currapp = 'DocumentShare'].student #docShareNav,
 #virtualclassCont.congrea[data-currapp = 'Whiteboard'].student #docShareNav {
-  display: inline-block;
-  padding: .8125rem 1rem;
-  float: left;
+  display: none;
 }
 
 #virtualclassCont.congrea[data-currapp = 'DocumentShare'].student #docShareNav {

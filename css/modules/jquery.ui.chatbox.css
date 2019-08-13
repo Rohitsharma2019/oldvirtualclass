@@ -259,7 +259,7 @@
 }
 
 #virtualclassCont.congrea.student .vmchat_room_bt {
-  width: 43%;
+  width: 33.3%;
 }
 
 #virtualclassCont.congrea #usertab_icon {
@@ -572,19 +572,20 @@ virtualclassCont.congrea.playMode.student .ui-chatroom {
   display: none;
 }
 
-#virtualclassCont.congrea .vmchat_bar_button.active {
-  background-color: rgba(0, 0, 0, 0.25);
+#virtualclassCont.congrea .vmchat_bar_button.active, #virtualclassCont.congrea .vmchat_room_bt.active {
+  background-color: #cacaca;
 }
 
-#virtualclassCont.congrea[data-currapp="EditorRich"] .vmchat_bar_button, #virtualclassCont.congrea[data-currapp="EditorCode"] .vmchat_bar_button {
-  width: 130px; /* add 100px , it was  218*/
+#virtualclassCont.congrea[data-currapp="EditorRich"] .vmchat_bar_button, 
+#virtualclassCont.congrea[data-currapp="EditorCode"] .vmchat_bar_button {
+  width: 130px;
 }
 
 #virtualclassCont.congrea.student[data-currapp="EditorRich"] .vmchat_bar_button, #virtualclassCont.congrea.student[data-currapp="EditorCode"] .vmchat_bar_button {
   width: 40%;
 }
 
-#virtualclassCont.congrea .vmchat_room_bt.active, #virtualclassCont.congrea[data-currapp="EditorRich"] .vmchat_bar_button.active {
+#virtualclassCont.congrea[data-currapp="EditorRich"] .vmchat_bar_button.active {
   background-color: #395161;
   cursor: pointer;
   height: 38px;
@@ -711,10 +712,7 @@ virtualclassCont.congrea.playMode.student .ui-chatroom {
 
 #virtualclassCont.congrea .chatBarTab {
   width: 100%;
-  /*
-      border-top-left-radius: 4px;
-      border-bottom-left-radius: 4px;
-  */
+  background-color: #ebebeb;
 }
 
 #virtualclassCont.congrea #chat_div .ui-memblist-usr.online {
@@ -781,12 +779,16 @@ virtualclassCont.congrea.playMode.student .ui-chatroom {
 }
 
 #virtualclassCont.congrea.student .vmchat_bar_button {
-  width: 43%;
+  width: 33.3%;
 }
 
 #virtualclassCont.congrea a.inner_bt, #virtualclassCont.congrea a.inner_bt:hover {
-  height: 38px;
-  /*    line-height:27px; udit*/
+  height: 2.75rem;
+}
+
+#virtualclassCont.congrea a.inner_bt:hover {
+  background-color: #cacaca;
+
 }
 
 /*

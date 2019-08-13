@@ -9,26 +9,16 @@ body, html {
 }
 
 #audioWidget ul li a {
-  padding-top: .8125rem !important;
-  padding-bottom: .625rem !important;
   text-align: center;
+  padding: 13px 15px 12px 15px !important;
 }
 
 #audioWidget ul li a span#videoSwitch {
   position: relative;
 }
 
-#virtualclassApp.collapsedRightbar #audioWidget ul li a {
-  padding: .625rem !important;
-}
-
-#virtualclassApp.collapsedRightbar #audioWidget ul li a:hover {
-  background-color: transparent;
-}
-
 #audioWidget ul li a#appSettingCtrlAnchor {
-  padding-top: .75rem !important;
-  padding-bottom: .75rem !important;
+  padding: 13px 13.5px 12px 17.5px !important
 }
 
 #audioWidget ul li.settingActive a#appSettingCtrlAnchor {
@@ -67,7 +57,7 @@ body, html {
   flex-direction: column;
 } */
 
-#virtualclassCont.congrea .vmchat_room_bt.active, #virtualclassCont.congrea[data-currapp="EditorRich"] .vmchat_bar_button.active {
+#virtualclassCont.congrea[data-currapp="EditorRich"] .vmchat_bar_button.active {
   background: #2d3741 none;
   height: auto;
 }
@@ -78,24 +68,6 @@ body, html {
 
 #virtualclassCont.congrea #rightSubContainer {
   clear: both;
-}
-
-#virtualclassCont.congrea #stickycontainer a.inner_bt, #virtualclassCont.congrea #stickycontainer a.inner_bt:hover {
-  height: auto;
-}
-
-#virtualclassCont.congrea.student #rightSubContainer a.inner_bt, #virtualclassCont.congrea.student #rightSubContainer a.inner_bt:hover {
-  height: auto;
-}
-
-#virtualclassCont.congrea.student #rightSubContainer a.inner_bt #chatroom_icon, #virtualclassCont.congrea.student #rightSubContainer a.inner_bt #chatroom_icon:hover {
-  float: left;
-}
-
-#virtualclassCont.congrea.student #rightSubContainer #stickycontainer #icHr:before {
-  margin-left: -8px;
-  float: left;
-  margin-top: -4px;
 }
 
 #virtualclassCont.congrea.teacher.nowebcam #virtualclassAppRightPanel #videoHostSource {
@@ -134,7 +106,6 @@ body, html {
 #virtualclassCont .footerCtr {
   justify-content: flex-end;
   text-align: right;
-  background: #fff;
   margin: 0;
   padding: 7px 0 7px;
   z-index: 1000;
@@ -241,11 +212,6 @@ body, html {
 /* #virtualclassCont.congrea #virtualclassAppRightPanel span#videoSwitch.video.on:before {
   color: #01cc00 ;
 } */
-
-#virtualclassCont.congrea #virtualclassApp.collapsedRightbar #virtualclassAppRightPanel span#videoSwitch.video.on:before {
-  color: #191919;
-  font-size: 21px;
-}
 
 #virtualclassCont #appSettingDetail input:focus + .slider {
   box-shadow: 0 0 1px #2196F3;
@@ -536,10 +502,6 @@ body, html {
   font-weight: normal;
 }
 
-#virtualclassApp.collapsedRightbar #audioWidget .chatActive .setting-btn:before {
-  font-size: 1.25rem;
-}
-
 #appSettingDetail .list-group {
   font-size: 15px !important;
 }
@@ -618,27 +580,13 @@ body, html {
 
 #virtualclassCont.congrea #stickycontainer a.inner_bt span#usertab_text:before {
   font-weight: normal;
-  content: "\e971";
-  font-size: 1.125rem;
+  content: "\e9b3";
+  font-size: 1.25rem;
   font-family: 'icomoon';
-  line-height: 19px;
-  color: #fff;
-  position: absolute;
+  color: #000;
 }
 
-#virtualclassCont.congrea.student #rightSubContainer #user_list a.inner_bt {
-  padding: 12px 18px;
-  text-align: left;
-}
-
-#virtualclassCont.congrea.student #rightSubContainer #chatroom_bt2 a.inner_bt {
-  padding: 14px 18px 10px 18px;
-}
-
-#virtualclassCont.congrea #stickycontainer a.inner_bt {
-  padding: .75rem 0;
-}
-
+#virtualclassCont.congrea #stickycontainer a.inner_bt , 
 #virtualclassCont.congrea #stickycontainer #chatroom_bt2 a.inner_bt {
   padding: .75rem 0 .75rem;
 }
@@ -651,10 +599,6 @@ body, html {
   padding: .75rem 0 .75rem;
 }
 
-#virtualclassCont.congrea #stickycontainer a.inner_bt span#usertab_text {
-  float: none;
-}
-
 #virtualclassCont.congrea.teacher .chatBarTab .hand_bt.highlight {
   display: block;
   border: solid white 1px;
@@ -662,9 +606,6 @@ body, html {
   color: #00ff10 !important;
 }
 
-#virtualclassCont.congrea.student #virtualclassApp.collapsedRightbar #rightSubContainer #chatroom_bt2 a.inner_bt {
-  padding: 10.5px 9px 7.5px 21px;
-}
 
 #virtualclassCont.congrea.teacher .chatBarTab .hand_bt {
   width: auto;
@@ -741,28 +682,22 @@ body, html {
   bottom: auto;
 }
 
-#virtualclassCont.congrea #virtualclassAppRightPanel #audioWidget .videoSwitchCont.congtooltip:hover:after {
-  top: 209px;
+#virtualclassCont.congrea #virtualclassApp #virtualclassAppRightPanel #audioWidget #appSettingCtrl.congtooltip:hover:after {
+  top: 108px;
 }
 
-#virtualclassCont.congrea #virtualclassApp.openRightbar #virtualclassAppRightPanel #audioWidget #appSettingCtrl.congtooltip:hover:after {
-  top: 210px;
+#virtualclassCont.congrea #virtualclassApp #virtualclassAppRightPanel #audioWidget li#speakerPressOnce .congtooltip:hover:after {
+  top: 12px;
 }
 
-#virtualclassCont.congrea #virtualclassApp.collapsedRightbar #virtualclassAppRightPanel #audioWidget #appSettingCtrl.congtooltip:hover:after {
-  top: 132px;
-  right: 59px;
+#virtualclassCont.congrea #virtualclassApp #virtualclassAppRightPanel #audioWidget .congtooltip:hover:after {
+  top: 58px;
 }
 
-#virtualclassCont.congrea.student.videoff #virtualclassAppRightPanel #audioWidget .congtooltip:hover:after {
-  top: 51px !important;
+#virtualclassCont.congrea #virtualclassApp #virtualclassAppRightPanel #audioWidget li#appSettingCtrl .congtooltip:hover:after {
+  top: 108px;
 }
 
-#virtualclassCont.congrea #virtualclassApp.openRightbar #virtualclassAppRightPanel.vidHide #audioWidget .congtooltip:hover:after {
-  top: 51px !important;
-}
-
-/*#virtualclassCont.congrea.nowebcam #virtualclassAppRightPanel #audioWidget .congtooltip:hover:after ,*/
 #virtualclassCont.congrea.teacher.nowebcam #virtualclassAppRightPanel #audioWidget #appSettingCtrl.congtooltip:hover:after {
   top: 51px;
 }
@@ -779,22 +714,12 @@ body, html {
   right: 126px;
 }
 
-#virtualclassCont.congrea #virtualclassApp.collapsedRightbar #virtualclassAppRightPanel #audioWidget .videoSwitchCont.congtooltip:hover:after {
-  right: 59px;
-  top: 74px !important;
-}
-
 #virtualclassCont.congrea #virtualclassAppRightPanel #audioWidget .audioTool a.congtooltip:hover:after {
   right: 233px;
   top: 209px;
 }
 
-#virtualclassCont.congrea #virtualclassApp.collapsedRightbar #virtualclassAppRightPanel #audioWidget .audioTool a.congtooltip:hover:after {
-  right: 59px;
-  top: 24px !important;
-}
-
-#virtualclassCont.congrea.nowebcam #virtualclassAppRightPanel #audioWidget .audioTool a.congtooltip:hover:after {
+#virtualclassCont.congrea #virtualclassAppRightPanel #audioWidget .audioTool a.congtooltip:hover:after {
   top: 51px;
 }
 

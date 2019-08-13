@@ -40,7 +40,7 @@
 
 #virtualclassCont.congrea.orginalTeacher #virtualclassAppContainer {
   flex: 1;
-  height: calc(100% - 44px);
+  height: 100%;
 }
 
 #virtualclassCont.congrea.student #virtualclassScreenShare {

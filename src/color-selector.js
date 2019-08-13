@@ -66,31 +66,28 @@
       }
 
       const border = `0.05em solid ${allbg.fcolor}`;
-      const css = `${'#virtualclassCont.congrea #virtualclassOptionsCont .appOptions, #virtualclassCont.congrea #audioWidget'
+      const css = `${'#virtualclassCont.congrea #virtualclassOptionsCont .appOptions, #virtualclassCont.congrea #audioWidget ,'
+        + '#virtualclassCont.congrea #fixedRight #footerButtons #recording ,'
+        + '#virtualclassCont.congrea #fixedRight #footerButtons #fullScreenButton,'
+        + '#virtualclassCont.congrea #fixedRight #footerButtons #fullScreenExitButton ,'
+        + '#virtualclassCont.congrea #fixedRight #footerButtons #networkStatusContainer '
         + '{border-top:'}${border} !important;}`
-        + '#virtualclassCont.congrea .containerWb .commandToolsWrapper .shapesToolbox .shapesTool .tool a'
+        + '#virtualclassCont.congrea .containerWb .commandToolsWrapper .shapesToolbox .shapesTool .tool a ,'
+        + '#virtualclassCont.congrea #audioWidget #mainAudioPanel li '
         + `{border-bottom:${border} !important;}`
         + '#virtualclassCont.congrea .containerWb .commandToolsWrapper .shapesToolbox .shapes_icon a ,'
         + '#virtualclassCont.congrea #virtualclassAppLeftPanel #docShareNav ,'
         + '#virtualclassCont.congrea #screenController .share button ,'
         + '#virtualclassCont.congrea #stopScreenShare button '
         + `{border-left: 0.01em solid ${allbg.fcolor}!important;}`
-        // "#virtualclassCont.congrea #virtualclassOptionsCont #virtualclassWhiteboardTool" +
-        // "{border:0 !important;}"+
-        + '#virtualclassCont.congrea #audioWidget li'
-        + `{border-right:${border} !important;}`
-        + '#virtualclassCont.congrea #virtualclassAppRightPanel .chatBarTab, #virtualclassCont.congrea #audioWidget .audioTool, #virtualclassCont.congrea #networkStatusContainer, '
         + '#virtualclassCont.congrea #alleditorRichContainerAnch'
         + `{border-left:${border} !important;}`
-        + '#virtualclassCont.congrea .containerWb .commandToolsWrapper .tool a ,'
-        + '#virtualclassCont.congrea #audioWidget li,'
-        + '#virtualclassCont.congrea #virtualclassAppRightPanel .chatBarTab li '
+        + '#virtualclassCont.congrea .containerWb .commandToolsWrapper .tool a '
         + `{border-right: 0.01em solid ${allbg.fcolor}!important;}`
         + '#virtualclassCont.congrea .ui-widget-header.ui-corner-top.ui-chatbox-titlebar.ui-dialog-header'
         + `{border: 0.02em solid ${allbg.fcolor}!important;}`
         + '#virtualclassCont.congrea .btn.btn-default ,'
         + '#virtualclassCont.congrea .vceditor-toolbar ,'
-        + '#virtualclassCont.congrea #virtualclassAppRightPanel .chatBarTab,'
         + '#virtualclassCont.congrea #stickybar .footerCtr .vmchat_search #congreaUserSearch ,'
         + '#virtualclassCont.congrea #layoutQuiz .navbar ,'
         + '#virtualclassCont.congrea button ,'
@@ -284,16 +281,11 @@
 
     makeThemeReadyRightPanel(frontColor, allbg, active, hover) {
       const css = `${'#virtualclassCont.congrea #recordPlay .rv-vanilla-modal-body #downloadPcCont #downloadSessionText,'
-        + '#virtualclassCont.congrea #virtualclassAppRightPanel #audioWidget'
         + '{background-image: linear-gradient(to bottom, '}${allbg.fcolor} 0%,${allbg.scolor} 100%) !important}`
-        + '#virtualclassCont.congrea .chatBarTab'
-        + `{background: linear-gradient(to bottom, ${allbg.fcolor} 0%,${allbg.scolor} 100%) !important}`
 
-        + '#virtualclassCont.congrea #stickycontainer .inner_bt:hover, '
-        + '#virtualclassCont.congrea #stickycontainer .stdRaiseHand:hover, '
         + '#virtualclassCont.congrea #stickycontainer #contrAudioAll:hover, '
         + '#virtualclassCont.congrea #virtualclassApp.openRightbar #virtualclassAppRightPanel #mainAudioPanel li:hover, '
-        + '#virtualclassCont.congrea #virtualclassApp.openRightbar #virtualclassAppRightPanel #mainAudioPanel li a:hover,'
+        + '#virtualclassCont.congrea #virtualclassApp #virtualclassAppRightPanel #mainAudioPanel li a:hover,'
         + '#virtualclassCont.congrea #virtualclassApp.openRightbar #audioWidget #speakerPressOnce:hover,'
         + '#virtualclassCont.congrea #audioTest-box:hover,'
         + '#virtualclassCont.congrea #playButton:hover, '
@@ -302,23 +294,15 @@
         + `{background-image: radial-gradient(ellipse at center, ${hover.fcolor} 0%,${hover.scolor} 100%) !important}`
 
         + '#virtualclassCont.congrea .vmchat_support.active ,'
-        + '#virtualclassCont.congrea .vmchat_room_bt.active,'
-        + '#virtualclassCont.congrea .vmchat_bar_button.active, '
         + '#virtualclassCont.congrea #virtualclassApp.openRightbar #virtualclassAppRightPanel #audioWidget .settingActive,'
         + '#virtualclassCont.congrea #virtualclassAppRightPanel #stickycontainer .handRaise.disable'
         + `{background-image: radial-gradient(ellipse at center, ${active.fcolor} 0%,${active.scolor} 100%) !important}`
-
-        + '#virtualclassCont.congrea #virtualclassAppRightPanel li:hover .cgIcon:before'
-        + `{color:${hover.frontColor}!important}`
 
         + '#virtualclassCont.congrea #virtualclassAppRightPanel #appSettingCtrlAnchor span'
         + `{color:${frontColor}!important}`
 
         + '#virtualclassCont.congrea #virtualclassAppRightPanel li:hover .cgText'
         + `{color:${hover.frontColor}!important}`
-
-        + '#virtualclassCont.congrea #virtualclassAppRightPanel .handRaise.enable #icHr:before'
-        + `{color:${frontColor}!important}`
 
         + '#virtualclassCont.congrea #virtualclassAppRightPanel .pre-check-btn'
         + `{background-image: linear-gradient(to bottom, ${allbg.fcolor} 0%,${allbg.scolor} 100%) !important ;color:${frontColor}!important} `;

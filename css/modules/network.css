@@ -1,15 +1,10 @@
 #virtualclassCont.congrea #networkStatusContainer {
-  width: 3.125rem;
-  height: 2.75rem;
-  float: right;
-  border-left: 1px solid rgba(254, 254, 254, 0.2) !important;
-  z-index: 1001;
+  padding: 11px 13px;
 }
 
 #virtualclassCont.congrea #proposedSpeed {
-  width: 1.5rem;
-  height: 1.5rem;
-  padding: .75rem;
+  width: 1.4375rem;
+  margin: 0 auto;
 }
 
 #virtualclassCont.congrea #proposedSpeed[data-suggestion='high'] svg path.signalthree,
@@ -88,10 +83,9 @@
 }
 
 #virtualclassCont.congrea #networkStatusContainer #connectingRoomIcon {
-  margin-top: 6px;
-  margin-right: 8px;
-  margin-left: 9px;
+  margin:0 auto;
   float: right;
+  padding-bottom: 10px;
 }
 
 #virtualclassCont.congrea #networkStatusContainer.connecting-room #connectingRoomIcon .icon-whiteboard #svg-spinner {
@@ -120,10 +114,6 @@
 
 #virtualclassCont.congrea.student #virtualclassAppRightPanel.vidHide #videoHostContainer {
   display: none !important;
-}
-
-#virtualclassCont.congrea #proposedSpeed #svgContainer {
-  margin-top: -2px;
 }
 
 #virtualclassCont.congrea #virtualclassApp.try-to-connect #virtualclassAppLeftPanel #virtualclassAppContainer #virtualclassEditorRich #virtualclassEditorRichBody .vceditor .CodeMirror {

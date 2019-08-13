@@ -14,8 +14,8 @@ div.ui-memblist-usr video {
   font-size: 14px;
   border: solid 1px #f3f3f3;
   border-radius: 30px;
-  width: 2.625rem;
-  height: 2.625rem;
+  width: 2.375rem;
+  height: 2.375rem;
   margin: 5px 5px 5px 2px;
   box-shadow: 0 0 2px rgb(96, 96, 97);
 }
@@ -111,10 +111,10 @@ div.ui-memblist-usr .user-details .media-object {
   font-size: 0.875rem;
   border: solid 1px #bbb;
   border-radius: 30px;
-  width: 2.625rem;
-  height: 2.625rem;
-  margin: 5px 5px 5px 2px;
-  line-height: 37px;
+  width: 2.375rem;
+  height: 2.375rem;
+  margin: 4px 5px 5px 2px;
+  line-height: 35px;
 }
 
 :host(.collapsedRightbar) div.ui-memblist-usr .user-details .media-object  {
@@ -310,7 +310,7 @@ span.icon-stdscreenImg[data-dcolor="green"]::before {
 /*** jquery.ui.chatbox. start HERE ***/
 
 .user-details .usern .media-heading {
-  color: #3585d5;
+  color: #1e2c30;
   letter-spacing: 0.5px;
 }
 
@@ -336,6 +336,10 @@ span.icon-stdscreenImg[data-dcolor="green"]::before {
   text-transform: capitalize;
 }
 
+#subchat div.ui-memblist-usr.teacher a span.chat-img {
+  background-color: #000 !important;
+}
+
 #subchat div.ui-memblist-usr .usern span {
   margin-left: 6px;
 }
@@ -353,12 +357,13 @@ span.icon-stdscreenImg[data-dcolor="green"]::before {
   border-bottom: 1px solid #ddd;
 }
 
-.ui-memblist-usr.mySelf {
+.ui-memblist-usr.teacher {
   pointer-events: none !important;
   position: absolute;
   top: 0;
   width: 98%;
-  background-image: linear-gradient(120deg, #fff 0%, #d1e8f6 100%);
+  background-color: #d6d6d6;
+  /* background-image: linear-gradient(120deg, #fff 0%, #cecece 100%); */
 }
 
 .text {
@@ -391,7 +396,7 @@ div.ui-memblist-usr {
 /** right-sidebar.css end **/
 div.ui-memblist-usr .user-details a .media-object {
   float: left;
-  line-height: 2.5rem;
+  line-height: 2.375rem;
 }
 
 .user-details a {

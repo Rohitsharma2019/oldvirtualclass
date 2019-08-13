@@ -276,7 +276,8 @@
 }
 
 #virtualclassCont.congrea #videoHostSource {
-  height: 240px;
+  height: auto;
+  width: 100%;
 }
 
 #pollModalBody #chartMenuCont .col-sm-1 #barView, #pollModalBody #chartMenuCont .col-sm-1 #piView, #pollModalBody #chartMenuCont .col-sm-1 #listView {
