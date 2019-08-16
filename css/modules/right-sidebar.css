@@ -85,8 +85,23 @@ body, html {
   min-height: 1px;
 }
 
-#virtualclassCont.congrea #virtualclassApp.openRightbar #rightSubContainer {
+#virtualclassCont.congrea #virtualclassApp #userInfo.techVideoShow #rightSubContainer {
   border-left: 1px solid #dfdfdf;
+}
+
+#virtualclassCont.congrea[device="mobile"] #virtualclassApp #userInfo.techVideoShow #rightSubContainer .ui-widget-content.ui-memblist-content,
+#virtualclassCont.congrea[device="mobile"] #virtualclassApp #userInfo.techVideoShow #rightSubContainer .ui-widget-content.ui-chatbox-content,
+#virtualclassCont.congrea[device="mobile"] #virtualclassApp #userInfo.techVideoShow #rightSubContainer .footerCtr {
+  display:none;
+}
+
+#virtualclassCont.congrea.student[device="mobile"] #virtualclassApp.openRightbar #virtualclassAppRightPanel #userInfo.showUserList #videoHostContainer, 
+#virtualclassCont.congrea.student[device="mobile"] #virtualclassApp.openRightbar #virtualclassAppRightPanel #userInfo.showChatList #videoHostContainer {
+  display: none;
+}
+
+#virtualclassCont.congrea.student[device="mobile"] #virtualclassApp.openRightbar #virtualclassAppRightPanel #userInfo.techVideo #videoHostContainer {
+  display: block;
 }
 
 /* #virtualclassCont.congrea #virtualclassApp.openRightbar #congreaChatMainCont{
@@ -575,6 +590,18 @@ body, html {
   position: relative;
   margin-left: 22px;
   font-size: .875rem;
+}
+
+#virtualclassCont.congrea #stickycontainer a.inner_bt span#tech_video {
+  line-height: 10px;
+}
+
+#virtualclassCont.congrea #stickycontainer a.inner_bt span#tech_video:before {
+  font-weight: normal;
+  content: "\e966";
+  font-size: 1.25rem;
+  font-family: 'icomoon';
+  color: #000;
 }
 
 #virtualclassCont.congrea #stickycontainer a.inner_bt span#usertab_text:before {

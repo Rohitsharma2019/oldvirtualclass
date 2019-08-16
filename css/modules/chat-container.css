@@ -361,7 +361,7 @@ span.icon-stdscreenImg[data-dcolor="green"]::before {
   pointer-events: none !important;
   position: absolute;
   top: 0;
-  width: 98%;
+  width: 100%;
   background-color: #d6d6d6;
   /* background-image: linear-gradient(120deg, #fff 0%, #cecece 100%); */
 }
@@ -538,4 +538,8 @@ div.ui-memblist-usr .user-details a .media-object {
 
 :host(.collapsedRightbar) #subchat .ui-memblist-usr .controls {
   display: none;
+}
+
+#subchat {
+  padding-top: 50px;
 }

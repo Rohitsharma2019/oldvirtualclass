@@ -32,16 +32,17 @@
       const setting = document.querySelector('#appSettingCtrl');
       const settingD = document.querySelector('#virtualclassCont.congrea #appSettingDetail');
       const chat = document.querySelector('#virtualclassCont.congrea #rightSubContainer');
-
+      const techVideo = document.querySelector('#virtualclassCont.congrea #techVideo');
+      const userInfo =document.querySelector('#userInfo');
 
       $('#chatroom_bt2 .inner_bt').click(() => {
-        if(virtualclass.gObj.hideRightbar == "true" || virtualclass.gObj.hideRightbar == true) {
-          virtualclass.vutil.switchRightbar();
-          virtualclass.gObj.hideRightbar = false;
-        }
         const vmchat_room_bt = document.querySelector('#rightSubContainer .vmchat_room_bt');
-        chatroom_bt2.classList.add('active');
         user_list.classList.remove('active');
+        techVideo.classList.remove('active');
+        chatroom_bt2.classList.add('active');
+        userInfo.classList.add('showChatList');
+        userInfo.classList.remove('techVideoShow');
+        userInfo.classList.remove('showUserList');
 
         // $('#chatroom_bt2').addClass('active');
         // $('#user_list').removeClass('active');
@@ -119,12 +120,25 @@
         }
       });
 
+      $('#techVideo').click(function () {
+        chatroom_bt2.classList.remove('active');
+        user_list.classList.remove('active');
+        techVideo.classList.add('active');
+        userInfo.classList.remove('showUserList');
+        userInfo.classList.remove('showChatList');
+        userInfo.classList.add("techVideoShow");
+      })
+
       $('#user_list').click(function () {
         // $('#chatroom_bt2').removeClass('active');
         chatroom_bt2.classList.remove('active');
+        techVideo.classList.remove('active');
         // $('#congreaSupport').removeClass('active');
         // $('#user_list').addClass('active');
         user_list.classList.add('active');
+        userInfo.classList.add('showUserList');
+        userInfo.classList.remove('techVideoShow');
+        userInfo.classList.remove('showChatList');
         const setting = document.getElementById('appSettingCtrl');
         const chat = document.getElementById('rightSubContainer');
         const settingD = document.getElementById('appSettingDetail');

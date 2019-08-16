@@ -294,8 +294,7 @@
         + `{background-image: radial-gradient(ellipse at center, ${hover.fcolor} 0%,${hover.scolor} 100%) !important}`
 
         + '#virtualclassCont.congrea .vmchat_support.active ,'
-        + '#virtualclassCont.congrea #virtualclassApp.openRightbar #virtualclassAppRightPanel #audioWidget .settingActive,'
-        + '#virtualclassCont.congrea #virtualclassAppRightPanel #stickycontainer .handRaise.disable'
+        + '#virtualclassCont.congrea #virtualclassApp.openRightbar #virtualclassAppRightPanel #audioWidget .settingActive'
         + `{background-image: radial-gradient(ellipse at center, ${active.fcolor} 0%,${active.scolor} 100%) !important}`
 
         + '#virtualclassCont.congrea #virtualclassAppRightPanel #appSettingCtrlAnchor span'

@@ -35,7 +35,6 @@
 
 #virtualclassCont.student #virtualclassAppContainer {
   flex: 1;
-  height: calc(100% - 44px);
 }
 
 #virtualclassCont.congrea.orginalTeacher #virtualclassAppContainer {
@@ -61,7 +60,7 @@
 }
 
 #virtualclassCont.congrea.student .canvasWrapper {
-  height: calc(100vh - 44px);
+  height: 100%;
 }
 
 #virtualclassCont.congrea.student.playMode .canvasWrapper {
@@ -102,23 +101,6 @@ and (max-device-width: 1024px) {
   #virtualclassCont.congrea.fullScreenMode #chat_div {
     height: calc(100vh - 388px);
   } */
-
-
-  #virtualclassCont.congrea.student .canvasWrapper {
-    height: calc(100vh - var(--vh-offset) - 44px);
-  }
-
-  #virtualclassCont.congrea.student.fullScreenMode .canvasWrapper {
-    height: calc(100vh - 44px);
-  }
-
-  #virtualclassCont.congrea.student.playMode .canvasWrapper {
-    height: calc(100vh - var(--vh-offset) - 92px);
-  }
-
-  #virtualclassCont.congrea.student.playMode.fullScreenMode .canvasWrapper {
-    height: calc(100vh - 92px);
-  }
 
   #virtualclassCont.congrea.fullscreenMode #docMsgStudent {
     margin: 40vh;

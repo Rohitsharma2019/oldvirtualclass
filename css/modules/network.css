@@ -80,6 +80,7 @@
 
 #virtualclassCont.congrea #networkStatusContainer #connectingRoomIcon .icon-whiteboard #svg-spinner {
   display: none;
+  width: 25px;
 }
 
 #virtualclassCont.congrea #networkStatusContainer #connectingRoomIcon {
@@ -106,10 +107,6 @@
   100% {
     transform: rotate(360deg);
   }
-}
-
-#virtualclassCont.congrea.student #virtualclassApp.openRightbar #virtualclassAppRightPanel.vidShow #videoHostContainer {
-  display: block !important;
 }
 
 #virtualclassCont.congrea.student #virtualclassAppRightPanel.vidHide #videoHostContainer {

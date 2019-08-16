@@ -1,4 +1,12 @@
 <ul class="chatBarTab nav navbar-nav">
+
+  <li class="vmchat_bar_button" id="techVideo" >
+    <a class="inner_bt congtooltip"  data-title="{{getString 'instructorVideo'}}">
+      <span id="tech_video">
+      </span>
+    </a>
+  </li>
+
     {{#if control}}
     <li class="vmchat_bar_button  active" id="user_list" >
       <a class="inner_bt congtooltip"  data-title="{{getString 'userList'}}">
@@ -9,7 +17,6 @@
       {{!-- <a class="rHandNotify hand_bt">
         <span id="rhtab_text"><span id="notifyText" class="cgText"></span></span>
       </a> --}}
-
     </li>
       {{else}}
       <li class="vmchat_bar_button congtooltip  active" id="user_list" data-title="{{getString 'userList'}}">
