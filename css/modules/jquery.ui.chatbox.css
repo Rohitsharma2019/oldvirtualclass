@@ -105,6 +105,10 @@
   margin-top: 6px;
 }
 
+#virtualclassCont.congrea .ui-chatbox-msg .commonChatCon p.text {
+  margin-bottom: 6px;
+}
+
 #virtualclassCont.congrea .ui-chatbox-msg .commonChatCon .text {
   word-break: break-word;
   padding: 2px;
@@ -739,7 +743,7 @@ virtualclassCont.congrea.playMode.student .ui-chatroom {
 }
 
 #virtualclassCont.congrea #chat_room .text-muted {
-  color: #bbb;
+  color: #6b6b6b;
   margin-right: 7px;
 }
 
@@ -749,7 +753,7 @@ virtualclassCont.congrea.playMode.student .ui-chatroom {
 }
 
 #virtualclassCont.congrea .commonChatCon .primary-font {
-  color: #3585d5;
+  color: #19282c;
   letter-spacing: 0.5px;
   font-size: 13px;
   text-transform: capitalize;
@@ -765,7 +769,7 @@ virtualclassCont.congrea.playMode.student .ui-chatroom {
 }
 
 #virtualclassCont.congrea .commonChatCon {
-  margin-left: 55px;
+  margin-left: 48px;
 }
 
 #virtualclassCont.congrea .Search {

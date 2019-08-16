@@ -1019,23 +1019,6 @@ body .ui-tooltip {
   text-decoration: none;
 }
 
-/* Interaction Cues
-----------------------------------*/
-.ui-state-highlight,
-.ui-widget-content .ui-state-highlight,
-.ui-widget-header .ui-state-highlight {
-  background: #d8e496; /* Old browsers */
-
-  background: -moz-linear-gradient(top, #d8e496 0%, #d8e496 100%) !important; /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #d8e496), color-stop(100%, #d8e496)) !important; /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(top, #d8e496 0%, #d8e496 100%) !important; /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(top, #d8e496 0%, #d8e496 100%) !important; /* Opera 11.10+ */
-  background: -ms-linear-gradient(top, #d8e496 0%, #d8e496 100%) !important; /* IE10+ */
-  background: linear-gradient(to bottom, #d8e496 0%, #d8e496 100%) !important; /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#d8e496', endColorstr='#d8e496', GradientType=0) !important; /* IE6-9 */
-  /*border: 1px solid #aaaaaa !important;*/
-}
-
 .ui-state-hover,
 .ui-widget-content .ui-state-hover,
 .ui-widget-header .ui-state-hover {
@@ -1925,14 +1908,6 @@ body .ui-tooltip {
 .ui-widget-content .ui-state-highlight,
 .ui-widget-header .ui-state-highlight {
   color: #000;
-  background: #d8e496; /* Old browsers */
-  background: -moz-linear-gradient(top, #d8e496 0%, #d8e496 100%); /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #d8e496), color-stop(100%, #d8e496)); /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(top, #d8e496 0%, #d8e496 100%); /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(top, #d8e496 0%, #d8e496 100%); /* Opera 11.10+ */
-  background: -ms-linear-gradient(top, #d8e496 0%, #d8e496 100%); /* IE10+ */
-  background: linear-gradient(to bottom, #53a93f 0%, #53a93f 100%) !important;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#d8e496', endColorstr='#d8e496', GradientType=0); /* IE6-9 */
   /*border: 1px solid #aaaaaa !important;*/
 }
 

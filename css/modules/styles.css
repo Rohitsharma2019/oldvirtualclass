@@ -494,21 +494,22 @@
 }
 
 #virtualclassCont.congrea #fixedRight .congtooltip:hover:after {
-  right: 55px !important;
+  right: 51px !important;
 }
 
 #virtualclassCont.congrea #fixedRight #footerButtons #recording::after {
-  bottom: 18px;
+  top: 0;
 }
 
 #virtualclassCont.congrea .congtooltip:hover:after {
   background: #000;
-  border: #ccc solid 1px;
+  border: #252525 solid 1px;
+  border-radius: 6px;
   border-radius: 0.25em;
   bottom: 2.6em;
   content: attr(data-title);
   display: block;
-  padding: 0.52em 0.55em;
+  padding: 0.32em 0.55em;
   position: absolute;
   white-space: nowrap;
   z-index: 100;
@@ -3047,7 +3048,7 @@
 }
 
 #virtualclassCont.congrea #audioWidget .nav > li#speakerPressOnce > a {
-  padding: 13px 15px 12px 15px !important;
+  padding: .8125rem .9375rem  .75rem .9375rem !important;
   width: 100%;
   float: left;
 }
@@ -3579,7 +3580,7 @@
 }
 
 #virtualclassCont.congrea .whiteboardContainer .commandToolsWrapper .tool .congtooltip:hover:after {
-  bottom: -30px !important;
+  bottom: -31px !important;
   left: 0em;
 }
 
@@ -4001,14 +4002,33 @@
 }
 
 #virtualclassCont.congrea #chat_room li .chat-user-icon {
-  width: 40px;
-  height: 40px;
+  width: 2.375rem;
+  height: 2.375rem;
   border-radius: 30px;
   text-align: center;
-  padding-top: 11px;
   margin-top: 6px;
   font-size: 14px;
   opacity: .8;
+}
+
+#virtualclassCont.congrea #chat_room li .chat-user-icon .chat-img {
+  line-height: 2.375rem;
+  font-size: .78rem;
+}
+
+li.ui-state-highlight span.icon-chatroom.cgIcon::after {
+  content: "\e939";
+  font-weight: normal;
+  font-size: 30px;
+  font-family: 'icomoon';
+  color: green;
+  position: absolute;
+  top: -19px;
+  right: -21px;
+}
+
+li.ui-state-highlight #chatroom_icon {
+  position: relative;
 }
 
 #virtualclassCont.congrea.playMode #networkStatusContainer {
@@ -4480,8 +4500,15 @@ and (max-device-width: 1024px) {
   color: #fff;
   cursor: pointer;
 }
+
+#virtualclassCont.congrea #fullScreenButton .congtooltip.fullScreen:hover:after ,
+#virtualclassCont.congrea #fullScreenExitButton .congtooltip:hover:after {
+  bottom: 19px;
+  right: 58px !important;
+}
+
 #virtualclassCont.congrea #fullScreenButton .fullScreen, #virtualclassCont.congrea #fullScreenExitButton [data-title="Exit Full Screen"] {
-  padding: 12px 18px;
+  padding: .75rem 1.125rem;
 }
 
 #virtualclassCont.congrea.playMode #fullScreenButton, #virtualclassCont.congrea.playMode #fullScreenExitButton {
@@ -4510,7 +4537,7 @@ and (max-device-width: 1024px) {
 #virtualclassCont #recording {
   color: #fff;
   z-index: 1000;
-  padding: 8px 16px;
+  padding: .5rem 1rem;
   border-right: 0.01em solid #021317 !important;
   cursor: pointer;
   font-size: 13px;

@@ -328,7 +328,6 @@
 }
 
 #virtualclassCont.congrea #virtualclassApp.collapsedRightbar #virtualclassAppRightPanel .active #speakerPressingbtnIcon:before {
-  color: #191919 !important;
   content: "\e9ad";
   font-size: 19px;
 }
@@ -361,7 +360,7 @@
   color: #fff !important;
 }
 
-#virtualclassCont.congrea #virtualclassApp.openRightbar #virtualclassAppRightPanel .deactive #speakerPressingbtnIcon.silenceDetect[data-silence-detect="stop"]::after {
+#virtualclassCont.congrea #virtualclassApp #virtualclassAppRightPanel .deactive #speakerPressingbtnIcon.silenceDetect[data-silence-detect="stop"]::after {
   content: "\f00e";
   font-weight: normal;
   font-size: .875rem;
@@ -714,7 +713,7 @@
   color: #fff;
 }
 
-#virtualclassCont.congrea #virtualclassApp.openRightbar #virtualclassAppRightPanel span#videoSwitch.video.off:after {
+#virtualclassCont.congrea #virtualclassApp #virtualclassAppRightPanel span#videoSwitch.video.off:after {
   content: "\f00e";
   font-weight: normal;
   font-size: .875rem;
@@ -723,11 +722,6 @@
   position: absolute;
   top: -1px;
   right: -11px;
-}
-
-#virtualclassCont.congrea #virtualclassApp.collapsedRightbar #virtualclassAppRightPanel span#videoSwitch.video.off:before {
-  color: #fff !important;
-  font-size: 1.25rem;
 }
 
 #virtualclassCont.congrea.nowebcam #virtualclassAppRightPanel span#videoSwitch.video.on:before {

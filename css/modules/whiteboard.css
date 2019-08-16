@@ -216,7 +216,7 @@
 /*}*/
 
 #virtualclassCont.congrea .shapesToolbox[data-currTool="shapes"] .shapes_icon a.congtooltip:hover::after {
-  bottom: -30px;
+  bottom: -31px;
   left: 0;
 }
 
