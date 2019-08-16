@@ -340,10 +340,6 @@ and (max-device-width: 1024px) {
   #virtualclassCont.congrea[device="mobile"] #virtualclassAppLeftPanel #congrealogo img {
     height: 26px;
   }
-
-  #virtualclassCont.congrea #rightSubContainer .chatBarTab {
-    width: 35%;
-  }
 }
 
 @media only screen

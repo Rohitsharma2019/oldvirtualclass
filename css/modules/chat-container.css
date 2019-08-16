@@ -384,7 +384,6 @@ span.icon-stdscreenImg[data-dcolor="green"]::before {
 
 /** right-sidebar.css start **/
 div.ui-memblist-usr {
-  height: 50px;
   clear: both;
 }
 

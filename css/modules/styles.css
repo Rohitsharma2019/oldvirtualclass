@@ -2408,14 +2408,17 @@
 
 #virtualclassCont.congrea #virtualclassAppRightPanel {
   flex: 1 0 auto;
-  width: 35%;
-  max-width: 360px;
-  min-width: 230px;
   height: 100%;
   border-left: 1px solid #bbb;
   position: relative;
   display: flex;
   flex-direction: row;
+}
+
+#virtualclassCont.congrea #virtualclassApp.openRightbar #virtualclassAppRightPanel {
+  width: 35%;
+  max-width: 360px;
+  min-width: 230px;
 }
 
 #virtualclassCont.congrea #virtualclassApp.collapsedRightbar #virtualclassAppRightPanel #userInfo  {
@@ -3274,8 +3277,8 @@
 }
 
 #virtualclassCont.congrea[device="mobile"] .zoomControler {
-  bottom:87px;
-  right:18px;
+  bottom: 46px;
+  right: 18px;
 }
 
 #virtualclassCont.congrea.playMode.student .zoomControler {
