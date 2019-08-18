@@ -500,7 +500,7 @@ body, html {
 }
 
 #virtualclassCont.congrea .settingActive .setting-btn:before {
-  content: "\e606";
+  content: "\e935";
   font-weight: normal;
   font-size: 1.5rem;
   font-family: 'icomoon';

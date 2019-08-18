@@ -897,8 +897,8 @@
 }
 
 #virtualclassApp .icon-sidebarButton:before {
-  content: "\e9ac";
+  content: "\e606";
   font-weight: normal;
   font-family: 'icomoon';
-  font-size: 1.125rem;
+  font-size: 14px;
 }

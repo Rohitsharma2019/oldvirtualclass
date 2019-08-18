@@ -502,7 +502,7 @@
 }
 
 #virtualclassCont.congrea .congtooltip:hover:after {
-  background: #000;
+  background: rgba(0,0,0,.8);
   border: #252525 solid 1px;
   border-radius: 6px;
   border-radius: 0.25em;
@@ -2429,7 +2429,8 @@
   width: 100%;
   display: flex;
   flex-direction: column;
-  background-color: rgba(119, 116, 116, 0.1);
+  /* background-color: rgba(119, 116, 116, 0.1); */
+  background-image: linear-gradient(to bottom, rgba(1,7,9,.05) 0%,rgba(1,7,9,.05) 100%) !important;
 }
 
 #virtualclassCont.congrea #virtualclassAppRightPanel #fixedRight {
@@ -4715,12 +4716,13 @@ and (max-device-width: 1024px) {
 
 #virtualclassCont #virtualclassApp #virtualclassAppLeftPanel #sidebarButton {
 	position: absolute;
-	top: 48px;
+	top: 50vh;
 	right: 0;
   cursor: pointer;
-  background-color: #f7f7f7;
+  background-image: linear-gradient(to bottom, rgba(1,7,9,.8) 0%,rgba(1,7,9,.8) 100%) !important;
   box-shadow: 0 0 3px rgb(177, 177, 177);
   border-bottom-left-radius: 6px;
+  border-top-left-radius: 6px;
   z-index:1000;
 }
 
@@ -4734,7 +4736,12 @@ and (max-device-width: 1024px) {
 }
 
 #virtualclassCont #virtualclassAppLeftPanel #sidebarButton .sidebarButton {
-	padding: .8125rem;
+  padding: 6px;
+  transform: rotate(90deg);
+}
+
+#virtualclassCont #virtualclassApp.collapsedRightbar #sidebarButton .sidebarButton {
+  transform: rotate(270deg);
 }
 
 #virtualclassCont[data-currapp="ScreenShare"] #virtualclassApp.openRightbar #virtualclassAppLeftPanel #sidebarButton .sidebarButton {
