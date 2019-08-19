@@ -3280,7 +3280,7 @@
 
 #virtualclassCont.congrea[device="mobile"] .zoomControler {
   bottom: 46px;
-  right: 18px;
+  right: 25px;
 }
 
 #virtualclassCont.congrea.playMode.student .zoomControler {
@@ -4721,10 +4721,11 @@ and (max-device-width: 1024px) {
 	top: 50vh;
 	right: 0;
   cursor: pointer;
-  background-image: linear-gradient(to bottom, rgba(1,7,9,.8) 0%,rgba(1,7,9,.8) 100%) !important;
+  background-image: linear-gradient(to bottom, #021317 0%,#2c393d 100%);
+  /* background-image: linear-gradient(to bottom, rgba(1,7,9,.8) 0%,rgba(1,7,9,.8) 100%) !important; */
   box-shadow: 0 0 3px rgb(177, 177, 177);
-  border-bottom-left-radius: 6px;
-  border-top-left-radius: 6px;
+  border-bottom-left-radius: 37px;
+  border-top-left-radius: 37px;
   z-index:1000;
 }
 
@@ -4733,17 +4734,21 @@ and (max-device-width: 1024px) {
 }
 
 #virtualclassCont.congrea.student #virtualclassApp #virtualclassAppLeftPanel #sidebarButton {
-  top: 0;
+  top: 50vh;
   right: 0;
 }
 
 #virtualclassCont #virtualclassAppLeftPanel #sidebarButton .sidebarButton {
-  padding: 6px;
+  padding: 15px 2px;
+  right: 2px;
   transform: rotate(90deg);
 }
 
 #virtualclassCont #virtualclassApp.collapsedRightbar #sidebarButton .sidebarButton {
   transform: rotate(270deg);
+  position: relative;
+  left: 5px;
+  top: -1px;
 }
 
 #virtualclassCont[data-currapp="ScreenShare"] #virtualclassApp.openRightbar #virtualclassAppLeftPanel #sidebarButton .sidebarButton {
@@ -4817,7 +4822,43 @@ and (max-device-width: 1024px) {
   #virtualclassCont.congrea #preCheckcontainer.bootstrap .modal-dialog {
     width: 870px !important;
   }
+  #virtualclassCont.congrea[d
+/* ======== MEDIA FOR MOBILE ========== */
+@media only screen and (min-device-width: 320px) and (max-device-width: 1024px) {
+  #virtualclassCont.congrea #preCheckcontainer.bootstrap .modal-dialog {
+    width: 870px !important;
+ bile"] #virtualclassApp #virtualclassAppLeftPanel #sidebarButton {
+    position: absolute;
+    top: 50%;
+    right: -10px;
+    transform: translate(-50%
+/* ======== MEDIA FOR MOBILE ========== */
+@media only screen and (min-device-width: 320px) and (max-device-width: 1024px) {
+  #virtualclassCont.congrea #preCheckcontainer.bootstrap .modal-dialog {
+    width: 870px !important;
+ 
 }
+  #virtualclassCont.congrea[d
+/* ======== MEDIA FOR MOBILE ========== */
+@media only screen and (min-device-width: 320px) and (max-device-width: 1024px) {
+  #virtualclassCont.congrea #preCheckcontainer.bootstrap .modal-dialog {
+    width: 870px !important;
+ bile"] #virtualclassAppLeftPanel #sidebarButton .sidebarButton {
+    padding: 0.7rem 0.125rem;
+/* ======== MEDIA FOR MOBILE ========== */
+@media only screen and (min-device-width: 320px) and (max-device-width: 1024px) {
+  #virtualclassCont.congrea #preCheckcontainer.bootstrap .modal-dialog {
+    width: 870px !important;
+ 
+    right: 1px;
+  
+  }
+  #virtualclassApp .icon-sidebarButton:before {
+    font-size: 1rem;
+}
+
+
+
 /* ======== Firefox ========== */
 
 @-moz-document url-prefix() {
