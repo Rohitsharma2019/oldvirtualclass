@@ -4526,7 +4526,7 @@ and (max-device-width: 1024px) {
 }
 
 #virtualclassCont.congrea #fullScreenButton .fullScreen, #virtualclassCont.congrea #fullScreenExitButton [data-title="Exit Full Screen"] {
-  padding: .75rem 1.125rem;
+  padding: .75rem .9rem;
 }
 
 #virtualclassCont.congrea.playMode #fullScreenButton, #virtualclassCont.congrea.playMode #fullScreenExitButton {

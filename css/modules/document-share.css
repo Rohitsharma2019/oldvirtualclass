@@ -996,10 +996,48 @@
   display: none
 }
 
-#virtualclassCont.congrea[data-currapp = 'DocumentShare'].teacher #docShareNav, #virtualclassCont.congrea[data-currapp = 'Whiteboard'].teacher #docShareNav {
-  display: none;
-  padding: 12.5px 16px 13.5px 16px;
-  float: left;
+#virtualclassCont.congrea[data-currapp='DocumentShare'].teacher .collapsedRightbar #docShareNav,
+#virtualclassCont.congrea[data-currapp='Whiteboard'].teacher .collapsedRightbar #docShareNav {
+  display: block;
+  z-index: 150;
+  position: fixed;
+  top: 50px;
+  right: 58px;
+  border: 0.5px #848484 dashed;
+  padding: 5.5px 8px 5.5px 8px;
+}
+
+#virtualclassCont.congrea[data-currapp='DocumentShare'].student .collapsedRightbar #docShareNav,
+#virtualclassCont.congrea[data-currapp='Whiteboard'].student .collapsedRightbar #docShareNav {
+  display: block;
+  z-index: 150;
+  position: fixed;
+  top: 2px;
+  right: 58px;
+  border: 0.5px #848484 dashed;
+  padding: 5.5px 8px 5.5px 8px;
+}
+
+#virtualclassCont.congrea[data-currapp='DocumentShare'].teacher .openRightbar #docShareNav,
+#virtualclassCont.congrea[data-currapp='Whiteboard'].teacher .openRightbar #docShareNav {
+  display: block;
+  z-index: 150;
+  position: fixed;
+  top: 50px;
+  right: 370px;
+  border: 0.5px #848484 dashed;
+  padding: 5.5px 8px 5.5px 8px;
+}
+
+#virtualclassCont.congrea[data-currapp='DocumentShare'].student .openRightbar #docShareNav,
+#virtualclassCont.congrea[data-currapp='Whiteboard'].student .openRightbar #docShareNav {
+  display: block;
+  z-index: 150;
+  position: fixed;
+  top: 2px;
+  right: 370px;
+  border: 0.5px #848484 dashed;
+  padding: 5.5px 8px 5.5px 8px;
 }
 
 #virtualclassCont.congrea[data-currapp = 'DocumentShare'].teacher #docShareNav {
@@ -1037,14 +1075,14 @@
 }
 
 .congrea #stdPageNo {
-  color: white;
+  color: #5a5a5a !important;
   font-size: .875rem;
 }
 
 .congrea #totalPages {
-  color: #fff;
-  font-size: 14px;
-  margin-right: 13px;
+  color: #5a5a5a !important;
+  font-size: 0.86rem;
+  margin-right: 5px;
 }
 
 #virtualclassCont.congrea.student #totalPages, #virtualclassCont.congrea[data-currapp = 'DocumentShare'] #totalPages {
@@ -1104,9 +1142,9 @@
 
 #virtualclassCont.congrea .pageHead {
   position: relative;
-  color: #fff;
-  margin-right: 10px;
-  font-size: .875rem;
+  color: #5a5a5a;
+  margin-right: 3px;
+  font-size: 0.86rem;
 }
 
 #virtualclassCont.congrea #ancCont, #virtualclassCont.congrea #pageAnc {
@@ -1114,14 +1152,14 @@
 }
 
 #virtualclassCont.congrea .icon-newPage {
-  color: white;
+  color: black;
   display: inline-block;
   cursor: pointer;
 }
 
 #virtualclassCont.congrea #pageAnc {
-  color: #fff;
-  font-size: 14px;
+  color: #5a5a5a;
+  font-size: 0.86rem;
 }
 
 #virtualclassCont.congrea .icon-newPage:after {
