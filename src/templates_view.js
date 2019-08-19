@@ -529,6 +529,8 @@ this["JST"]["dest_temp/templates/main.hbs"] = Handlebars.template({"1":function(
   return ((stack1 = container.invokePartial(partials.precheck,depth0,{"name":"precheck","data":data,"helpers":helpers,"partials":partials,"decorators":container.decorators})) != null ? stack1 : "")
     + " "
     + ((stack1 = container.invokePartial(partials.joinclass,depth0,{"name":"joinclass","data":data,"helpers":helpers,"partials":partials,"decorators":container.decorators})) != null ? stack1 : "")
+    + " "
+    + ((stack1 = container.invokePartial(partials.mobileWarning,depth0,{"name":"mobileWarning","data":data,"helpers":helpers,"partials":partials,"decorators":container.decorators})) != null ? stack1 : "")
     + " <div id=\"virtualclassApp\" class=\"openRightbar\" style=\"display: flex;\" class=\"try-to-connect\"> "
     + ((stack1 = helpers["if"].call(depth0 != null ? depth0 : (container.nullContext || {}),(depth0 != null ? depth0.isPlay : depth0),{"name":"if","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
     + " "

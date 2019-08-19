@@ -11,9 +11,9 @@ const gesture = {
     joinClass.className = 'modal in';
 
     const virtualclassApp = document.querySelector('#virtualclassCont #virtualclassApp');
-    if (virtualclassApp != null) {
-      virtualclassApp.style.display = 'none';
-    }
+    // if (virtualclassApp != null) {
+    //   virtualclassApp.style.display = 'none';
+    // }
     const joinClassButton = document.querySelector('#joinClassModal .joinClasscontainer button');
     if (joinClassModal) {
       joinClassModal.addEventListener('click', () => {

@@ -1368,6 +1368,7 @@
         Handlebars.registerPartial({
           docNotesMain: this.getTemplate('notesMain', 'documentSharing'),
           whiteboardToolbar: this.getTemplate('toolbar', 'whiteboard'),
+          mobileWarning: this.getTemplate('mobileWarning'),
           rightBar: this.getTemplate('rightBar'),
           recordingControl: this.getTemplate('recordingControl'),
           leftBar: this.getTemplate('leftBar'),

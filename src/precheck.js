@@ -32,9 +32,9 @@ const preCheck = {
     }
 
     const virtualclassApp = document.querySelector('#virtualclassCont #virtualclassApp');
-    if (virtualclassApp != null) {
-      virtualclassApp.style.display = 'none';
-    }
+    // if (virtualclassApp != null) {
+    //   virtualclassApp.style.display = 'none';
+    // }
 
     this.startToCheckWholeSytem();
     // console.log('Precheck init skip');

@@ -2351,6 +2351,7 @@
 
 #virtualclassCont.congrea #preCheckcontainer .modal {
   background-color: #555558;
+  z-index: 10001;
 }
 
 #virtualclassCont.congrea #vcBandWidthCheck .result {
@@ -2536,7 +2537,7 @@
 
 #virtualclassCont.congrea .modal {
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: #555558;
   margin-left: 0;
   z-index: 999;
 }
@@ -4689,6 +4690,7 @@ and (max-device-width: 1024px) {
 
 #virtualclassCont.congrea .canvasWrapper::-webkit-scrollbar {
   width: 6px;
+  height: 6px;
 }
 
 #virtualclassCont.congrea .ui-chatroom::-webkit-scrollbar {
@@ -4806,13 +4808,16 @@ and (max-device-width: 1024px) {
   display: block;
 }
 
+#virtualclassCont .mobileWarning {
+  display: none; 
+}
+
 /* ======== MEDIA FOR MOBILE ========== */
 @media only screen and (min-device-width: 320px) and (max-device-width: 1024px) {
   #virtualclassCont.congrea #preCheckcontainer.bootstrap .modal-dialog {
     width: 870px !important;
   }
-
-
+}
 /* ======== Firefox ========== */
 
 @-moz-document url-prefix() {
@@ -4850,4 +4855,19 @@ and (max-device-width: 900px) {
     font-size: 15px;
     letter-spacing: .8px !important;
   }
+}
+
+@media only screen and (orientation:portrait){
+
+  #virtualclassCont.congrea .mobileWarning {
+    display:block;
+    height: 100%;
+    background-color: #000;
+    color: #fff;
+  }
+
+  #joinClass {
+    display:none;
+  }
+
 }
