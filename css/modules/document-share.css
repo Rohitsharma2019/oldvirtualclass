@@ -1016,7 +1016,7 @@
   box-shadow: 0 2px 5px -2px #585857;
 }
 
-#virtualclassCont.congrea[data-currapp='DocumentShare'].teacher .collapsedRightbar #docShareNav,
+/* #virtualclassCont.congrea[data-currapp='DocumentShare'].teacher .collapsedRightbar #docShareNav,
 #virtualclassCont.congrea[data-currapp='Whiteboard'].teacher .collapsedRightbar #docShareNav {
   display: block;
   z-index: 150;
@@ -1025,44 +1025,44 @@
   right: 65px;
   /* border: 0.5px #848484 dashed; */
   padding: 5.5px 8px 5.5px 8px;
-}
+} */
 
-#virtualclassCont.congrea[data-currapp='DocumentShare'].student .collapsedRightbar #docShareNav,
+/* #virtualclassCont.congrea[data-currapp='DocumentShare'].student .collapsedRightbar #docShareNav,
 #virtualclassCont.congrea[data-currapp='Whiteboard'].student .collapsedRightbar #docShareNav {
   display: block;
   z-index: 150;
   position: fixed;
   bottom: 7px;
-  right: 370px;
+  right: 70px;
   /* border: 0.5px #848484 dashed; */
   padding: 5.5px 8px 5.5px 8px;
+} */
+
+#virtualclassCont.congrea #docShareNav {
+  display: none;
 }
 
-#virtualclassCont.congrea[data-currapp='DocumentShare'].teacher .openRightbar #docShareNav,
-#virtualclassCont.congrea[data-currapp='Whiteboard'].teacher .openRightbar #docShareNav {
+#virtualclassCont.congrea[data-currapp='DocumentShare'] #docShareNav,
+#virtualclassCont.congrea[data-currapp='Whiteboard'] #docShareNav {
   display: block;
   z-index: 150;
-  position: fixed;
+  position: absolute;
   bottom: 7px;
-  right: 370px;
+  left: -106px;
   /* border: 0.5px #848484 dashed; */
   padding: 5.5px 8px 5.5px 8px;
 }
 
-#virtualclassCont.congrea[data-currapp='DocumentShare'].student .openRightbar #docShareNav,
+/* #virtualclassCont.congrea[data-currapp='DocumentShare'].student .openRightbar #docShareNav,
 #virtualclassCont.congrea[data-currapp='Whiteboard'].student .openRightbar #docShareNav {
   display: block;
   z-index: 150;
   position: fixed;
   bottom: 7px;
-  right: 370px;
+  right: 70px;
   /* border: 0.5px #848484 dashed; */
-  padding: 5.5px 8px 5.5px 8px;
-}
-
-#virtualclassCont.congrea[data-currapp = 'DocumentShare'].teacher #docShareNav {
-  display: none;
-}
+  /* padding: 5.5px 8px 5.5px 8px; */
+} */
 
 #virtualclassCont.congrea #docShareNav #leftNavPage:before {
   content: "\e98e";
@@ -1074,11 +1074,6 @@
   content: "\e992";
   font-family: 'icomoon';
   font-size: 14px;
-}
-
-#virtualclassCont.congrea[data-currapp = 'DocumentShare'].student #docShareNav,
-#virtualclassCont.congrea[data-currapp = 'Whiteboard'].student #docShareNav {
-  display: none;
 }
 
 #virtualclassCont.congrea[data-currapp = 'DocumentShare'].student #docShareNav {

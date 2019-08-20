@@ -142,6 +142,7 @@ body, html {
 
 #virtualclassCont .footerCtr input[type=text], #virtualclassCont .footerCtr input#ta_chrm2 {
   width: 95%;
+  height: 1.875rem;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
   box-sizing: border-box;
   border: 1px solid #4b5863b3;
@@ -594,6 +595,7 @@ body, html {
 
 #virtualclassCont.congrea #stickycontainer a.inner_bt span#tech_video {
   line-height: 10px;
+  position: relative;
 }
 
 #virtualclassCont.congrea #stickycontainer a.inner_bt span#tech_video:before {
@@ -602,6 +604,17 @@ body, html {
   font-size: 1.25rem;
   font-family: 'icomoon';
   color: #000;
+}
+
+#virtualclassCont.congrea #virtualclassAppRightPanel.vidShow #stickycontainer a.inner_bt span#tech_video::after {
+  content: "\e939";
+  font-weight: normal;
+  font-size: 1.875rem;
+  font-family: 'icomoon';
+  color: green;
+  position: absolute;
+  top: -6px;
+  right: -16px;
 }
 
 #virtualclassCont.congrea #stickycontainer a.inner_bt span#usertab_text:before {

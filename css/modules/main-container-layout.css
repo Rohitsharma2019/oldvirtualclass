@@ -332,6 +332,10 @@ and (max-device-width: 900px) {
     line-height: unset !important;
   }
 
+  #virtualclassCont[device="mobile"] #virtualclassAppLeftPanel #sidebarButton .sidebarButton {
+    padding: 14px 1px;
+  }
+
   #virtualclassCont.congrea[device="mobile"] #virtualclassPreCheck #preCheckcontainer .modal-dialog.modal-lg {
     width: 90%;
   }
