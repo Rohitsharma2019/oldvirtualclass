@@ -4822,43 +4822,7 @@ and (max-device-width: 1024px) {
   #virtualclassCont.congrea #preCheckcontainer.bootstrap .modal-dialog {
     width: 870px !important;
   }
-  #virtualclassCont.congrea[d
-/* ======== MEDIA FOR MOBILE ========== */
-@media only screen and (min-device-width: 320px) and (max-device-width: 1024px) {
-  #virtualclassCont.congrea #preCheckcontainer.bootstrap .modal-dialog {
-    width: 870px !important;
- bile"] #virtualclassApp #virtualclassAppLeftPanel #sidebarButton {
-    position: absolute;
-    top: 50%;
-    right: -10px;
-    transform: translate(-50%
-/* ======== MEDIA FOR MOBILE ========== */
-@media only screen and (min-device-width: 320px) and (max-device-width: 1024px) {
-  #virtualclassCont.congrea #preCheckcontainer.bootstrap .modal-dialog {
-    width: 870px !important;
- 
 }
-  #virtualclassCont.congrea[d
-/* ======== MEDIA FOR MOBILE ========== */
-@media only screen and (min-device-width: 320px) and (max-device-width: 1024px) {
-  #virtualclassCont.congrea #preCheckcontainer.bootstrap .modal-dialog {
-    width: 870px !important;
- bile"] #virtualclassAppLeftPanel #sidebarButton .sidebarButton {
-    padding: 0.7rem 0.125rem;
-/* ======== MEDIA FOR MOBILE ========== */
-@media only screen and (min-device-width: 320px) and (max-device-width: 1024px) {
-  #virtualclassCont.congrea #preCheckcontainer.bootstrap .modal-dialog {
-    width: 870px !important;
- 
-    right: 1px;
-  
-  }
-  #virtualclassApp .icon-sidebarButton:before {
-    font-size: 1rem;
-}
-
-
-
 /* ======== Firefox ========== */
 
 @-moz-document url-prefix() {
