@@ -77,7 +77,7 @@
         + `{border-bottom:${border} !important;}`
         + '#virtualclassCont.congrea .containerWb .commandToolsWrapper .shapesToolbox .shapes_icon a ,'
         + '#virtualclassCont.congrea #virtualclassAppLeftPanel #docShareNav ,'
-        + '#virtualclassCont.congrea #screenController .share button ,'
+        + '#virtualclassCont.congrea #screenController .share button '
         + `{border-left: 0.01em solid ${allbg.fcolor}!important;}`
         + `{border-left:${border} !important;}`
         + '#virtualclassCont.congrea .containerWb .commandToolsWrapper .tool a '
@@ -88,6 +88,7 @@
         + '#virtualclassCont.congrea .vceditor-toolbar ,'
         + '#virtualclassCont.congrea #stickybar .footerCtr .vmchat_search #congreaUserSearch ,'
         + '#virtualclassCont.congrea #layoutQuiz .navbar ,'
+        + '#virtualclassCont.congrea button ,'
         // "#virtualclassCont.congrea .btn.btn-default ,"+
         + '#virtualclassCont.congrea .zoomControler ,'
         + '#virtualclassCont.congrea .btn-default '
@@ -177,12 +178,16 @@
         + '#virtualclassCont.congrea .shapes_icon .icon-shapes.cgIcon:after'
         + `{color:${frontColor}!important}`
 
+        + '#virtualclassCont.congrea .cgText'
+        + `{color:${frontColor}!important}`
+
         + '#virtualclassCont.congrea .vchead'
         + `{color:${frontColor}!important}`
 
         + '#virtualclassCont.congrea .icon-publish2:before'
         + `{color:${active.fcolor}!important}`
-
+        
+        + '#virtualclassCont.congrea button ,'
         + '#virtualclassCont.congrea .btn-default '
         + `{background-image: linear-gradient(to bottom, ${allbg.fcolor} 0%,${allbg.scolor} 100%) !important } `
 
