@@ -135,8 +135,8 @@
             chatInput.style.display = 'none';
           }
         }
-        const userListButton = document.querySelector('#virtualclassCont.congrea  .vmchat_bar_button');
-        if (userListButton.classList.contains('active')) {
+        const privateChat = document.querySelector('#virtualclassCont.congrea  #user_list');
+        if (privateChat.classList.contains('active')) {
           if (chatInput) {
             chatInput.style.display = 'none';
           }

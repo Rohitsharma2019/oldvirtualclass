@@ -134,8 +134,8 @@
           const editortemplate = virtualclass.getTemplate('edenableall', 'editor');
           const editorhtml = editortemplate({ type1: editorType });
           // $('#virtualclass' + virtualclass.vutil.capitalizeFirstLetter(editorType) + 'Body').append(editorhtml);
-          // const editor = document.querySelector(`#virtualclass${virtualclass.vutil.capitalizeFirstLetter(editorType)}Body`);
-          const editor = document.querySelector('#virtualclassAppLeftPanel #leftbarFooter #footerButtons');
+          const editor = document.querySelector(`#virtualclass${virtualclass.vutil.capitalizeFirstLetter(editorType)}Body`);
+          // const editor = document.querySelector('#virtualclassAppLeftPanel #leftbarFooter #footerButtons');
           editor.insertAdjacentHTML('afterbegin', editorhtml);
           const editorControllerAnch = document.getElementById(`${containerId}Anch`);
           // const editorModestatus = localStorage.getItem(`${editorType}mode`);

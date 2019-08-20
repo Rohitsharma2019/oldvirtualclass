@@ -162,6 +162,7 @@
   position: fixed;
   bottom: 0;
   z-index: 1000;
+  display:none;
 }
 
 #virtualclassCont.congrea #stickybar .footerCtr {
@@ -587,12 +588,6 @@ virtualclassCont.congrea.playMode.student .ui-chatroom {
 
 #virtualclassCont.congrea.student[data-currapp="EditorRich"] .vmchat_bar_button, #virtualclassCont.congrea.student[data-currapp="EditorCode"] .vmchat_bar_button {
   width: 40%;
-}
-
-#virtualclassCont.congrea[data-currapp="EditorRich"] .vmchat_bar_button.active {
-  background-color: #395161;
-  cursor: pointer;
-  height: 38px;
 }
 
 #virtualclassCont.congrea[data-currapp="Whiteboard"] .vmchat_bar_button {

@@ -55,11 +55,11 @@ body, html {
   display: flex;
   flex-direction: column;
 } */
-
+/* 
 #virtualclassCont.congrea[data-currapp="EditorRich"] .vmchat_bar_button.active {
   background: #2d3741 none;
   height: auto;
-}
+} */
 
 #virtualclassCont.congrea #rightSubContainer .prechk {
   border-right-width: 0 !important;
