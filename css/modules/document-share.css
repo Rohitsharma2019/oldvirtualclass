@@ -996,14 +996,34 @@
   display: none
 }
 
+#virtualclassCont.congrea[data-currapp='Whiteboard'].teacher .collapsedRightbar #docShareNav #addNewPage {
+  padding: 9px 12px;
+  border: 1px solid #c5c5c5;
+  background-color: #c7c7c77d;
+  position: fixed;
+  top: 49px;
+  right: 58px;
+  box-shadow: 0 2px 5px -2px #585857;
+}
+
+#virtualclassCont.congrea[data-currapp='Whiteboard'].teacher .openRightbar #docShareNav #addNewPage {
+  padding: 9px 12px;
+  border: 1px solid #c5c5c5;
+  background-color: #c7c7c77d;
+  position: fixed;
+  top: 49px;
+  right: 364px;
+  box-shadow: 0 2px 5px -2px #585857;
+}
+
 #virtualclassCont.congrea[data-currapp='DocumentShare'].teacher .collapsedRightbar #docShareNav,
 #virtualclassCont.congrea[data-currapp='Whiteboard'].teacher .collapsedRightbar #docShareNav {
   display: block;
   z-index: 150;
   position: fixed;
-  top: 50px;
-  right: 58px;
-  border: 0.5px #848484 dashed;
+  bottom: 7px;
+  right: 65px;
+  /* border: 0.5px #848484 dashed; */
   padding: 5.5px 8px 5.5px 8px;
 }
 
@@ -1012,9 +1032,9 @@
   display: block;
   z-index: 150;
   position: fixed;
-  top: 2px;
-  right: 58px;
-  border: 0.5px #848484 dashed;
+  bottom: 7px;
+  right: 370px;
+  /* border: 0.5px #848484 dashed; */
   padding: 5.5px 8px 5.5px 8px;
 }
 
@@ -1023,9 +1043,9 @@
   display: block;
   z-index: 150;
   position: fixed;
-  top: 50px;
+  bottom: 7px;
   right: 370px;
-  border: 0.5px #848484 dashed;
+  /* border: 0.5px #848484 dashed; */
   padding: 5.5px 8px 5.5px 8px;
 }
 
@@ -1034,9 +1054,9 @@
   display: block;
   z-index: 150;
   position: fixed;
-  top: 2px;
+  bottom: 7px;
   right: 370px;
-  border: 0.5px #848484 dashed;
+  /* border: 0.5px #848484 dashed; */
   padding: 5.5px 8px 5.5px 8px;
 }
 
@@ -1151,7 +1171,7 @@
   display: inline;
 }
 
-#virtualclassCont.congrea .icon-newPage {
+#virtualclassCont.congrea .newPage {
   color: black;
   display: inline-block;
   cursor: pointer;

@@ -497,6 +497,9 @@
   right: 51px !important;
 }
 
+#virtualclassCont.congrea #fixedRight #addNewPage:hover:after {
+  bottom: 5px !important;
+}
 #virtualclassCont.congrea #fixedRight #footerButtons #recording::after {
   top: 0;
 }

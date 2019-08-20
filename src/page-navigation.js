@@ -464,13 +464,13 @@
         const cont = document.querySelector('.congrea #docShareNav');
         const addCont = document.createElement('span');
         addCont.id = 'addNewPage';
-        addCont.className = 'newPage';
+        addCont.className = 'newPage congtooltip';
+        addCont.setAttribute('data-title', virtualclass.lang.getString('newPage'));
         cont.appendChild(addCont);
 
         const add = document.createElement('span');
         addCont.appendChild(add);
-        add.className = 'icon-newPage congtooltip'; // to be removed
-        add.setAttribute('data-title', virtualclass.lang.getString('newPage'));
+        add.className = 'icon-newPage'; // to be removed
         add.addEventListener('click', function () {
           if (virtualclass.gObj.readyToCreate) {
             virtualclass.gObj.readyToCreate = false;
