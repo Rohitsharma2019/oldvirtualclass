@@ -148,36 +148,31 @@
 }
 
 #virtualclassCont.congrea #virtualclassApp #screenController .share button {
-  color: #fff;
-  border: none;
-  position: fixed;
+  position: absolute;
+  left: -289px;
   bottom: 0px;
   z-index: 1001;
   cursor: pointer;
-  background-color: transparent;
-  padding: 14px;
-  border-right: 1px solid black;
   -webkit-font-smoothing: antialiased;
   letter-spacing: 1px;
-  border-radius: 0px;
 }
 
-#virtualclassCont.congrea #virtualclassApp.openRightbar #screenController .share button {
+/* #virtualclassCont.congrea #virtualclassApp.openRightbar #screenController .share button {
   right: 572px;
 }
 
 #virtualclassCont.congrea #virtualclassApp.collapsedRightbar #screenController .share button {
   right: 314px;
-}
+} */
 
 #virtualclassCont.congrea[data-recording="on"] #screenController .share button,
 #virtualclassCont.congrea[data-recording="off"] #screenController .share button {
   left: 295px;
 }
 
-#virtualclassCont.congrea #screenController .share button:hover {
+/* #virtualclassCont.congrea #screenController .share button:hover {
   background-image: radial-gradient(ellipse at center, #2c393d 0%, #4c5a5f 100%) !important;
-}
+} */
 
 #virtualclassCont.congrea #screenController .share button:before {
   content: "\e98b";
@@ -189,26 +184,22 @@
 }
 
 #virtualclassCont.congrea #virtualclassApp #stopScreenShare button {
-  color: #fff;
-  border: none;
-  position: fixed;
-  bottom: 0px;
+  position: absolute;
+  left: -147px;
+  bottom: 0;
   z-index: 1001;
   cursor: pointer;
-  background-color: transparent;
-  padding: 14px;
   -webkit-font-smoothing: antialiased;
   letter-spacing: 1px;
-  border-radius: 0px;
 }
 
-#virtualclassCont.congrea #virtualclassApp.openRightbar #stopScreenShare button {
+/* #virtualclassCont.congrea #virtualclassApp.openRightbar #stopScreenShare button {
   right: 428px;
-}
+} */
 
-#virtualclassCont.congrea #virtualclassApp.collapsedRightbar #stopScreenShare button {
+/* #virtualclassCont.congrea #virtualclassApp.collapsedRightbar #stopScreenShare button {
   right: 169px;
-}
+} */
 
 #virtualclassCont.congrea[data-recording="on"] #stopScreenShare button, #virtualclassCont.congrea[data-recording="off"] #stopScreenShare button {
   left: 148px;
@@ -220,9 +211,9 @@
   }
 }
 
-#virtualclassCont.congrea #stopScreenShare button:hover {
+/* #virtualclassCont.congrea #stopScreenShare button:hover {
   background-image: radial-gradient(ellipse at center, #2c393d 0%, #4c5a5f 100%) !important;
-}
+} */
 
 #virtualclassCont.congrea #stopScreenShare button:before {
   content: "\e98d";

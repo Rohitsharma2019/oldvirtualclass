@@ -78,9 +78,7 @@
         + '#virtualclassCont.congrea .containerWb .commandToolsWrapper .shapesToolbox .shapes_icon a ,'
         + '#virtualclassCont.congrea #virtualclassAppLeftPanel #docShareNav ,'
         + '#virtualclassCont.congrea #screenController .share button ,'
-        + '#virtualclassCont.congrea #stopScreenShare button '
         + `{border-left: 0.01em solid ${allbg.fcolor}!important;}`
-        + '#virtualclassCont.congrea #alleditorRichContainerAnch'
         + `{border-left:${border} !important;}`
         + '#virtualclassCont.congrea .containerWb .commandToolsWrapper .tool a '
         + `{border-right: 0.01em solid ${allbg.fcolor}!important;}`
@@ -90,8 +88,6 @@
         + '#virtualclassCont.congrea .vceditor-toolbar ,'
         + '#virtualclassCont.congrea #stickybar .footerCtr .vmchat_search #congreaUserSearch ,'
         + '#virtualclassCont.congrea #layoutQuiz .navbar ,'
-        + '#virtualclassCont.congrea button ,'
-        + '#virtualclassCont.congrea #alleditorRichContainer #alleditorRichContainerAnch,'
         // "#virtualclassCont.congrea .btn.btn-default ,"+
         + '#virtualclassCont.congrea .zoomControler ,'
         + '#virtualclassCont.congrea .btn-default '
@@ -152,7 +148,6 @@
         + '#virtualclassCont.congrea .containerWb .commandToolsWrapper .tool a:hover, '
         + '#virtualclassCont.congrea .containerWb .commandToolsWrapper .tool ul.fontSizeList span:hover,'
         + '#virtualclassCont.congrea #confirmCancel #confirmCancelButton:hover, '
-        + '#virtualclassCont.congrea #alleditorRichContainer:hover, '
         + '#virtualclassCont.congrea #confirm.popupWindow #confirmOk #confirmOkButton:hover'
         + `{background-image: radial-gradient(ellipse at center, ${hover.fcolor} 0%,${hover.scolor} 100%) !important}`
 
@@ -182,16 +177,12 @@
         + '#virtualclassCont.congrea .shapes_icon .icon-shapes.cgIcon:after'
         + `{color:${frontColor}!important}`
 
-        + '#virtualclassCont.congrea .cgText'
-        + `{color:${frontColor}!important}`
-
         + '#virtualclassCont.congrea .vchead'
         + `{color:${frontColor}!important}`
 
         + '#virtualclassCont.congrea .icon-publish2:before'
         + `{color:${active.fcolor}!important}`
 
-        + '#virtualclassCont.congrea button ,'
         + '#virtualclassCont.congrea .btn-default '
         + `{background-image: linear-gradient(to bottom, ${allbg.fcolor} 0%,${allbg.scolor} 100%) !important } `
 
@@ -225,8 +216,6 @@
         + `{border : 1px solid${allbg.fcolor}!important} `
         + `{background-image: linear-gradient(to bottom, ${active.fcolor} 0%,${active.scolor} 100%) !important ;color:${frontColor}!important} `
         + `{border-left: 1px solid ${allbg.fcolor}!important}`
-        + '#virtualclassCont.congrea #screenController .share button:hover,'
-        + '#virtualclassCont.congrea #stopScreenShare button:hover '
         + `{background-image: linear-gradient(to bottom, ${hover.fcolor} 0%,${hover.scolor} 100%) !important;color:${frontColor}!important}`
         + '#virtualclassCont.congrea  #playController button'
         + `{background-image:none !important;color:${frontColor}!important; border-right: 1px solid ${allbg.fcolor}!important}`

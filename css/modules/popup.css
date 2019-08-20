@@ -442,7 +442,7 @@
   font-size: 18px;
   font-family: icomoon;
   line-height: 1;
-  color: #fd0303;
+  color: #d00606;
   position: relative;
   top: 1px;
 }
@@ -454,7 +454,7 @@
   line-height: 1;
   position: relative;
   top: 1px;
-  color: #13de13;
+  color: #2c7705;
 }
 
 #virtualclassCont.congrea #alleditorRichContainer [data-action="disable"], #alleditorCodeContainer [data-action="disable"] {
@@ -464,8 +464,6 @@
 #virtualclassCont.congrea #alleditorRichContainer #alleditorRichContainerAnch span {
   position: relative;
   top: -2px;
-  margin-left: 5px;
-
 }
 
 #virtualclassCont.congrea #speakerPressingAnch #speakerPressingtext {

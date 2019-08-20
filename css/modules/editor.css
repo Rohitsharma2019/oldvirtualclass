@@ -68,32 +68,49 @@
   opacity: 0.5;
 }
 
-#virtualclassCont.congrea #alleditorRichContainer, #virtualclassCont.congrea #alleditorCodeContainer {
-  position: fixed;
-  bottom: 9px;
-  right: 429px;
+#virtualclassCont.congrea #alleditorRichContainer, #virtualclassCont.congrea #alleditorCodeContainer,
+#virtualclassCont.congrea #virtualclassApp #stopScreenShare button {
+  position: absolute;
+  bottom: 4px;
+  right: 11px;
   width: auto;
   max-height: 44px;
   font-size: 13px;
   font-weight: 200;
-  z-index: 2000;
+  /* z-index: 2000; */
   border-radius: 0;
 }
 
-#virtualclassCont.congrea #virtualclassApp.collapsedRightbar #alleditorRichContainer, #virtualclassCont.congrea #virtualclassApp.collapsedRightbar #alleditorCodeContainer {
+#virtualclassCont.congrea #virtualclassApp.collapsedRightbar #alleditorCodeContainer {
   right: 170px;
 }
 
-#virtualclassCont.congrea #alleditorRichContainer #alleditorRichContainerAnch {
-  padding: 16px 14px 14px 14px !important;
+#virtualclassCont.congrea #alleditorRichContainer:hover {
+  background-color: grey;
+}
+#virtualclassCont.congrea #alleditorRichContainer #alleditorRichContainerAnch,
+#virtualclassCont.congrea #virtualclassApp #stopScreenShare button,
+#virtualclassCont.congrea #virtualclassApp #screenController .share button {
+  padding: 12px 14px 7px 14px !important;
+  background-color: #ebebeb;
+    border: 1px solid #c1c1c1;
   font-size: 14px;
-  background-image: linear-gradient(to bottom, #021317 0%, #2c393d 100%) !important;
-  border-radius: 0 !important;
+  border-radius: 5px;
+  /* background-image: linear-gradient(to bottom, #021317 0%, #2c393d 100%) !important;
+  border-radius: 0 !important; */
 }
 
-#virtualclassCont.congrea #alleditorRichContainer #alleditorRichContainerAnch:hover {
-  background-image: radial-gradient(ellipse at center, #2c393d 0%, #4c5a5f 100%) !important;
+#virtualclassCont.congrea .cgText{
+  color: #333333;
 }
+#virtualclassCont.congrea #alleditorRichContainer #alleditorRichContainerAnch:hover,
+#virtualclassCont.congrea #screenController .share button:hover {
+  background-color: #d0d0d0;
+}
+
+/* #virtualclassCont.congrea #alleditorRichContainer #alleditorRichContainerAnch:hover {
+  background-image: radial-gradient(ellipse at center, #2c393d 0%, #4c5a5f 100%) !important;
+} */
 
 #virtualclassCont.congrea #alleditorRichContainer.congtooltip:hover:after {
   bottom: 3.1em !important;
@@ -120,27 +137,27 @@
   /*height: 100%;*/
 }
 
-#virtualclassCont.congrea #alleditorRichContainer {
+/* #virtualclassCont.congrea #alleditorRichContainer {
   background: #6f9b90; /* Old browsers */
-  background: -moz-linear-gradient(top, #92b0ab 0%, #6f9b90 100%); /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #92b0ab), color-stop(100%, #6f9b90)); /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(top, #92b0ab 0%, #6f9b90 100%); /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(top, #92b0ab 0%, #6f9b90 100%); /* Opera 11.10+ */
-  background: -ms-linear-gradient(top, #92b0ab 0%, #6f9b90 100%); /* IE10+ */
-  background: linear-gradient(to bottom, #92b0ab 0%, #6f9b90 100%); /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#92b0ab', endColorstr='#6f9b90', GradientType=0); /* IE6-9 */
-}
+  /* background: -moz-linear-gradient(top, #92b0ab 0%, #6f9b90 100%); /* FF3.6+ */
+  /* background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #92b0ab), color-stop(100%, #6f9b90)); /* Chrome,Safari4+ */
+  /* background: -webkit-linear-gradient(top, #92b0ab 0%, #6f9b90 100%); Chrome10+,Safari5.1+ */
+  /* background: -o-linear-gradient(top, #92b0ab 0%, #6f9b90 100%); Opera 11.10+ */
+  /* background: -ms-linear-gradient(top, #92b0ab 0%, #6f9b90 100%); IE10+ */
+  /* background: linear-gradient(to bottom, #92b0ab 0%, #6f9b90 100%); W3C */
+  /* filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#92b0ab', endColorstr='#6f9b90', GradientType=0); IE6-9 */
+/* } */
 
-#virtualclassCont.congrea #alleditorRichContainer, #virtualclassCont.congrea #alleditorCodeContainer {
-  background: #83c2b2; /* Old browsers */
-  background: -moz-linear-gradient(top, #83c2b2 0%, #6cad9d 100%); /* FF3.6+ */
+/* #virtualclassCont.congrea #alleditorRichContainer, #virtualclassCont.congrea #alleditorCodeContainer {
+  background: #83c2b2; Old browsers */
+  /* background: -moz-linear-gradient(top, #83c2b2 0%, #6cad9d 100%); FF3.6+ */
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #83c2b2), color-stop(100%, #6cad9d)); /* Chrome,Safari4+ */
   background: -webkit-linear-gradient(top, #83c2b2 0%, #6cad9d 100%); /* Chrome10+,Safari5.1+ */
   background: -o-linear-gradient(top, #83c2b2 0%, #6cad9d 100%); /* Opera 11.10+ */
   background: -ms-linear-gradient(top, #83c2b2 0%, #6cad9d 100%); /* IE10+ */
   background: linear-gradient(to bottom, #83c2b2 0%, #6cad9d 100%); /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#83c2b2', endColorstr='#6cad9d', GradientType=0); /* IE6-9 */
-}
+  /* filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#83c2b2', endColorstr='#6cad9d', GradientType=0); /* IE6-9 */
+}  */
 
 #virtualclassCont.congrea #alleditorRichContainer:hover, #virtualclassCont.congrea #alleditorCodeContainer:hover {
   /*background-image: none;*/

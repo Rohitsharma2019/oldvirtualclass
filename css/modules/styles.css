@@ -4731,9 +4731,6 @@ and (max-device-width: 1024px) {
   z-index:1000;
 }
 
-#virtualclassCont[data-currapp="ScreenShare"] #virtualclassApp #virtualclassAppLeftPanel #sidebarButton {
-  top:0;
-}
 
 #virtualclassCont.congrea.student #virtualclassApp #virtualclassAppLeftPanel #sidebarButton {
   right: 0;
@@ -4752,9 +4749,6 @@ and (max-device-width: 1024px) {
   top: -1px;
 }
 
-#virtualclassCont[data-currapp="ScreenShare"] #virtualclassApp.openRightbar #virtualclassAppLeftPanel #sidebarButton .sidebarButton {
-  padding: 13px !important;
-}
 
 #virtualclassCont.congrea #virtualclassApp #sidebarButton .congtooltip:hover:after {
   bottom: -32px;
