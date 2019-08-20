@@ -178,6 +178,9 @@
         + '#virtualclassCont.congrea .shapes_icon .icon-shapes.cgIcon:after'
         + `{color:${frontColor}!important}`
 
+        + '#virtualclassCont.congrea .cgText'
+        + `{color:${frontColor}!important}`
+
         + '#virtualclassCont.congrea .vchead'
         + `{color:${frontColor}!important}`
 
