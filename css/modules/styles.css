@@ -4795,6 +4795,15 @@ and (max-device-width: 1024px) {
 #stopScreenShare, #screenController {
   display:none;
 }
+#virtualclassCont.congrea.studentScreenSharing[data-currapp='ScreenShare'] #stopScreenShare,
+#virtualclassCont.congrea.studentScreenSharing[data-currapp='ScreenShare'] #screenController {
+  display: block;
+}
+
+#virtualclassCont.congrea[data-currapp='ScreenShare'] #stopScreenShare {
+  display: block;
+}
+
 
 #virtualclassCont.congrea #virtualclassAppRightPanel .chatBarTab li {
   border-top: 1px solid #9e9e9e !important;

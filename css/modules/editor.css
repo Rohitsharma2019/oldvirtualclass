@@ -71,14 +71,18 @@
 #virtualclassCont.congrea #alleditorRichContainer, #virtualclassCont.congrea #alleditorCodeContainer,
 #virtualclassCont.congrea #virtualclassApp #stopScreenShare button {
   position: absolute;
-  bottom: 4px;
+  /* bottom: 4px; */
   right: 11px;
   width: auto;
   max-height: 44px;
   font-size: 13px;
   font-weight: 200;
   /* z-index: 2000; */
-  border-radius: 0;
+  /* border-radius: 0; */
+}
+
+#virtualclassCont.congrea #alleditorRichContainer{
+  bottom: 6px !important;
 }
 
 #virtualclassCont.congrea #virtualclassApp.collapsedRightbar #alleditorCodeContainer {
@@ -91,8 +95,10 @@
 /* #virtualclassCont.congrea #alleditorRichContainer #alleditorRichContainerAnch, */
 #virtualclassCont.congrea #virtualclassApp #stopScreenShare button,
 #virtualclassCont.congrea #virtualclassApp #screenController .share button {
-  padding: 8px 12px 6px 10px !important;
-  background-image: linear-gradient(to bottom, rgba(1,7,8,0.01) 0%,rgba(1,7,9,0.01) 100%) !important;
+  padding: 11px 12px 10px 10px !important;
+  background-color: #e6e6e6;
+  background-image: none !important;
+  /* background-image: linear-gradient(to bottom, rgba(1,7,8,0.01) 0%,rgba(1,7,9,0.01) 100%) !important; */
   border: 1px solid #c1c1c1;
   font-size: 13px;
  
@@ -110,7 +116,7 @@
 #virtualclassCont.congrea #alleditorRichContainer #alleditorRichContainerAnch:hover,
 #virtualclassCont.congrea #screenController .share button:hover,
 #virtualclassCont.congrea #virtualclassApp #stopScreenShare button:hover {
-  background-color: #d0d0d0;
+  background-color: #d0d0d0 !important;
 }
 
 /* #virtualclassCont.congrea #alleditorRichContainer #alleditorRichContainerAnch:hover {

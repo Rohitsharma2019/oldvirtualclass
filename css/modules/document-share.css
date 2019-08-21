@@ -1048,7 +1048,7 @@
   z-index: 150;
   position: absolute;
   bottom: 7px;
-  left: -106px;
+  left: -140px;
   /* border: 0.5px #848484 dashed; */
   padding: 5.5px 8px 5.5px 8px;
 }
@@ -1077,7 +1077,7 @@
 }
 
 #virtualclassCont.congrea[data-currapp = 'DocumentShare'].student #docShareNav {
-  display: none;
+  /* display: none; */
 }
 
 #virtualclassCont.congrea.teacher #dcPaging {

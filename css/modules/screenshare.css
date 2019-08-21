@@ -158,6 +158,11 @@
   border-top-left-radius: 5px;
 }
 
+#virtualclassCont.congrea #virtualclassApp #screenController .shareToAll button {
+  position: absolute;
+  left: -239px;
+}
+
 /* #virtualclassCont.congrea #virtualclassApp.openRightbar #screenController .share button {
   right: 572px;
 }
@@ -184,7 +189,7 @@
   float: left;
 }
 
-#virtualclassCont.congrea #virtualclassApp #stopScreenShare button {
+#virtualclassCont.congrea[data-currapp='ScreenShare'] #stopScreenShare button {
   position: absolute;
   left: -132px;
   bottom: 0;
@@ -192,9 +197,19 @@
   cursor: pointer;
   -webkit-font-smoothing: antialiased;
   letter-spacing: 1px;
-  border-top-right-radius: 5px;
+  /* border-top-right-radius: 5px; */
+  border-top-left-radius: 5px;
 }
 
+#virtualclassCont.congrea.studentScreenSharing[data-currapp='ScreenShare'] #stopScreenShare button {
+  border-top-left-radius: 0;
+  border-right: none !important;
+}
+
+#virtualclassCont.congrea.studentScreenSharing[data-currapp='ScreenShare'] #screenController button{
+  border-left: 1px solid #c1c1c1 !important;
+}
+}
 /* #virtualclassCont.congrea #virtualclassApp.openRightbar #stopScreenShare button {
   right: 428px;
 } */
