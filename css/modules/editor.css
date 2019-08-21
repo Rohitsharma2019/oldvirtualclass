@@ -88,14 +88,14 @@
 #virtualclassCont.congrea #alleditorRichContainer:hover {
   background-color: grey;
 }
-#virtualclassCont.congrea #alleditorRichContainer #alleditorRichContainerAnch,
+/* #virtualclassCont.congrea #alleditorRichContainer #alleditorRichContainerAnch, */
 #virtualclassCont.congrea #virtualclassApp #stopScreenShare button,
 #virtualclassCont.congrea #virtualclassApp #screenController .share button {
-  padding: 12px 14px 7px 14px !important;
-  background-color: #ebebeb;
-    border: 1px solid #c1c1c1;
-  font-size: 14px;
-  border-radius: 5px;
+  padding: 8px 12px 6px 10px !important;
+  background-image: linear-gradient(to bottom, rgba(1,7,8,0.01) 0%,rgba(1,7,9,0.01) 100%) !important;
+  border: 1px solid #c1c1c1;
+  font-size: 13px;
+ 
   /* background-image: linear-gradient(to bottom, #021317 0%, #2c393d 100%) !important;
   border-radius: 0 !important; */
 }
@@ -103,8 +103,13 @@
 #virtualclassCont.congrea .cgText{
   color: #333333;
 }
+
+#virtualclassCont.congrea #virtualclassEditorRich .cgText {
+  color: #333333 !important;
+}
 #virtualclassCont.congrea #alleditorRichContainer #alleditorRichContainerAnch:hover,
-#virtualclassCont.congrea #screenController .share button:hover {
+#virtualclassCont.congrea #screenController .share button:hover,
+#virtualclassCont.congrea #virtualclassApp #stopScreenShare button:hover {
   background-color: #d0d0d0;
 }
 

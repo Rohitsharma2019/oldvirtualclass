@@ -430,16 +430,21 @@
 /*background-image: none;*/
 /*}*/
 
-#virtualclassCont.congrea #alleditorRichContainer [data-action="enable"], #alleditorCodeContainer [data-action="enable"] {
+#virtualclassCont.congrea #alleditorRichContainer [data-action="enable"], #alleditorCodeContainer [data-action="enable"],
+#virtualclassCont.congrea #alleditorRichContainer [data-action="disable"], #alleditorCodeContainer [data-action="disable"] {
   font-weight: normal;
-  padding: 10px 24px;
-  border-radius: 5px !important;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  padding: 10px 12px 6px 10px !important;
+  background-color: #e2e2e2;
+  background-image: linear-gradient(to bottom, rgba(1,7,8,0.01) 0%,rgba(1,7,9,0.01) 100%) !important;
+  border: 1px solid #c1c1c1;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
 }
 
 #virtualclassCont.congrea #alleditorRichContainer [data-action="enable"]:before {
   content: "\e984";
-  font-size: 18px;
+  font-size: 16px;
   font-family: icomoon;
   line-height: 1;
   color: #d00606;
@@ -449,16 +454,12 @@
 
 #virtualclassCont.congrea #alleditorRichContainer [data-action="disable"]:before {
   content: "\e97e";
-  font-size: 18px;
+  font-size: 16px;
   font-family: icomoon;
   line-height: 1;
   position: relative;
   top: 1px;
   color: #2c7705;
-}
-
-#virtualclassCont.congrea #alleditorRichContainer [data-action="disable"], #alleditorCodeContainer [data-action="disable"] {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
 }
 
 #virtualclassCont.congrea #alleditorRichContainer #alleditorRichContainerAnch span {

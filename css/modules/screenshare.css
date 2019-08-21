@@ -149,12 +149,13 @@
 
 #virtualclassCont.congrea #virtualclassApp #screenController .share button {
   position: absolute;
-  left: -289px;
+  left: -256px;
   bottom: 0px;
   z-index: 1001;
   cursor: pointer;
   -webkit-font-smoothing: antialiased;
   letter-spacing: 1px;
+  border-top-left-radius: 5px;
 }
 
 /* #virtualclassCont.congrea #virtualclassApp.openRightbar #screenController .share button {
@@ -177,20 +178,21 @@
 #virtualclassCont.congrea #screenController .share button:before {
   content: "\e98b";
   font-family: 'icomoon';
-  font-size: 16px;
-  color: #09b208;
-  padding-right: 13px;
+  font-size: 15px;
+  color: #039202;
+  padding-right: 8px;
   float: left;
 }
 
 #virtualclassCont.congrea #virtualclassApp #stopScreenShare button {
   position: absolute;
-  left: -147px;
+  left: -132px;
   bottom: 0;
   z-index: 1001;
   cursor: pointer;
   -webkit-font-smoothing: antialiased;
   letter-spacing: 1px;
+  border-top-right-radius: 5px;
 }
 
 /* #virtualclassCont.congrea #virtualclassApp.openRightbar #stopScreenShare button {
@@ -218,9 +220,9 @@
 #virtualclassCont.congrea #stopScreenShare button:before {
   content: "\e98d";
   font-family: 'icomoon';
-  font-size: 16px;
-  color: red;
-  padding-right: 10px;
+  font-size: 15px;
+  color: #e40202;
+  padding-right: 7px;
   float: left;
 }
 
