@@ -1104,9 +1104,9 @@
   top: -2px;
 }
 
-#virtualclassCont.congrea .maximize {
+/* #virtualclassCont.congrea .maximize {
   height: 41px;
-}
+} */
 
 #virtualclassCont.congrea #stickybar.minimize {
   width: 50px;
@@ -2435,6 +2435,7 @@
   flex-direction: column;
   /* background-color: rgba(119, 116, 116, 0.1); */
   background-image: linear-gradient(to bottom, rgba(1,7,9,.05) 0%,rgba(1,7,9,.05) 100%) !important;
+  border-left: 1px solid #aaa;
 }
 
 #virtualclassCont.congrea #virtualclassAppRightPanel #fixedRight {
@@ -3743,7 +3744,7 @@
 }
 
 #virtualclassCont.congrea #stickybar .ui-tabs-anchor {
-  width: 89%;
+  width: 75%;
   height: 100%;
   padding-top: 9px;
   padding-bottom: 9px;

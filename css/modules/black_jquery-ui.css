@@ -1911,10 +1911,10 @@ body .ui-tooltip {
   /*border: 1px solid #aaaaaa !important;*/
 }
 
-.ui-state-default.ui-corner-bottom.ui-tabs-active.ui-state-active.ui-state-highlight .ui-corner-all.ui-chatbox-icon .ui-icon.icon-close:before, .ui-state-default.ui-corner-bottom.ui-tabs-active.ui-state-highlight .ui-corner-all.ui-chatbox-icon .ui-icon.icon-close:before {
-
+/* .ui-state-default.ui-corner-bottom.ui-tabs-active.ui-state-active.ui-state-highlight .ui-corner-all.ui-chatbox-icon .ui-icon.icon-close:before,
+.ui-state-default.ui-corner-bottom.ui-tabs-active.ui-state-highlight .ui-corner-all.ui-chatbox-icon .ui-icon.icon-close:before {
   color: #333;
-}
+} */
 
 .ui-widget-header.ui-corner-top.ui-chatbox-titlebar.ui-dialog-header .ui-corner-all.ui-chatbox-icon .ui-icon.icon-close:before {
   color: #fff !important;
