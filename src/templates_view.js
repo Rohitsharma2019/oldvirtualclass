@@ -545,7 +545,7 @@ this["JST"]["dest_temp/templates/main.hbs"] = Handlebars.template({"1":function(
 },"usePartial":true,"useData":true});
 
 this["JST"]["dest_temp/templates/mobileWarning.hbs"] = Handlebars.template({"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
-    return "<div class=\"mobileWarning\"><div class=\"warningWrapper\"><span class=\"icon-mobileRotate\"></span><p class=\"warning-message\">Please turn you device</p></div></div>";
+    return "<div class=\"mobileWarning\"><div class=\"warningWrapper\"><span class=\"icon-mobileRotate\"></span><p class=\"warning-message\">Please turn your device to Landscape mode</p></div></div>";
 },"useData":true});
 
 this["JST"]["dest_temp/templates/multiVideo.hbs"] = Handlebars.template({"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {

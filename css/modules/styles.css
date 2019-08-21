@@ -4882,7 +4882,8 @@ and (max-device-width: 900px) {
 
   #virtualclassCont.congrea .mobileWarning .warningWrapper p {
     font-size: 20px;
-    /* font-weight: 300; */
+    text-transform: capitalize;
+    line-height: 27px;
     margin-top: 28px;
     color: #c0c0c0;
   }
