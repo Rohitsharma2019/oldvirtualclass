@@ -10,6 +10,7 @@
   /*height : 92%;*/
   padding: 0;
   max-height: none;
+  margin-top: 48px;
 }
 
 #virtualclassCont #listvideo {
@@ -99,7 +100,8 @@
   padding: 6px;
   border-bottom-left-radius: 5px;
   border: none !important;
-  position: relative;
+  position: fixed;
+  width: 100%;
 }
 
 /*old*/

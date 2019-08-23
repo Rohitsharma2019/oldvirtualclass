@@ -2426,7 +2426,7 @@
   min-width: 230px;
 }
 
-#virtualclassCont.congrea #virtualclassApp.collapsedRightbar #virtualclassAppRightPanel #userInfo  {
+#virtualclassCont.congrea #virtualclassApp.collapsedRightbar #virtualclassAppRightPanel #userInfo {
   display: none;
 }
 
@@ -2437,6 +2437,17 @@
   background-color: #fffffa;
   /* background-image: linear-gradient(to bottom, rgba(1,7,9,.05) 0%,rgba(1,7,9,.05) 100%) !important; */
   border-left: 1px solid #d8d8d8;
+  margin-top: 48px;
+}
+#virtualclassCont.congrea[data-currapp="ScreenShare"] #virtualclassApp.openRightbar #virtualclassAppRightPanel #userInfo {
+  margin-top: 0;
+}
+#virtualclassCont.congrea[data-currapp="Video"] #virtualclassApp.openRightbar #virtualclassAppRightPanel #userInfo,
+#virtualclassCont.congrea[data-currapp="SharePresentation"] #virtualclassApp.openRightbar #virtualclassAppRightPanel #userInfo {
+  margin-top: 0;
+}
+#virtualclassCont.congrea[data-currapp="Video"] #virtualclassApp.dashboard.openRightbar #virtualclassAppRightPanel #userInfo,
+#virtualclassCont.congrea[data-currapp="SharePresentation"] #virtualclassApp.dashboard.openRightbar #virtualclassAppRightPanel #userInfo {
   margin-top: 48px;
 }
 
@@ -4802,7 +4813,13 @@ and (max-device-width: 1024px) {
 #virtualclassCont.congrea.studentScreenSharing[data-currapp='ScreenShare'] #screenController {
   display: block;
 }
+#virtualclassCont.congrea.student #virtualclassApp.openRightbar #virtualclassAppRightPanel #userInfo {
+  margin-top: 0;
+}
 
+#virtualclassCont.congrea.student[data-currapp="EditorRich"] #virtualclassApp.openRightbar #virtualclassAppRightPanel #userInfo {
+  margin-top: 48px;
+}
 #virtualclassCont.congrea[data-currapp='ScreenShare'] #stopScreenShare {
   display: block;
 }

@@ -819,6 +819,7 @@
 
 #virtualclassCont.congrea[data-currapp='DocumentShare'] #dashboardContainer .modal-body {
   height: calc(100% - 57px);
+  margin-top: 48px;
 }
 
 #virtualclassCont.congrea .linknotes[data-status='0'] .mainpreview {
