@@ -44,18 +44,15 @@ function displayChatUserList(totUsers) {
       }
 
       if (document.getElementById(`video${users[i].userid}`) == null) {
-        if ($('#chat_div').memberlist('option').userSent(users[i]) != true) {
+        const tmpmyDivResult = $('#chat_div').memberlist('option').userSent(users[i]);
+        if (typeof tmpmyDivResult !== 'boolean' && typeof tmpmyDivResult !== undefined && tmpmyDivResult != undefined) {
           if (users[i].userid === virtualclass.gObj.uid || users[i].role === 't') {
-            mySelfUser += $('#chat_div').memberlist('option').userSent(users[i]);
+            mySelfUser += tmpmyDivResult;
           } else {
-            usersList += $('#chat_div').memberlist('option').userSent(users[i]);
+            usersList += tmpmyDivResult;
           }
         }
       }
-    }
-
-    if (typeof chat_div === 'undefined') {
-      chat_div = document.querySelector('#chat_div');
     }
 
     /**
@@ -77,7 +74,6 @@ function displayChatUserList(totUsers) {
         chat_div.shadowRoot.querySelector('#subchat #allUsersList').insertAdjacentHTML('beforeend', usersList);
       }
     }
-
     mySelfUser = '';
     usersList = '';
 
