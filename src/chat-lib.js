@@ -44,10 +44,12 @@ function displayChatUserList(totUsers) {
       }
 
       if (document.getElementById(`video${users[i].userid}`) == null) {
-        if (users[i].userid === virtualclass.gObj.uid || users[i].role === 't') {
-          mySelfUser += $('#chat_div').memberlist('option').userSent(users[i]);
-        } else {
-          usersList += $('#chat_div').memberlist('option').userSent(users[i]);
+        if ($('#chat_div').memberlist('option').userSent(users[i]) != true) {
+          if (users[i].userid === virtualclass.gObj.uid || users[i].role === 't') {
+            mySelfUser += $('#chat_div').memberlist('option').userSent(users[i]);
+          } else {
+            usersList += $('#chat_div').memberlist('option').userSent(users[i]);
+          }
         }
       }
     }
@@ -66,13 +68,13 @@ function displayChatUserList(totUsers) {
       if (chat_div.shadowRoot.innerHTML == ' ' || chat_div.shadowRoot.innerHTML == '') {
         const userRole = roles.hasControls() ? 'teacher' : 'student';
         if (virtualclass.isPlayMode) {
-          chat_div.shadowRoot.innerHTML = `<link rel='stylesheet' type='text/css' href='${whiteboardPath}css/modules/chat-container.css'> <div id='subchat' class='playMode ${userRole}'><div id = 'selfUser'>${mySelfUser}</div><div id = 'usersList'>${usersList}</div></div>`;
+          chat_div.shadowRoot.innerHTML = `<link rel='stylesheet' type='text/css' href='${whiteboardPath}css/modules/chat-container.css'> <div id='subchat' class='playMode ${userRole}'><div id = 'selfUser'>${mySelfUser}</div><div id = 'allUsersList'>${usersList}</div></div>`;
         } else {
-          chat_div.shadowRoot.innerHTML = `<link rel='stylesheet' type='text/css' href='${whiteboardPath}css/modules/chat-container.css'> <div id='subchat' class='${userRole}'><div id = 'selfUser'>${mySelfUser}</div><div id = 'userList'>${usersList}</div></div>`;
+          chat_div.shadowRoot.innerHTML = `<link rel='stylesheet' type='text/css' href='${whiteboardPath}css/modules/chat-container.css'> <div id='subchat' class='${userRole}'><div id = 'selfUser'>${mySelfUser}</div><div id = 'allUsersList'>${usersList}</div></div>`;
         }
       } else {
         chat_div.shadowRoot.querySelector('#subchat #selfUser').insertAdjacentHTML('beforeend', mySelfUser);
-        chat_div.shadowRoot.querySelector('#subchat #userList').insertAdjacentHTML('beforeend', usersList);
+        chat_div.shadowRoot.querySelector('#subchat #allUsersList').insertAdjacentHTML('beforeend', usersList);
       }
     }
 
