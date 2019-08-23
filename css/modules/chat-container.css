@@ -336,9 +336,9 @@ span.icon-stdscreenImg[data-dcolor="green"]::before {
   text-transform: capitalize;
 }
 
-#subchat div.ui-memblist-usr.teacher a span.chat-img {
+/* #subchat div.ui-memblist-usr.teacher a span.chat-img {
   background-color: #000 !important;
-}
+} */
 
 #subchat div.ui-memblist-usr .usern span {
   margin-left: 6px;
@@ -362,9 +362,8 @@ span.icon-stdscreenImg[data-dcolor="green"]::before {
   /* position: absolute;
   top: 0; */
   width: -webkit-fill-available;
-  /* background-color: #d6d6d6; */
-  background-image: linear-gradient(to bottom, rgba(1,7,9,.1) 0%,rgba(1,7,9,.1) 100%) !important;
-  /* background-image: linear-gradient(120deg, #fff 0%, #cecece 100%); */
+  background-color: #e6e6e6;
+  /* background-image: linear-gradient(to bottom, rgba(1,7,9,.1) 0%,rgba(1,7,9,.1) 100%) !important; */
 }
 
 .text {
