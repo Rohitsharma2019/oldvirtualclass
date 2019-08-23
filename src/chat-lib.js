@@ -6,9 +6,9 @@ const myChatBoxOpen = false;
 
 const chatResults = [];
 // TODO, displayChatUserList and displayChatOfflineUserList should be merged into one function
-let myDivResult = '';
-const checkChatDisabled = false;
-let tmpmyDivResult;
+let myDivResult = ''
+let mySelfUser = '';
+let usersList = '';
 
 function displayChatUserList(totUsers) {
   if (!Object.prototype.hasOwnProperty.call(virtualclass.gObj, 'insertUser')) {
@@ -44,12 +44,11 @@ function displayChatUserList(totUsers) {
       }
 
       if (document.getElementById(`video${users[i].userid}`) == null) {
-        tmpmyDivResult = $('#chat_div').memberlist('option').userSent(users[i]);
-      }
-
-      // tmpmyDivResult = true, means user div is created already
-      if (typeof tmpmyDivResult !== 'boolean' && typeof tmpmyDivResult !== undefined && tmpmyDivResult != undefined) {
-        myDivResult += tmpmyDivResult;
+        if (users[i].userid === virtualclass.gObj.uid || users[i].role === 't') {
+          mySelfUser += $('#chat_div').memberlist('option').userSent(users[i]);
+        } else {
+          usersList += $('#chat_div').memberlist('option').userSent(users[i]);
+        }
       }
     }
 
@@ -62,21 +61,23 @@ function displayChatUserList(totUsers) {
      * If we click on anchor tag inside the shadow dom, then it does not return current clicked tag(shadow dom)
      * but it returns shadow dom
      * * */
-    if (myDivResult != null && myDivResult != undefined && myDivResult != '' && typeof myDivResult !== 'boolean') {
+    if (mySelfUser != null && mySelfUser != undefined && mySelfUser != '' && typeof mySelfUser !== 'boolean'
+      || usersList !== null  && usersList !== undefined && usersList != ''  && typeof usersList !== 'boolean') {
       if (chat_div.shadowRoot.innerHTML == ' ' || chat_div.shadowRoot.innerHTML == '') {
         const userRole = roles.hasControls() ? 'teacher' : 'student';
         if (virtualclass.isPlayMode) {
-          chat_div.shadowRoot.innerHTML = `<link rel='stylesheet' type='text/css' href='${whiteboardPath}css/modules/chat-container.css'> <div id='subchat' class='playMode ${userRole}'>${myDivResult}</div>`;
+          chat_div.shadowRoot.innerHTML = `<link rel='stylesheet' type='text/css' href='${whiteboardPath}css/modules/chat-container.css'> <div id='subchat' class='playMode ${userRole}'><div id = 'selfUser'>${mySelfUser}</div><div id = 'usersList'>${usersList}</div></div>`;
         } else {
-          chat_div.shadowRoot.innerHTML = `<link rel='stylesheet' type='text/css' href='${whiteboardPath}css/modules/chat-container.css'> <div id='subchat' class='${userRole}'>${myDivResult}</div>`;
+          chat_div.shadowRoot.innerHTML = `<link rel='stylesheet' type='text/css' href='${whiteboardPath}css/modules/chat-container.css'> <div id='subchat' class='${userRole}'><div id = 'selfUser'>${mySelfUser}</div><div id = 'userList'>${usersList}</div></div>`;
         }
       } else {
-        chat_div.shadowRoot.querySelector('#subchat').insertAdjacentHTML('beforeend', myDivResult);
+        chat_div.shadowRoot.querySelector('#subchat #selfUser').insertAdjacentHTML('beforeend', mySelfUser);
+        chat_div.shadowRoot.querySelector('#subchat #userList').insertAdjacentHTML('beforeend', usersList);
       }
     }
 
-
-    myDivResult = '';
+    mySelfUser = '';
+    usersList = '';
 
     // to verify
     if (virtualclass.gObj.uid == virtualclass.vutil.whoIsTeacher()) {
