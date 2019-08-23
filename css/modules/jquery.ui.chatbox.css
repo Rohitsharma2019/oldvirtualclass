@@ -575,7 +575,7 @@ virtualclassCont.congrea.playMode.student .ui-chatroom {
 }
 
 #virtualclassCont.congrea .vmchat_bar_button.active, #virtualclassCont.congrea .vmchat_room_bt.active {
-  background-color: #cacaca;
+  background-color: rgba(0,0,0,.1);
 }
 
 #virtualclassCont.congrea[data-currapp="EditorRich"] .vmchat_bar_button, 
@@ -708,7 +708,7 @@ virtualclassCont.congrea.playMode.student .ui-chatroom {
 
 #virtualclassCont.congrea .chatBarTab {
   width: 100%;
-  background-color: #ebebeb;
+  /* background-color: #ebebeb; */
 }
 
 #virtualclassCont.congrea #chat_div .ui-memblist-usr.online {
