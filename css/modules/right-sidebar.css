@@ -17,11 +17,11 @@ body, html {
   position: relative;
 }
 
-#audioWidget ul li a#appSettingCtrlAnchor {
+#virtualclass.congrea a#appSettingCtrlAnchor {
   padding: .8125rem .843rem .75rem 1.093rem !important;
 }
 
-#audioWidget ul li.settingActive a#appSettingCtrlAnchor {
+#virtualclass.congrea li.settingActive a#appSettingCtrlAnchor {
   padding: .71875rem .78125rem !important;
 }
 
@@ -29,10 +29,6 @@ body, html {
   font-size: 22px;
   cursor: pointer;
   text-align: center;
-}
-
-#virtualclassCont.congrea #audioWidget ul li#appSettingCtrl span {
-  color: #fff !important;
 }
 
 #virtualclassCont.congrea #rightSubContainer #appSettingDetail {
@@ -500,23 +496,6 @@ body, html {
   color: grey;
 }
 
-#virtualclassCont.congrea .settingActive .setting-btn:before {
-  content: "\e935";
-  font-weight: normal;
-  font-size: 1.5rem;
-  font-family: 'icomoon';
-  color: white;
-}
-
-#audioWidget .chatActive .setting-btn:before {
-  content: "\e9b0";
-  font-weight: normal;
-  font-size: 1.125rem;
-  font-family: 'icomoon';
-  color: white;
-  font-weight: normal;
-}
-
 #appSettingDetail .list-group {
   font-size: 15px !important;
 }
@@ -803,7 +782,8 @@ body, html {
   display: none;
 }
 
-#virtualclassCont.congrea .handRaise.congtooltip:hover:after {
+#virtualclassCont.congrea .handRaise.congtooltip:hover:after, 
+#virtualclassCont.congrea #appSettingCtrl.congtooltip:hover:after {
   bottom: 47px;
   left: auto;
 }

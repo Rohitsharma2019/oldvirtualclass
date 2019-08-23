@@ -278,9 +278,6 @@
         + '#virtualclassCont.congrea #virtualclassApp.openRightbar #virtualclassAppRightPanel #audioWidget .settingActive'
         + `{background-image: radial-gradient(ellipse at center, ${active.fcolor} 0%,${active.scolor} 100%) !important}`
 
-        + '#virtualclassCont.congrea #virtualclassAppRightPanel #appSettingCtrlAnchor span'
-        + `{color:${frontColor}!important}`
-
         + '#virtualclassCont.congrea #virtualclassAppRightPanel li:hover .cgText'
         + `{color:${hover.frontColor}!important}`
 
