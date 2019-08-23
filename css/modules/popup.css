@@ -354,6 +354,8 @@
 
 #virtualclassCont.congrea .vceditor-toolbar {
   background-color: #3c4955;
+  position: fixed;
+  width: 100%;
 }
 
 #virtualclassCont.congrea #confirm.popupWindow #confirmOk #confirmOkButton, #virtualclassCont.congrea #confirmCancelButton, #virtualclassCont.congrea #popupContainer #replayContainer #replayButton, #virtualclassCont.congrea #playButton {

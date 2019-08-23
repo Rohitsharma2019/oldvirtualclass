@@ -47,7 +47,7 @@
   border-width: 0;
   height: 170px;
   overflow-y: auto;
-  background-color: #fff;
+  /* background-color: #fff; */
 }
 
 #virtualclassCont.congrea.playMode .ui-chatbox-log {

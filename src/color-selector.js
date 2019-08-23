@@ -167,7 +167,7 @@
         + `{color:${hover.frontColor}!important}`
 
         + '#virtualclassCont.congrea .cgIcon:before'
-        + `{color:${frontColor}!important}`
+        + `{color:${frontColor}}`
         + '#virtualclassCont.congrea #docShareNav .pageNav'
         + `{color:${frontColor}!important}`
         + '#virtualclassCont.congrea .containerWb .commandToolsWrapper .tool a'

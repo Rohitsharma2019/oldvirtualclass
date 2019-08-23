@@ -2065,6 +2065,7 @@
   height: 48px;
   box-shadow: none;
   border-radius: 0 0 0 5px;
+  position: fixed;
 }
 
 .canvasCont {
@@ -2433,9 +2434,10 @@
   width: 100%;
   display: flex;
   flex-direction: column;
-  /* background-color: rgba(119, 116, 116, 0.1); */
-  background-image: linear-gradient(to bottom, rgba(1,7,9,.05) 0%,rgba(1,7,9,.05) 100%) !important;
-  border-left: 1px solid #aaa;
+  background-color: #fffffa;
+  /* background-image: linear-gradient(to bottom, rgba(1,7,9,.05) 0%,rgba(1,7,9,.05) 100%) !important; */
+  border-left: 1px solid #d8d8d8;
+  margin-top: 48px;
 }
 
 #virtualclassCont.congrea #virtualclassAppRightPanel #fixedRight {
@@ -4723,9 +4725,10 @@ and (max-device-width: 1024px) {
 	top: calc(50% - 25px);
 	right: 0;
   cursor: pointer;
-  background-image: linear-gradient(to bottom, #021317 0%,#2c393d 100%);
+  background-color: #fffff7;
+  /* background-image: linear-gradient(to bottom, #021317 0%,#2c393d 100%); */
   /* background-image: linear-gradient(to bottom, rgba(1,7,9,.8) 0%,rgba(1,7,9,.8) 100%) !important; */
-  box-shadow: 0 0 3px rgb(177, 177, 177);
+  box-shadow: 0 0 4px rgb(132, 130, 130);
   border-bottom-left-radius: 15px;
   border-top-left-radius: 15px;
   z-index:1000;
