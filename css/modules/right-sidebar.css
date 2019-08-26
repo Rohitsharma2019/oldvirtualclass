@@ -119,7 +119,7 @@ body, html {
   text-align: right;
   margin: 0;
   padding: 7px 0 7px;
-  z-index: 1000;
+  /* z-index: 1000; */
 }
 
 /* #virtualclassCont[device="mobile"] #virtualclassAppRightPanel.vidShow .footerCtr {
@@ -694,7 +694,6 @@ body, html {
 /* Tool Tip */
 
 #virtualclassCont.congrea #virtualclassAppRightPanel #audioWidget .congtooltip:hover:after {
-  top: 207px;
   left: auto;
   right: 24px;
   position: fixed;
@@ -706,11 +705,11 @@ body, html {
 }
 
 #virtualclassCont.congrea #virtualclassApp #virtualclassAppRightPanel #audioWidget li#speakerPressOnce .congtooltip:hover:after {
-  top: 7px;
+  /* top: 7px; */
 }
 
 #virtualclassCont.congrea #virtualclassApp #virtualclassAppRightPanel #audioWidget .congtooltip:hover:after {
-  top: 56px;
+  bottom: 108px;
 }
 
 #virtualclassCont.congrea #virtualclassApp #virtualclassAppRightPanel #audioWidget li#appSettingCtrl .congtooltip:hover:after {
@@ -735,11 +734,11 @@ body, html {
 
 #virtualclassCont.congrea #virtualclassAppRightPanel #audioWidget .audioTool a.congtooltip:hover:after {
   right: 233px;
-  top: 209px;
+  /* top: 209px; */
 }
 
 #virtualclassCont.congrea #virtualclassAppRightPanel #audioWidget .audioTool a.congtooltip:hover:after {
-  top: 51px;
+  /* top: 51px; */
 }
 
 #virtualclassCont.congrea .congtooltip:hover:after {
@@ -747,7 +746,7 @@ body, html {
 }
 
 #virtualclassCont.congrea #virtualclassAppRightPanel #stickycontainer a.inner_bt.congtooltip:hover:after {
-  bottom: 47px !important;
+  bottom: -31px !important;
   left: auto !important;
 }
 
@@ -764,9 +763,9 @@ body, html {
 }
 
 #virtualclassCont.congrea #virtualclassAppRightPanel #stickycontainer .vmchat_room_bt.congtooltip:hover::after {
-  bottom: 46px;
+  bottom: -31px;
   left: auto;
-  right: 2.4em;
+  right: -12px;
 }
 
 #virtualclassCont.congrea.student #virtualclassAppRightPanel #stickycontainer .vmchat_room_bt.congtooltip:hover:after {
@@ -783,12 +782,16 @@ body, html {
   display: none;
 }
 
-#virtualclassCont.congrea .handRaise.congtooltip:hover:after, 
-#virtualclassCont.congrea #appSettingCtrl.congtooltip:hover:after {
-  bottom: 47px;
+#virtualclassCont.congrea .handRaise.congtooltip:hover:after{
+  bottom: -31px;
   left: auto;
+  right: -5px;
 }
 
+#virtualclassCont.congrea #appSettingCtrl.congtooltip:hover:after {
+  right: 8px;
+  bottom: -31px;
+}
 #virtualclassCont.congrea .nowebcam #videoSwitchCont {
   pointer-events: none !important;
 }

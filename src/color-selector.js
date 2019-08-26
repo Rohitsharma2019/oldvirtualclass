@@ -69,8 +69,7 @@
       const css = `${'#virtualclassCont.congrea #virtualclassOptionsCont .appOptions, #virtualclassCont.congrea #audioWidget ,'
         + '#virtualclassCont.congrea #fixedRight #footerButtons #recording ,'
         + '#virtualclassCont.congrea #fixedRight #footerButtons #fullScreenButton,'
-        + '#virtualclassCont.congrea #fixedRight #footerButtons #fullScreenExitButton ,'
-        + '#virtualclassCont.congrea #fixedRight #footerButtons #networkStatusContainer '
+        + '#virtualclassCont.congrea #fixedRight #footerButtons #fullScreenExitButton '
         + '{border-top:'}${border} !important;}`
         + '#virtualclassCont.congrea .containerWb .commandToolsWrapper .shapesToolbox .shapesTool .tool a ,'
         + '#virtualclassCont.congrea #audioWidget #mainAudioPanel li '
@@ -271,7 +270,10 @@
         + '#virtualclassCont.congrea #audioTest-box:hover,'
         + '#virtualclassCont.congrea #playButton:hover, '
         + '#virtualclassCont.congrea #alwaysPress:hover,'
-        + '#virtualclassCont.congrea .recButton:hover'
+        + '#virtualclassCont.congrea .recButton:hover,'
+        + '#virtualclassCont.congrea a.inner_bt:hover,'
+        + '#virtualclassCont.congrea a.stdRaiseHand:hover,'
+        + '#virtualclassCont.congrea #virtualclassAppRightPanel .chatBarTab li#appSettingCtrl a#appSettingCtrlAnchor:hover'
         + `{background-image: radial-gradient(ellipse at center, ${hover.fcolor} 0%,${hover.scolor} 100%) !important}`
 
         + '#virtualclassCont.congrea .vmchat_support.active ,'

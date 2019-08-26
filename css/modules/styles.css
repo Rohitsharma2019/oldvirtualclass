@@ -4525,7 +4525,7 @@ and (max-device-width: 1024px) {
 
 #virtualclassCont.congrea #fullScreenButton .congtooltip.fullScreen:hover:after ,
 #virtualclassCont.congrea #fullScreenExitButton .congtooltip:hover:after {
-  bottom: 19px;
+  bottom: 7px;
   right: 58px !important;
 }
 
