@@ -9,6 +9,8 @@ const chatResults = [];
 let myDivResult = ''
 let mySelfUser = '';
 let usersList = '';
+let t = '';
+let mySelf = '';
 
 function displayChatUserList(totUsers) {
   if (!Object.prototype.hasOwnProperty.call(virtualclass.gObj, 'insertUser')) {
@@ -48,6 +50,11 @@ function displayChatUserList(totUsers) {
         if (typeof tmpmyDivResult !== 'boolean' && typeof tmpmyDivResult !== undefined && tmpmyDivResult != undefined) {
           if (users[i].userid === virtualclass.gObj.uid || users[i].role === 't') {
             mySelfUser += tmpmyDivResult;
+            if (users[i].role === 't') {
+              t = tmpmyDivResult;
+            } else {
+              mySelf = tmpmyDivResult;
+            }
           } else {
             usersList += tmpmyDivResult;
           }
@@ -65,15 +72,19 @@ function displayChatUserList(totUsers) {
       if (chat_div.shadowRoot.innerHTML == ' ' || chat_div.shadowRoot.innerHTML == '') {
         const userRole = roles.hasControls() ? 'teacher' : 'student';
         if (virtualclass.isPlayMode) {
-          chat_div.shadowRoot.innerHTML = `<link rel='stylesheet' type='text/css' href='${whiteboardPath}css/modules/chat-container.css'> <div id='subchat' class='playMode ${userRole}'><div id = 'selfUser'>${mySelfUser}</div><div id = 'allUsersList'>${usersList}</div></div>`;
+          chat_div.shadowRoot.innerHTML = `<link rel='stylesheet' type='text/css' href='${whiteboardPath}css/modules/chat-container.css'> <div id='subchat' class='playMode ${userRole}'><div id = 'selfUser'>${t}${mySelf}</div><div id = 'allUsersList'>${usersList}</div></div>`;
         } else {
-          chat_div.shadowRoot.innerHTML = `<link rel='stylesheet' type='text/css' href='${whiteboardPath}css/modules/chat-container.css'> <div id='subchat' class='${userRole}'><div id = 'selfUser'>${mySelfUser}</div><div id = 'allUsersList'>${usersList}</div></div>`;
+          chat_div.shadowRoot.innerHTML = `<link rel='stylesheet' type='text/css' href='${whiteboardPath}css/modules/chat-container.css'> <div id='subchat' class='${userRole}'><div id = 'selfUser'>${t}${mySelf}</div><div id = 'allUsersList'>${usersList}</div></div>`;
         }
       } else {
-        chat_div.shadowRoot.querySelector('#subchat #selfUser').insertAdjacentHTML('beforeend', mySelfUser);
+        chat_div.shadowRoot.querySelector('#subchat #selfUser').insertAdjacentHTML('afterbegin', t);
+        chat_div.shadowRoot.querySelector('#subchat #selfUser').insertAdjacentHTML('beforeend', mySelf);
+        // chat_div.shadowRoot.querySelector('#subchat #selfUser').insertAdjacentHTML('beforeend', mySelfUser);
         chat_div.shadowRoot.querySelector('#subchat #allUsersList').insertAdjacentHTML('beforeend', usersList);
       }
     }
+    t = '';
+    mySelf = '';
     mySelfUser = '';
     usersList = '';
 
