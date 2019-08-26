@@ -211,8 +211,8 @@
 
 #virtualclassCont.congrea #chatroom_icon .icon-chatroom:before {
   content: "\e9b4";
-  font-size: 1.125rem;
-  color: #000 !important;
+  font-size: 17px;
+  color: #fff !important;
 }
 
 #virtualclassCont.congrea #chatBarTab .vmchat_room_bt.active .icon-chatroom:before {
@@ -907,8 +907,8 @@
 #virtualclassCont.congrea .setting-btn:before {
   content: "\e9b0";
   font-weight: normal;
-  font-size: 1.125rem;
+  font-size: 17px;
   font-family: 'icomoon';
-  color: #000 !important;
+  color: #fff !important;
   font-weight: normal;
 }

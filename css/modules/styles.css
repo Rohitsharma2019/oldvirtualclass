@@ -2435,7 +2435,7 @@
   flex-direction: column;
   background-color: #fffffa;
   /* background-image: linear-gradient(to bottom, rgba(1,7,9,.05) 0%,rgba(1,7,9,.05) 100%) !important; */
-  border-left: 1px solid #d8d8d8;
+  /* border-left: 1px solid #d8d8d8; */
 }
 
 #virtualclassCont.congrea #virtualclassAppRightPanel #fixedRight {
@@ -3420,7 +3420,7 @@
 
 #virtualclassCont.congrea .vmchat_room_bt, #virtualclassCont.congrea .vmchat_bar_button {
   width: 25% !important;
-  height: 2.75rem;
+  height: 48px;
 }
 
 #virtualclassCont.congrea[device="mobile"] .vmchat_room_bt, #virtualclassCont.congrea[device="mobile"] .vmchat_bar_button {
@@ -3655,8 +3655,8 @@
 /*}*/
 #virtualclassCont.congrea #icHr:before {
   content: "\e9b1";
-  font-size: 1.125rem;
-  color: #000;
+  font-size: 17px;
+  color: #fff;
 }
 
 #virtualclassCont.congrea .handRaise.disable #icHr:before {
@@ -4814,14 +4814,13 @@ and (max-device-width: 1024px) {
 
 
 #virtualclassCont.congrea #virtualclassAppRightPanel .chatBarTab li {
-  border-top: 1px solid #9e9e9e !important;
-  border-left: 1px solid #9e9e9e !important;
+  border-right: 0.01em solid #021317!important;
   width: 25%;
 }
 
 #virtualclassCont.congrea #virtualclassAppRightPanel .chatBarTab li#appSettingCtrl a#appSettingCtrlAnchor {
-  padding-top:10px;
-  padding-bottom: 10px;
+  padding-top:13px;
+  padding-bottom: 13px;
 }
 
 #virtualclassCont.congrea #virtualclassAppRightPanel .chatBarTab li#techVideo {

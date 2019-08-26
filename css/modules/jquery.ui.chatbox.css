@@ -568,6 +568,7 @@ virtualclassCont.congrea.playMode.student .ui-chatroom {
   border-right: none;
   /*width:130px;*/
   cursor: pointer;
+  border-left: 0.01em solid #021317!important;
 }
 
 #virtualclassCont.congrea #virtualclassApp.collapsedRightbar .vmchat_bar_button {
@@ -708,8 +709,8 @@ virtualclassCont.congrea.playMode.student .ui-chatroom {
 
 #virtualclassCont.congrea .chatBarTab {
   width: 100%;
-  background-color: #f7f7f7;
-  /* background-color: #ebebeb; */
+  /* background-color: #f7f7f7; */
+  background-image: linear-gradient(to bottom, #021317 0%,#2c393d 100%) !important;
 }
 
 #virtualclassCont.congrea #chat_div .ui-memblist-usr.online {
@@ -780,7 +781,7 @@ virtualclassCont.congrea.playMode.student .ui-chatroom {
 }
 
 #virtualclassCont.congrea a.inner_bt, #virtualclassCont.congrea a.inner_bt:hover {
-  height: 2.75rem;
+  height: 48px;
 }
 
 #virtualclassCont.congrea a.inner_bt:hover {
@@ -817,7 +818,8 @@ virtualclassCont.congrea.playMode.student .ui-chatroom {
 }
 
 #virtualclassCont.congrea a.stdRaiseHand, #virtualclassCont.congrea a.stdRaiseHand:hover {
-  padding: .6875rem .8125rem;
+  /* padding: .6875rem .8125rem; */
+  padding: 13.5px 0;
 }
 
 #virtualclasscont.congrea.student a.inner_bt:hover {
