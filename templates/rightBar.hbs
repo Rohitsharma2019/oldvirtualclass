@@ -1,5 +1,6 @@
 <div id="virtualclassAppRightPanel" class="rightbar bootstrap chat_enabled">
   <div id="userInfo" class="showUserList">
+    <div id="stickycontainer"></div>
     {{> ('getVideoType') }}
 
   {{!-- Chat widget --}}
@@ -11,12 +12,10 @@
                       placeholder= "{{getString "Searchuser"}}">
             </div>
           </div>
-          <div id="stickycontainer"></div>
     </div>
   </div>
 
   <div id="fixedRight">
-    {{> audioWidget}}
 
     <div id="footerButtons">
       {{> screenShareButtons }}
@@ -71,6 +70,8 @@
       <span class="congtooltip" data-title="Exit Full Screen"><i class="icon-exitScreen cgIcon"></i></span>
     </div>
   </div>
+
+  {{> audioWidget}}
   </div>
   {{!-- <div id="stickycontainer"></div> --}}
 </div>

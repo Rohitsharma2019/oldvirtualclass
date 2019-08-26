@@ -81,9 +81,9 @@ body, html {
   min-height: 1px;
 }
 
-/* #virtualclassCont.congrea #virtualclassApp #userInfo.techVideoShow #rightSubContainer {
+#virtualclassCont.congrea #virtualclassApp #userInfo.techVideoShow #rightSubContainer {
   border-left: 1px solid #dfdfdf;
-} */
+}
 
 #virtualclassCont.congrea[device="mobile"] #virtualclassApp #userInfo.techVideoShow #rightSubContainer .ui-widget-content.ui-memblist-content,
 #virtualclassCont.congrea[device="mobile"] #virtualclassApp #userInfo.techVideoShow #rightSubContainer .ui-widget-content.ui-chatbox-content,
@@ -835,7 +835,6 @@ display: none !important;
 
 #virtualclassCont.congrea.orginalTeacher #virtualclassAppContainer .virtualclass.whiteboard .commandToolsWrapper {
   z-index: 100;
-  position: fixed;
 }
 
 /*#virtualclassCont.congrea.teacher #chat_div .controleCont .icon-audioImg, #virtualclassCont.congrea.teacher #chat_div .controleCont .icon-audioDisImg {*/

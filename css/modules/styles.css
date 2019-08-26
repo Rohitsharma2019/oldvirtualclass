@@ -2065,7 +2065,6 @@
   height: 48px;
   box-shadow: none;
   border-radius: 0 0 0 5px;
-  position: fixed;
 }
 
 .canvasCont {
@@ -2437,32 +2436,21 @@
   background-color: #fffffa;
   /* background-image: linear-gradient(to bottom, rgba(1,7,9,.05) 0%,rgba(1,7,9,.05) 100%) !important; */
   border-left: 1px solid #d8d8d8;
-  margin-top: 48px;
-}
-#virtualclassCont.congrea[data-currapp="ScreenShare"] #virtualclassApp.openRightbar #virtualclassAppRightPanel #userInfo {
-  margin-top: 0;
-}
-#virtualclassCont.congrea[data-currapp="Video"] #virtualclassApp.openRightbar #virtualclassAppRightPanel #userInfo,
-#virtualclassCont.congrea[data-currapp="SharePresentation"] #virtualclassApp.openRightbar #virtualclassAppRightPanel #userInfo {
-  margin-top: 0;
-}
-#virtualclassCont.congrea[data-currapp="Video"] #virtualclassApp.dashboard.openRightbar #virtualclassAppRightPanel #userInfo,
-#virtualclassCont.congrea[data-currapp="SharePresentation"] #virtualclassApp.dashboard.openRightbar #virtualclassAppRightPanel #userInfo {
-  margin-top: 48px;
 }
 
 #virtualclassCont.congrea #virtualclassAppRightPanel #fixedRight {
   flex: 1 0 auto;
   display: flex;
-  flex-direction: column;
+  flex-direction: column-reverse;
   width: 3.125rem;
   background-color: rgb(30, 44, 48);
   z-index: 200;
+  background-image: linear-gradient(to bottom, #021317 0%,#2c393d 100%);
 }
 
-#virtualclassCont.congrea #virtualclassAppRightPanel #fixedRight #audioWidget {
+/* #virtualclassCont.congrea #virtualclassAppRightPanel #fixedRight #audioWidget {
   flex: 1;
-}
+} */
 
 #virtualclassCont.congrea #virtualclassApp.collapsedRightbar #virtualclassAppRightPanel {
   max-width: 50px;
