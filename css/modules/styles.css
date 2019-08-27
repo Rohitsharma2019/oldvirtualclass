@@ -4821,8 +4821,12 @@ and (max-device-width: 1024px) {
 #virtualclassCont.congrea #virtualclassAppRightPanel .chatBarTab li#appSettingCtrl a#appSettingCtrlAnchor {
   padding-top:13px;
   padding-bottom: 13px;
+  cursor: pointer;
 }
 
+#virtualclassCont.congrea #virtualclassAppRightPanel .chatBarTab li#appSettingCtrl a#appSettingCtrlAnchor:active {
+  background-color: black !important;
+}
 #virtualclassCont.congrea #virtualclassAppRightPanel .chatBarTab li#techVideo {
   display: none;
 }

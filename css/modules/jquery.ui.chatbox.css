@@ -576,7 +576,10 @@ virtualclassCont.congrea.playMode.student .ui-chatroom {
 }
 
 #virtualclassCont.congrea .vmchat_bar_button.active, #virtualclassCont.congrea .vmchat_room_bt.active {
-  background-color: rgba(0,0,0,.1);
+  background-color: black;
+}
+#virtualclassCont.congrea #virtualclassAppRightPanel .chatBarTab li #appSettingCtrl:active {
+  background-color: black !important;
 }
 
 #virtualclassCont.congrea[data-currapp="EditorRich"] .vmchat_bar_button, 
