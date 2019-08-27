@@ -131,7 +131,8 @@
         + '#virtualclassCont.congrea #virtualclassAppContainer .virtualclass .commandToolsWrapper .tool ul.strkSizeList li.selected,'
         + '#virtualclassCont.congrea #virtualclassAppContainer .virtualclass .commandToolsWrapper .tool ul.fontSizeList span.selected,'
         + '#virtualclassCont.congrea #playButton,'
-        + '#virtualclassCont.congrea #recordPlay .rv-vanilla-modal-body #downloadPcCont #downloadSessionText'
+        + '#virtualclassCont.congrea #recordPlay .rv-vanilla-modal-body #downloadPcCont #downloadSessionText, '
+        + '#virtualclassCont.congrea #virtualclassApp.openRightbar #virtualclassAppRightPanel'
         + `{background-image: linear-gradient(to bottom, ${allbg.fcolor} 0%,${allbg.scolor} 100%) !important} `
 
 

@@ -2433,7 +2433,6 @@
   width: 100%;
   display: flex;
   flex-direction: column;
-  background-color: #fffffa;
   /* background-image: linear-gradient(to bottom, rgba(1,7,9,.05) 0%,rgba(1,7,9,.05) 100%) !important; */
   /* border-left: 1px solid #d8d8d8; */
 }

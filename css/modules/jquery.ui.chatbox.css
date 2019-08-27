@@ -713,7 +713,6 @@ virtualclassCont.congrea.playMode.student .ui-chatroom {
 #virtualclassCont.congrea .chatBarTab {
   width: 100%;
   /* background-color: #f7f7f7; */
-  background-image: linear-gradient(to bottom, #021317 0%,#2c393d 100%) !important;
 }
 
 #virtualclassCont.congrea #chat_div .ui-memblist-usr.online {
