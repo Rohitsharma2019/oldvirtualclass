@@ -213,6 +213,8 @@
   content: "\e9b4";
   font-size: 17px;
   color: #fff !important;
+  position: relative;
+  top: 2px;
 }
 
 #virtualclassCont.congrea #chatBarTab .vmchat_room_bt.active .icon-chatroom:before {
@@ -911,4 +913,6 @@
   font-family: 'icomoon';
   color: #fff !important;
   font-weight: normal;
+  position: relative;
+  top: 2px;
 }

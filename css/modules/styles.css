@@ -3584,6 +3584,9 @@
   display: block;
 }
 
+#virtualclassCont.congrea .vmchat_room_bt.congtooltip:active {
+  box-shadow: -1px 4px 6px 0px #4c4c4c !important;
+}
 #virtualclassCont.congrea #layoutQuizBody .table-responsive {
   overflow-y: auto;
   height: 100%;
@@ -3654,6 +3657,8 @@
   content: "\e9b1";
   font-size: 17px;
   color: #fff;
+  position: relative;
+  top: 1px;
 }
 
 #virtualclassCont.congrea .handRaise.disable #icHr:before {
