@@ -578,6 +578,17 @@ virtualclassCont.congrea.playMode.student .ui-chatroom {
 #virtualclassCont.congrea .vmchat_bar_button.active, #virtualclassCont.congrea .vmchat_room_bt.active {
   background-color: black;
 }
+
+#virtualclassCont.congrea ul.chatBarTab li.active span:before {
+  text-shadow: #FFF 0px 0px 2px;
+}
+
+#virtualclassCont.congrea #audioWidget #mainAudioPanel li,
+#virtualclassCont.congrea #fixedRight #footerButtons #fullScreenButton,
+#virtualclassCont.congrea #fixedRight #footerButtons #fullScreenExitButton {
+  border-top: 1px solid #2c393d; /* chroma(color).brighten().hex() */
+}
+
 #virtualclassCont.congrea #virtualclassAppRightPanel .chatBarTab li #appSettingCtrl:active {
   background-color: black !important;
 }

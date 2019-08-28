@@ -67,13 +67,13 @@
 
       const border = `0.05em solid ${allbg.fcolor}`;
       const css = `${'#virtualclassCont.congrea #virtualclassOptionsCont .appOptions, #virtualclassCont.congrea #audioWidget ,'
-        + '#virtualclassCont.congrea #fixedRight #footerButtons #recording ,'
-        + '#virtualclassCont.congrea #fixedRight #footerButtons #fullScreenButton,'
-        + '#virtualclassCont.congrea #fixedRight #footerButtons #fullScreenExitButton '
+        + '#virtualclassCont.congrea #fixedRight #footerButtons #recording'
+        // + '#virtualclassCont.congrea #fixedRight #footerButtons #fullScreenButton,'
+        // + '#virtualclassCont.congrea #fixedRight #footerButtons #fullScreenExitButton '
         + '{border-top:'}${border} !important;}`
-        + '#virtualclassCont.congrea .containerWb .commandToolsWrapper .shapesToolbox .shapesTool .tool a ,'
-        + '#virtualclassCont.congrea #audioWidget #mainAudioPanel li '
-        + `{border-bottom:${border} !important;}`
+        // + '#virtualclassCont.congrea .containerWb .commandToolsWrapper .shapesToolbox .shapesTool .tool a ,'
+        // + '#virtualclassCont.congrea #audioWidget #mainAudioPanel li '
+        // + `{border-bottom:${border} !important;}`
         + '#virtualclassCont.congrea .containerWb .commandToolsWrapper .shapesToolbox .shapes_icon a ,'
         + '#virtualclassCont.congrea #virtualclassAppLeftPanel #docShareNav ,'
         + '#virtualclassCont.congrea #screenController .share button '

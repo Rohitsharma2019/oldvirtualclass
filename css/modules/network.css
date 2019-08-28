@@ -1,5 +1,14 @@
 #virtualclassCont.congrea #networkStatusContainer {
+  position: absolute;
+  top: 0;
+}
+
+#virtualclassCont.congrea #networkStatusContainer #networkLatency {
   padding: .6875rem .8125rem;
+}
+
+#virtualclassCont.congrea #networkStatusContainer.connecting-room #networkLatency {
+  display: none;
 }
 
 #virtualclassCont.congrea #proposedSpeed {
@@ -56,7 +65,7 @@
 }
 
 #virtualclassCont.congrea #networkStatusContainer.connecting-room {
-  paddin-left: 2px;
+  padding: .6875rem .8125rem;
 }
 
 #virtualclassCont.congrea #networkStatusContainer #videoLatency {
@@ -84,9 +93,7 @@
 }
 
 #virtualclassCont.congrea #networkStatusContainer #connectingRoomIcon {
-  margin:0 auto;
-  float: right;
-  padding-bottom: 10px;
+  text-align: center;
 }
 
 #virtualclassCont.congrea #networkStatusContainer.connecting-room #connectingRoomIcon .icon-whiteboard #svg-spinner {
@@ -95,9 +102,7 @@
   animation-duration: 1.2s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
-  margin-left: 8px;
   display: block;
-  margin-top: 2px;
 }
 
 @keyframes rotate {

@@ -359,8 +359,6 @@ span.icon-stdscreenImg[data-dcolor="green"]::before {
 
 .ui-memblist-usr.teacher {
   pointer-events: none !important;
-  position: absolute;
-  top: 0;
   width: -webkit-fill-available;
   background-color: #e6e6e6;
   /* background-image: linear-gradient(to bottom, rgba(1,7,9,.1) 0%,rgba(1,7,9,.1) 100%) !important; */
@@ -538,10 +536,6 @@ div.ui-memblist-usr .user-details a .media-object {
 
 :host(.collapsedRightbar) #subchat .ui-memblist-usr .controls {
   display: none;
-}
-
-#subchat {
-  padding-top: 3.125rem;
 }
 
 @-moz-document url-prefix() { 
