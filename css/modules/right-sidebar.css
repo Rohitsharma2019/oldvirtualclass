@@ -608,9 +608,12 @@ body, html {
   color: #fff;
 }
 
-#virtualclassCont.congrea #stickycontainer a.inner_bt , 
+#virtualclassCont.congrea #stickycontainer a.inner_bt {
+  padding: 14px 0 15px;
+}
+
 #virtualclassCont.congrea #stickycontainer #chatroom_bt2 a.inner_bt {
-  padding: 15px 0 15px;
+  padding: 16px 0 15px;
 }
 
 #virtualclassCont.congrea #virtualclassApp.collapsedRightbar #stickycontainer #chatroom_bt2 a.inner_bt {

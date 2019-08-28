@@ -3657,8 +3657,6 @@
   content: "\e9b1";
   font-size: 17px;
   color: #fff;
-  position: relative;
-  top: 1px;
 }
 
 #virtualclassCont.congrea .handRaise.disable #icHr:before {
@@ -4821,8 +4819,8 @@ and (max-device-width: 1024px) {
 }
 
 #virtualclassCont.congrea #virtualclassAppRightPanel .chatBarTab li#appSettingCtrl a#appSettingCtrlAnchor {
-  padding-top:13px;
-  padding-bottom: 13px;
+  padding-top: 14px;
+  padding-bottom: 11px;
   cursor: pointer;
 }
 
