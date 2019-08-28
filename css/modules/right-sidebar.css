@@ -714,28 +714,13 @@ body, html {
   /* top: 7px; */
 }
 
-#virtualclassCont.congrea #virtualclassApp #virtualclassAppRightPanel #audioWidget .congtooltip:hover:after {
+#virtualclassCont.congrea #virtualclassApp #virtualclassAppRightPanel #audioWidget #speakerPressOnce .congtooltip:hover:after {
   bottom: 108px;
-}
-
-#virtualclassCont.congrea #virtualclassApp #virtualclassAppRightPanel #audioWidget li#appSettingCtrl .congtooltip:hover:after {
-  top: 108px;
-}
-
-#virtualclassCont.congrea.teacher.nowebcam #virtualclassAppRightPanel #audioWidget #appSettingCtrl.congtooltip:hover:after {
-  top: 51px;
-}
-
-#virtualclassCont.congrea.nowebcam #virtualclassAppRightPanel #audioWidget .congtooltip:hover:after {
-  top: 51px;
-}
-
-#virtualclassCont.congrea.meetingmode.nowebcam #virtualclassApp.openRightbar #virtualclassAppRightPanel #audioWidget .congtooltip:hover:after {
-  top: 51px !important;
 }
 
 #virtualclassCont.congrea #virtualclassAppRightPanel #audioWidget .videoSwitchCont.congtooltip:hover:after {
   right: 126px;
+  bottom: 58px;
 }
 
 #virtualclassCont.congrea #virtualclassAppRightPanel #audioWidget .audioTool a.congtooltip:hover:after {

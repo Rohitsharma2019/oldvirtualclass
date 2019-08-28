@@ -863,6 +863,30 @@ virtualclassCont.congrea.playMode.student .ui-chatroom {
   overflow-y: auto;
 }
 
+#virtualclassCont.congrea .ui-widget-content.ui-memblist-content:before {
+  font-weight: normal;
+  content: "\e9b3";
+  font-size: 65px;
+  font-family: 'icomoon';
+  color: #000000;
+  position: absolute;
+  top: 49%;
+  left: 36%;
+  opacity: .1;
+}
+
+#virtualclassCont.congrea .ui-chatroom:before {
+  font-weight: normal;
+  content: "\e9b4";
+  font-size: 62px;
+  font-family: 'icomoon';
+  color: #000;
+  position: absolute;
+  top: 50%;
+  left: 34%;
+  opacity: .1;
+}
+
 #virtualclassCont.congrea .chat_enabled #chatrm.enable {
   display: block;
   flex: 1;

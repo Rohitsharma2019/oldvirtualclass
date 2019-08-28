@@ -282,6 +282,7 @@
 
   // Set container dimension (width and height)
   view.window.resize = function (wid) {
+    virtualclass.leftBarWidth();
     const res = virtualclass.system.measureResoultion({ width: window.innerWidth, height: window.innerHeight });
     if (virtualclass.currApp == 'DocumentShare') {
       res.width -= 10;
