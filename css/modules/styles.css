@@ -4801,13 +4801,7 @@ and (max-device-width: 1024px) {
 #virtualclassCont.congrea.studentScreenSharing[data-currapp='ScreenShare'] #screenController {
   display: block;
 }
-#virtualclassCont.congrea.student #virtualclassApp.openRightbar #virtualclassAppRightPanel #userInfo {
-  margin-top: 0;
-}
 
-#virtualclassCont.congrea.student[data-currapp="EditorRich"] #virtualclassApp.openRightbar #virtualclassAppRightPanel #userInfo {
-  margin-top: 48px;
-}
 #virtualclassCont.congrea[data-currapp='ScreenShare'] #stopScreenShare {
   display: block;
 }

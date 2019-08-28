@@ -85,6 +85,7 @@
         + `{border: 0.02em solid ${allbg.fcolor}!important;}`
         + '#virtualclassCont.congrea .btn.btn-default ,'
         + '#virtualclassCont.congrea .vceditor-toolbar ,'
+        + '#virtualclassCont.congrea #stickycontainer ,'
         + '#virtualclassCont.congrea #stickybar .footerCtr .vmchat_search #congreaUserSearch ,'
         + '#virtualclassCont.congrea #layoutQuiz .navbar ,'
         + '#virtualclassCont.congrea button ,'

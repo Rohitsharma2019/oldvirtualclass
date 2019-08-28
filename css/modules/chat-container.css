@@ -538,6 +538,10 @@ div.ui-memblist-usr .user-details a .media-object {
   display: none;
 }
 
+#subchat {
+  width: 100%;
+}
+
 @-moz-document url-prefix() { 
 
   .ui-memblist-usr.teacher {
