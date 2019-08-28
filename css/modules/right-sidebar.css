@@ -71,6 +71,8 @@ body, html {
 
 #virtualclassCont.congrea #virtualclassAppRightPanel {
   border-left-width: 0;
+  background-image: linear-gradient(to top, #021317 0%,#202d31 100%) !important;
+  /* allbg.rcolor = chroma(color).brighten(.7).hex(); */
 }
 
 #virtualclassCont.congrea #rightSubContainer {
