@@ -433,23 +433,24 @@
 #virtualclassCont.congrea #alleditorRichContainer [data-action="enable"], #alleditorCodeContainer [data-action="enable"],
 #virtualclassCont.congrea #alleditorRichContainer [data-action="disable"], #alleditorCodeContainer [data-action="disable"] {
   font-weight: normal;
-  border-top-left-radius: 5px;
+    border-top-left-radius: 12px;
   /* border-top-right-radius: 5px; */
-  padding: 13px 12px 8px 10px !important;
-  background-color: #e6e6e6;
-  background-image: linear-gradient(to bottom, rgba(1,7,8,0.01) 0%,rgba(1,7,9,0.01) 100%) !important;
+  padding: 13px 20px 13px 20px !important;
+  background-color: #27323c;
+  /* background-image: linear-gradient(to bottom, rgba(1,7,8,1) 0%,rgba(1,7,9,1) 100%) !important; */
   border: 1px solid #c1c1c1;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
 }
 
 #virtualclassCont.congrea #alleditorRichContainer [data-action="enable"]:before {
   content: "\e984";
-  font-size: 16px;
+  font-size: 17px;
   font-family: icomoon;
   line-height: 1;
-  color: #d00606;
+  color: #ff0000;
   position: relative;
   top: 1px;
+  margin-right: 4px;
 }
 
 #virtualclassCont.congrea #alleditorRichContainer [data-action="disable"]:before {

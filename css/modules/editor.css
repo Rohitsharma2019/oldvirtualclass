@@ -110,13 +110,10 @@
   color: #333333;
 }
 
-#virtualclassCont.congrea #virtualclassEditorRich .cgText {
-  color: #333333 !important;
-}
 #virtualclassCont.congrea #alleditorRichContainer #alleditorRichContainerAnch:hover,
 #virtualclassCont.congrea #screenController .share button:hover,
 #virtualclassCont.congrea #virtualclassApp #stopScreenShare button:hover {
-  background-color: #d0d0d0 !important;
+  background-color: #101f23 !important;
 }
 
 /* #virtualclassCont.congrea #alleditorRichContainer #alleditorRichContainerAnch:hover {

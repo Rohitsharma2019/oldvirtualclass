@@ -9,6 +9,7 @@
   overflow: hidden;
   left: -1px;
   border: 1px solid #bbb;
+  border-top-left-radius: 6px;
 }
 
 #virtualclassCont.congrea .ui-chatbox-titlebar {
@@ -47,7 +48,7 @@
   border-width: 0;
   height: 170px;
   overflow-y: auto;
-  /* background-color: #fff; */
+  background-color: #fff;
 }
 
 #virtualclassCont.congrea.playMode .ui-chatbox-log {
@@ -527,6 +528,7 @@
   border-radius: 0;
   margin-right: 0px;
   border-bottom: none;
+  border-top-left-radius: 6px;
 }
 
 #virtualclassCont.congrea .ui-icon-close {

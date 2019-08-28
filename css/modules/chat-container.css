@@ -109,7 +109,6 @@ div.ui-memblist-usr .user-details .media-object {
   display: block;
   text-align: center;
   font-size: 0.875rem;
-  border: solid 1px #bbb;
   border-radius: 30px;
   width: 2.375rem;
   height: 2.375rem;
@@ -207,13 +206,13 @@ div.ui-memblist-usr .user-details img.media-object {
   font-family: 'icomoon';
   content: "\e605";
   font-size: 15px;
-  color: #535151;
+  color: #000;
 }
 
 .icon-chatImg.enable::before {
   font-family: 'icomoon';
   content: "\f075";
-  color: #94b532;
+  color: #4ea500d4;
   font-size: 14px;
   top: -1px;
 }
