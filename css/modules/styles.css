@@ -3417,7 +3417,7 @@
 
 #virtualclassCont.congrea .vmchat_room_bt, #virtualclassCont.congrea .vmchat_bar_button {
   width: 25% !important;
-  height: 48px;
+  height: 3rem;
 }
 
 #virtualclassCont.congrea[device="mobile"] .vmchat_room_bt, #virtualclassCont.congrea[device="mobile"] .vmchat_bar_button {
@@ -3655,7 +3655,7 @@
 /*}*/
 #virtualclassCont.congrea #icHr:before {
   content: "\e9b1";
-  font-size: 17px;
+  font-size: 1.0625rem;
   color: #fff;
 }
 
@@ -4739,7 +4739,7 @@ and (max-device-width: 1024px) {
 }
 
 #virtualclassCont #virtualclassAppLeftPanel #sidebarButton .sidebarButton {
-  padding: 18px 4px;
+  padding: 1.125rem 0.25rem;
   right: 2px;
   transform: rotate(90deg);
 }
@@ -4752,9 +4752,16 @@ and (max-device-width: 1024px) {
 }
 
 
-#virtualclassCont.congrea #virtualclassApp #sidebarButton .congtooltip:hover:after {
-  bottom: -32px;
-  right: 0;
+#virtualclassCont.congrea #virtualclassApp .collapsedRightbar #sidebarButton .congtooltip:hover:after {
+  bottom: 90px;
+  transform: rotate(90deg);
+  right: -40px;
+}
+
+#virtualclassCont.congrea #virtualclassApp .openRightbar #sidebarButton .congtooltip:hover:after {
+  bottom: 90px;
+  transform: rotate(90deg);
+  right: -40px;
 }
 
 #virtualclassCont.congrea[data-currapp="Whiteboard"] #virtualclassAppLeftPanel #virtualclassWhiteboard .whiteboardContainer, 
@@ -4812,8 +4819,8 @@ and (max-device-width: 1024px) {
 }
 
 #virtualclassCont.congrea #virtualclassAppRightPanel .chatBarTab li#appSettingCtrl a#appSettingCtrlAnchor {
-  padding-top: 14px;
-  padding-bottom: 11px;
+  padding-top: 0.875rem;
+  padding-bottom: 0.6875rem;
   cursor: pointer;
 }
 
@@ -4921,4 +4928,7 @@ and (max-device-width: 900px) {
     display:none;
   }
 
+}
+#virtualclassCont.congrea[device="mobile"] #appSettingCtrl {
+  display: none;
 }

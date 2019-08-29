@@ -211,7 +211,7 @@
 
 #virtualclassCont.congrea #chatroom_icon .icon-chatroom:before {
   content: "\e9b4";
-  font-size: 17px;
+  font-size: 1.0625rem;
   color: #fff !important;
 }
 
@@ -728,7 +728,7 @@
   content: "\e9af";
   font-weight: normal;
   font-family: 'icomoon';
-  font-size: 20px;
+  font-size: 1.25rem;
   color: #fff;
 }
 
@@ -894,6 +894,7 @@
   font-weight: normal;
   font-family: 'icomoon';
   font-size: 13px;
+  color: #fff;
 }
 
 #virtualclassApp .icon-sidebarButton:before {
@@ -907,7 +908,7 @@
 #virtualclassCont.congrea .setting-btn:before {
   content: "\e9b0";
   font-weight: normal;
-  font-size: 17px;
+  font-size: 1.0625rem;
   font-family: 'icomoon';
   color: #fff !important;
   font-weight: normal;

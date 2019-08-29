@@ -796,7 +796,7 @@ virtualclassCont.congrea.playMode.student .ui-chatroom {
 }
 
 #virtualclassCont.congrea a.inner_bt, #virtualclassCont.congrea a.inner_bt:hover {
-  height: 48px;
+  height: 3rem;
 }
 
 #virtualclassCont.congrea a.inner_bt:hover {
@@ -834,7 +834,7 @@ virtualclassCont.congrea.playMode.student .ui-chatroom {
 
 #virtualclassCont.congrea a.stdRaiseHand, #virtualclassCont.congrea a.stdRaiseHand:hover {
   /* padding: .6875rem .8125rem; */
-  padding: 13.5px 0;
+  padding: 0.84375rem 0;
 }
 
 #virtualclasscont.congrea.student a.inner_bt:hover {
@@ -868,7 +868,7 @@ virtualclassCont.congrea.playMode.student .ui-chatroom {
 #virtualclassCont.congrea .ui-widget-content.ui-memblist-content:before {
   font-weight: normal;
   content: "\e9b3";
-  font-size: 65px;
+  font-size: 4.0625rem;
   font-family: 'icomoon';
   color: #000000;
   position: absolute;
@@ -880,7 +880,7 @@ virtualclassCont.congrea.playMode.student .ui-chatroom {
 #virtualclassCont.congrea .ui-chatroom:before {
   font-weight: normal;
   content: "\e9b4";
-  font-size: 62px;
+  font-size: 3.875rem;
   font-family: 'icomoon';
   color: #000;
   position: absolute;
