@@ -172,7 +172,7 @@
   float: left;
   position: relative;
   z-index: 100000;
-  border-right: 0.01em solid #021317 !important;
+  border-right: 0.01em solid #c1c1c1 !important;
   cursor: pointer;
 }
 
@@ -195,14 +195,19 @@
 
 #virtualclassCont.congrea .shapesToolbox .shapesTool {
   display: none;
-  background-image: linear-gradient(to right, #021317 0%, #2c393d 100%);
-  width: 209px;
+  /* background-image: linear-gradient(to right, #021317 0%, #2c393d 100%); */
+  background-color: #e8e8e8;
+  width: 205px;
   /*border-bottom-right-radius: 10px;*/
 }
 
 #virtualclassCont.congrea .containerWb .commandToolsWrapper .shapesToolbox .shapesTool .tool a {
-  border-bottom: 0.05em solid #021317 !important;
+  border-bottom: 0.05em solid #c1c1c1 !important;
 
+}
+
+#virtualclassCont.congrea #virtualclassAppLeftPanel #virtualclassAppContainer .shapesToolbox .open [data-title="Rectangle"] {
+  border-left: 1px solid #b9b9b9;
 }
 
 #virtualclassCont.congrea .commandToolsWrapper .shapesTool {
@@ -222,7 +227,7 @@
 
 #virtualclassCont.congrea .shapesToolbox[data-currTool="shapes"] .shapes_icon a {
   padding: 12px 12px 11px 15px;
-  border-left: 0.01em solid #021317 !important;
+  /* border-left: 0.01em solid #021317 !important; */
 }
 
 /*#virtualclassCont.congrea .shapesToolbox .shapes_icon .icon-shapes.cgIcon:before {*/
@@ -243,12 +248,12 @@
 
 #virtualclassCont.congrea .shapes_icon .icon-shapes.cgIcon:after {
   content: "\e967";
-  color: #fff;
+  color: #404040;
   font-size: 15px;
 }
 
 #virtualclassCont.congrea #virtualclassAppLeftPanel .containerWb .commandToolsWrapper .tool a[data-title="Rectangle"], #virtualclassCont.congrea #virtualclassAppLeftPanel .containerWb .commandToolsWrapper .tool a[data-title="Line"], #virtualclassCont.congrea #virtualclassAppLeftPanel .containerWb .commandToolsWrapper .tool a[data-title="Oval"], #virtualclassCont.congrea #virtualclassAppLeftPanel .containerWb .commandToolsWrapper .tool a[data-title="Triangle"] {
-  padding: 7px 14px 8px;
+  padding: 7px 13px 8px;
 }
 
 #virtualclassCont.congrea #virtualclassAppLeftPanel .containerWb .commandToolsWrapper .tool a[data-title="Rectangle"] span, #virtualclassCont.congrea #virtualclassAppLeftPanel .containerWb .commandToolsWrapper .tool a[data-title="Line"] span, #virtualclassCont.congrea #virtualclassAppLeftPanel .containerWb .commandToolsWrapper .tool a[data-title="Oval"] span, #virtualclassCont.congrea #virtualclassAppLeftPanel .containerWb .commandToolsWrapper .tool a[data-title="Triangle"] span {

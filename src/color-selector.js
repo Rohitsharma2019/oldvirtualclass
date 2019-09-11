@@ -74,13 +74,11 @@
         // + '#virtualclassCont.congrea .containerWb .commandToolsWrapper .shapesToolbox .shapesTool .tool a ,'
         // + '#virtualclassCont.congrea #audioWidget #mainAudioPanel li '
         // + `{border-bottom:${border} !important;}`
-        + '#virtualclassCont.congrea .containerWb .commandToolsWrapper .shapesToolbox .shapes_icon a ,'
+        //  + '#virtualclassCont.congrea .containerWb .commandToolsWrapper .shapesToolbox .shapes_icon a ,'
         + '#virtualclassCont.congrea #virtualclassAppLeftPanel #docShareNav ,'
         + '#virtualclassCont.congrea #screenController .share button '
         + `{border-left: 0.01em solid ${allbg.fcolor}!important;}`
         + `{border-left:${border} !important;}`
-        + '#virtualclassCont.congrea .containerWb .commandToolsWrapper .tool a '
-        + `{border-right: 0.01em solid ${allbg.fcolor}!important;}`
         + '#virtualclassCont.congrea .ui-widget-header.ui-corner-top.ui-chatbox-titlebar.ui-dialog-header'
         + `{border: 0.02em solid ${allbg.fcolor}!important;}`
         + '#virtualclassCont.congrea .btn.btn-default ,'
@@ -93,7 +91,7 @@
         + '#virtualclassCont.congrea .zoomControler ,'
         + '#virtualclassCont.congrea .btn-default '
         + `{background-image: linear-gradient(to bottom, ${allbg.fcolor} 0%,${allbg.scolor} 100%) !important;}`
-        + '#virtualclassCont.congrea .shapesToolbox ,'
+        // + '#virtualclassCont.congrea .shapesToolbox ,'
         + '#virtualclassCont.congrea #stopScreenShare button '
         + `{border-right: 0.01em solid ${allbg.fcolor}!important;}`;
 
@@ -125,8 +123,7 @@
 
         + '#virtualclassCont.congrea #navigator, '
         + '#virtualclassCont.congrea #layoutQuiz .navbar, '
-        + '#virtualclassCont.congrea .commandToolsWrapper, '
-        + '#virtualclassCont.congrea .commandToolsWrapper .shapesToolbox .shapesTool,'
+        // + '#virtualclassCont.congrea .commandToolsWrapper .shapesToolbox .shapesTool,'
         + '#virtualclassCont.congrea .commandToolsWrapper ul.strkSizeList li:hover,'
         + '#virtualclassCont.congrea #sessionEndMsgCont .endHeader,'
         + '#virtualclassCont.congrea #virtualclassAppContainer .virtualclass .commandToolsWrapper .tool ul.strkSizeList li.selected,'
@@ -147,7 +144,7 @@
         + '#virtualclassCont.congrea .tool.active a span:before '
         + `{color:${frontColor}!important}`
         + '#virtualclassCont.congrea #virtualclassOptionsCont .appOptions:hover, '
-        + '#virtualclassCont.congrea .containerWb .commandToolsWrapper .tool a:hover, '
+        // + '#virtualclassCont.congrea .containerWb .commandToolsWrapper .tool a:hover, '
         + '#virtualclassCont.congrea .containerWb .commandToolsWrapper .tool ul.fontSizeList span:hover,'
         + '#virtualclassCont.congrea #confirmCancel #confirmCancelButton:hover, '
         + '#virtualclassCont.congrea #confirm.popupWindow #confirmOk #confirmOkButton:hover'
@@ -176,7 +173,7 @@
         + '#virtualclassCont.congrea .shapesToolbox a'
         + `{color:${frontColor}!important}`
 
-        + '#virtualclassCont.congrea .shapes_icon .icon-shapes.cgIcon:after'
+        // + '#virtualclassCont.congrea .shapes_icon .icon-shapes.cgIcon:after'
         + `{color:${frontColor}!important}`
 
         + '#virtualclassCont.congrea .cgText'
