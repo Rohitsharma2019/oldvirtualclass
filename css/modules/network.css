@@ -1,7 +1,7 @@
-#virtualclassCont.congrea #networkStatusContainer {
+/* #virtualclassCont.congrea #networkStatusContainer {
   position: absolute;
   top: 0;
-}
+} */
 
 #virtualclassCont.congrea #networkStatusContainer #networkLatency {
   padding: .6875rem .8125rem;
