@@ -323,17 +323,16 @@
 }
 
 @media (max-height: 768px) {
-  #virtualclassCont.congrea #virtualclassAppLeftPanel #virtualclassOptionsCont {
+  /* #virtualclassCont.congrea #virtualclassAppLeftPanel #virtualclassOptionsCont {
     position: absolute;
     top: 80px; /* Changed from 73px */
-  }
 }
 
 @media (max-height: 700px) {
-  #virtualclassCont.congrea #virtualclassAppLeftPanel #virtualclassOptionsCont {
+  /* #virtualclassCont.congrea #virtualclassAppLeftPanel #virtualclassOptionsCont {
     position: absolute;
     top: 80px;
-  }
+  } */
 
   #virtualclassCont.congrea.meetingmode #virtualclassAppLeftPanel #virtualclassOptionsCont {
     position: absolute;

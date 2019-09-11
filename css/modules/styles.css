@@ -692,6 +692,7 @@
 #virtualclassCont.congrea .commandToolsWrapper, #virtualclassCont.congrea #dataInfoHeading {
   padding-left: 0;
   width: 100%;
+  background-image: linear-gradient(to bottom, #fff, #e2e2e2) !important;
 }
 
 #virtualclassCont.congrea #videos #localVideo {
@@ -2066,6 +2067,8 @@
   padding-left: 0;
   height: 48px;
   box-shadow: none;
+  background-image: linear-gradient(to bottom, #fff, #e2e2e2) !important;
+  box-shadow: 3px 1px 5px 0px rgba(0,0,0,.2), 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12);
   /* border-radius: 0 0 0 5px; */
 }
 
@@ -2801,6 +2804,11 @@
 
 #virtualclassCont.congrea #virtualclassAppLeftPanel .containerWb .commandToolsWrapper .tool a {
   padding: 11px 18px 12px;
+  color: #4a4a4a !important;
+}
+
+#virtualclassCont.congrea .containerWb .commandToolsWrapper .tool a:hover {
+  background-color: #d0d0d0;
 }
 
 #virtualclassCont.congrea .containerWb .commandToolsWrapper .tool a {
@@ -3698,7 +3706,7 @@
 }
 
 #virtualclassCont.congrea .containerWb .commandToolsWrapper .tool a {
-  border-right: 1px solid rgba(254, 254, 254, 0.2) !important;
+  border-right: 1px solid rgb(193, 193, 193) !important;
   color: #fff;
 }
 
@@ -4527,6 +4535,7 @@ and (max-device-width: 1024px) {
 #virtualclassCont.congrea #fullScreenButton .congtooltip.fullScreen:hover:after ,
 #virtualclassCont.congrea #fullScreenExitButton .congtooltip:hover:after {
   bottom: 7px;
+  left: 58px;
 }
 
 #virtualclassCont.congrea #fullScreenButton .fullScreen, #virtualclassCont.congrea #fullScreenExitButton [data-title="Exit Full Screen"] {
