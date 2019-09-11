@@ -1370,6 +1370,7 @@
           whiteboardToolbar: this.getTemplate('toolbar', 'whiteboard'),
           mobileWarning: this.getTemplate('mobileWarning'),
           rightBar: this.getTemplate('rightBar'),
+          footerBar: this.getTemplate('footerBar'),
           recordingControl: this.getTemplate('recordingControl'),
           leftBar: this.getTemplate('leftBar'),
           main: this.getTemplate('main'),

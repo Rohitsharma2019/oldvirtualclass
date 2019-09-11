@@ -998,9 +998,7 @@
 #virtualclassCont.congrea canvas {
   border-radius: 3px;
   padding: 0;
-
-  /*height: auto;*/
-  /*max-height: calc(100vh - 120px);*/
+  display: none;
 }
 
 /*#virtualclassCont.congrea #virtualclassPreCheck.bootstrap canvas {margin: -44px 0 -40px 44%;}*/
@@ -2430,8 +2428,8 @@
 
 #virtualclassCont.congrea #virtualclassApp.openRightbar #virtualclassAppRightPanel {
   width: 35%;
-  max-width: 360px;
-  min-width: 230px;
+  max-width: 320px;
+  min-width: 180px;
 }
 
 #virtualclassCont.congrea #virtualclassApp.collapsedRightbar #virtualclassAppRightPanel #userInfo {
@@ -3013,8 +3011,13 @@
   font-size: 15px;
 }
 
-  #virtualclassCont.congrea #virtualclassAppRightPanel #audioWidget #mainAudioPanel {
-    float: none !important;
+  #virtualclassCont.congrea #audioWidget #mainAudioPanel {
+    margin: 0;
+    padding: 0;
+  }
+
+  #virtualclassCont.congrea #audioWidget {
+    float: left;
   }
 
 /*}*/
@@ -3064,8 +3067,6 @@
 
 #virtualclassCont.congrea #audioWidget .nav > li#speakerPressOnce > a {
   padding: .8125rem .9375rem  .75rem .9375rem !important;
-  width: 100%;
-  float: left;
 }
 
 #virtualclassCont.congrea #audioWidget .nav > li#speakerPressOnce > a span {
@@ -3147,10 +3148,6 @@
 
 #virtualclassCont.congrea #recordingContainer {
   width: 469px;
-}
-
-#virtualclassCont.congrea.orginalTeacher #audioWidget #mainAudioPanel li {
-  text-align: center !important;
 }
 
 #virtualclassCont.congrea.meetingmode #audioWidget #mainAudioPanel li {
@@ -3424,11 +3421,6 @@
   pointer-events: none;
 }
 
-#virtualclassCont.congrea .vmchat_room_bt, #virtualclassCont.congrea .vmchat_bar_button {
-  width: 25% !important;
-  height: 3rem;
-}
-
 #virtualclassCont.congrea[device="mobile"] .vmchat_room_bt, #virtualclassCont.congrea[device="mobile"] .vmchat_bar_button {
   width: 25% !important;
 }
@@ -3590,7 +3582,7 @@
 }
 
 #virtualclassCont.congrea .vmchat_room_bt.congtooltip {
-  display: block;
+  display: inline-block;
 }
 
 #virtualclassCont.congrea .vmchat_room_bt.congtooltip:active {
@@ -4822,25 +4814,25 @@ and (max-device-width: 1024px) {
 }
 
 
-#virtualclassCont.congrea #virtualclassAppRightPanel .chatBarTab li {
+#virtualclassCont.congrea .chatBarTab li {
   border-right: 0.01em solid #021317!important;
-  width: 25%;
+  display: inline-block;
 }
 
-#virtualclassCont.congrea #virtualclassAppRightPanel .chatBarTab li#appSettingCtrl a#appSettingCtrlAnchor {
+#virtualclassCont.congrea .chatBarTab li#appSettingCtrl a#appSettingCtrlAnchor {
   padding-top: 0.875rem;
   padding-bottom: 0.6875rem;
   cursor: pointer;
 }
 
-#virtualclassCont.congrea #virtualclassAppRightPanel .chatBarTab li#appSettingCtrl a#appSettingCtrlAnchor:active {
+#virtualclassCont.congrea .chatBarTab li#appSettingCtrl a#appSettingCtrlAnchor:active {
   background-color: black !important;
 }
-#virtualclassCont.congrea #virtualclassAppRightPanel .chatBarTab li#techVideo {
+#virtualclassCont.congrea .chatBarTab li#techVideo {
   display: none;
 }
 
-#virtualclassCont[device="mobile"] #virtualclassAppRightPanel .chatBarTab li#techVideo {
+#virtualclassCont[device="mobile"] .chatBarTab li#techVideo {
   display: block;
 }
 
@@ -4940,4 +4932,9 @@ and (max-device-width: 900px) {
 }
 #virtualclassCont.congrea[device="mobile"] #appSettingCtrl {
   display: none;
+}
+
+.footerBar {
+  height: 48px;
+  background-image :linear-gradient(to bottom, #021317 0%,#2c393d 100%)
 }

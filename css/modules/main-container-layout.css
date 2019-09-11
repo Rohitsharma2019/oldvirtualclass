@@ -1,5 +1,7 @@
 #virtualclassCont.congrea {
   height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 #virtualclassCont.congrea #layoutPollBody, #virtualclassCont.congrea #layoutQuizBody {

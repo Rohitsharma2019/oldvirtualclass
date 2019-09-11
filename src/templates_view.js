@@ -473,6 +473,14 @@ this["JST"]["dest_temp/templates/editor/messagebox.hbs"] = Handlebars.template({
     + "</p></div>";
 },"useData":true});
 
+this["JST"]["dest_temp/templates/footerBar.hbs"] = Handlebars.template({"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
+    var stack1;
+
+  return "<div class=\"footerBar\"> "
+    + ((stack1 = container.invokePartial(partials.audioWidget,depth0,{"name":"audioWidget","data":data,"helpers":helpers,"partials":partials,"decorators":container.decorators})) != null ? stack1 : "")
+    + " <div id=\"stickycontainer\"></div></div>";
+},"usePartial":true,"useData":true});
+
 this["JST"]["dest_temp/templates/joinclass.hbs"] = Handlebars.template({"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
     return "<div id=\"joinClass\" class=\"bootstrap\"><div class=\"container \"><div class=\"modal fade\" id=\"joinClassModal\" role=\"dialog\"><div class=\"modal-dialog modal-lg\"><div class=\"modal-content\"><div class=\"modal-body\"><div class=\"joinClasscontainer text-center\"><div class=\"textCont\">Click here to continue</div><button type=\"button\" class=\"btn btn-default\">Continue</button></div></div></div></div></div></div></div>";
 },"useData":true});
@@ -533,7 +541,8 @@ this["JST"]["dest_temp/templates/main.hbs"] = Handlebars.template({"1":function(
     + ((stack1 = container.invokePartial(partials.popupCont,depth0,{"name":"popupCont","data":data,"helpers":helpers,"partials":partials,"decorators":container.decorators})) != null ? stack1 : "")
     + " "
     + ((stack1 = container.invokePartial(partials.dashboardCont,depth0,{"name":"dashboardCont","data":data,"helpers":helpers,"partials":partials,"decorators":container.decorators})) != null ? stack1 : "")
-    + " </div>";
+    + " </div> "
+    + ((stack1 = container.invokePartial(partials.footerBar,depth0,{"name":"footerBar","data":data,"helpers":helpers,"partials":partials,"decorators":container.decorators})) != null ? stack1 : "");
 },"usePartial":true,"useData":true});
 
 this["JST"]["dest_temp/templates/mobileWarning.hbs"] = Handlebars.template({"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
@@ -1123,17 +1132,13 @@ this["JST"]["dest_temp/templates/recordingControl.hbs"] = Handlebars.template({"
 this["JST"]["dest_temp/templates/rightBar.hbs"] = Handlebars.template({"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
     var stack1, alias1=depth0 != null ? depth0 : (container.nullContext || {}), alias2=helpers.helperMissing;
 
-  return "<div id=\"virtualclassAppRightPanel\" class=\"rightbar bootstrap chat_enabled\"><div id=\"userInfo\" class=\"showUserList\"><div id=\"stickycontainer\"></div> "
+  return "<div id=\"virtualclassAppRightPanel\" class=\"rightbar bootstrap chat_enabled\"><div id=\"userInfo\" class=\"showUserList\"> "
     + ((stack1 = container.invokePartial((helpers.getVideoType || (depth0 && depth0.getVideoType) || alias2).call(alias1,{"name":"getVideoType","hash":{},"data":data}),depth0,{"data":data,"helpers":helpers,"partials":partials,"decorators":container.decorators})) != null ? stack1 : "")
     + "  <div id=\"rightSubContainer\" class=\"\"> "
     + ((stack1 = container.invokePartial(partials.appSettingDetail,depth0,{"name":"appSettingDetail","data":data,"helpers":helpers,"partials":partials,"decorators":container.decorators})) != null ? stack1 : "")
     + " <div class=\"footerCtr\" id=\"congFooterCtr\"><div class=\"vmchat_search\" id=\"congchatBarInput\"><input type=\"text\" id=\"congreaUserSearch\" class=\"search\" placeholder=\""
     + container.escapeExpression((helpers.getString || (depth0 && depth0.getString) || alias2).call(alias1,"Searchuser",{"name":"getString","hash":{},"data":data}))
-    + "\"></div></div></div></div><div id=\"fixedRight\"><div id=\"footerButtons\"> "
-    + ((stack1 = container.invokePartial(partials.screenShareButtons,depth0,{"name":"screenShareButtons","data":data,"helpers":helpers,"partials":partials,"decorators":container.decorators})) != null ? stack1 : "")
-    + " <div id=\"docShareNav\"></div></div> "
-    + ((stack1 = container.invokePartial(partials.audioWidget,depth0,{"name":"audioWidget","data":data,"helpers":helpers,"partials":partials,"decorators":container.decorators})) != null ? stack1 : "")
-    + " </div>  </div>";
+    + "\"></div></div></div></div><div id=\"docShareNav\"></div>  </div>";
 },"usePartial":true,"useData":true});
 
 this["JST"]["dest_temp/templates/screenShareButtons.hbs"] = Handlebars.template({"1":function(container,depth0,helpers,partials,data) {

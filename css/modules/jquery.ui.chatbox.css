@@ -585,12 +585,6 @@ virtualclassCont.congrea.playMode.student .ui-chatroom {
   text-shadow: #FFF 0px 0px 2px;
 }
 
-#virtualclassCont.congrea #audioWidget #mainAudioPanel li,
-#virtualclassCont.congrea #fixedRight #footerButtons #fullScreenButton,
-#virtualclassCont.congrea #fixedRight #footerButtons #fullScreenExitButton {
-  border-top: 1px solid #2c393d; /* chroma(color).brighten().hex() */
-}
-
 #virtualclassCont.congrea #virtualclassAppRightPanel .chatBarTab li #appSettingCtrl:active {
   background-color: black !important;
 }
@@ -602,10 +596,6 @@ virtualclassCont.congrea.playMode.student .ui-chatroom {
 
 #virtualclassCont.congrea.student[data-currapp="EditorRich"] .vmchat_bar_button, #virtualclassCont.congrea.student[data-currapp="EditorCode"] .vmchat_bar_button {
   width: 40%;
-}
-
-#virtualclassCont.congrea[data-currapp="Whiteboard"] .vmchat_bar_button {
-  width: 130px;
 }
 
 #virtualclassCont.congrea[data-currapp="ScreenShare"] .vmchat_bar_button {
@@ -725,7 +715,8 @@ virtualclassCont.congrea.playMode.student .ui-chatroom {
 
 #virtualclassCont.congrea .chatBarTab {
   width: 100%;
-  /* background-color: #f7f7f7; */
+  margin: 0;
+  padding: 0;
 }
 
 #virtualclassCont.congrea #chat_div .ui-memblist-usr.online {
@@ -795,10 +786,6 @@ virtualclassCont.congrea.playMode.student .ui-chatroom {
   width: 33.3%;
 }
 
-#virtualclassCont.congrea a.inner_bt, #virtualclassCont.congrea a.inner_bt:hover {
-  height: 3rem;
-}
-
 #virtualclassCont.congrea a.inner_bt:hover {
   /* background-color: #cacaca; */
 
@@ -833,8 +820,8 @@ virtualclassCont.congrea.playMode.student .ui-chatroom {
 }
 
 #virtualclassCont.congrea a.stdRaiseHand, #virtualclassCont.congrea a.stdRaiseHand:hover {
-  /* padding: .6875rem .8125rem; */
   padding: 0.84375rem 0;
+  float: left;
 }
 
 #virtualclasscont.congrea.student a.inner_bt:hover {

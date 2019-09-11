@@ -249,27 +249,6 @@
   top: -1px;
 }
 
-/*#virtualclassCont .icon-chatImg.enable:before {*/
-/*color: #94b532;*/
-/*font-size: 14px;*/
-/*position: relative;*/
-/*top: -1px;*/
-/*}*/
-
-/*#virtualclassCont.congrea .icon-editorRichImg:before {*/
-/*content: "\e605";*/
-/*font-size: 15px;*/
-/*color: #535151;*/
-/*}*/
-
-/*bottom bar*/
-
-/*#virtualclassCont.congrea #contrAudioAll .icon-all-audio-disable:before {*/
-/*!*content: "\e610";*!*/
-/*font-size: 17px;*/
-/*color: rgba(255, 255, 255, 0.8);*/
-/*}*/
-
 #virtualclassCont.congrea #audioWidget #mainAudioPanel .prechk .precheck:before {
   content: "\e911";
   font-weight: bold;
@@ -280,7 +259,7 @@
 
 }
 
-#virtualclassCont.congrea #virtualclassAppRightPanel span#videoSwitch.video.on:before {
+#virtualclassCont.congrea span#videoSwitch.video.on:before {
   content: "\e9af";
   font-weight: normal;
   font-family: 'icomoon';
@@ -288,11 +267,11 @@
   color: #fff;
 }
 
-#virtualclassCont.congrea #virtualclassApp.collapsedRightbar #virtualclassAppRightPanel span#videoSwitch.video.on:before {
+#virtualclassCont.congrea #virtualclassApp.collapsedRightbar span#videoSwitch.video.on:before {
   content: "\e9af";
 }
 
-#virtualclassCont.congrea #virtualclassAppRightPanel .deactive #speakerPressingbtn:before {
+#virtualclassCont.congrea .deactive #speakerPressingbtn:before {
   content: "off";
   font-weight: normal;
   font-size: 17px;
@@ -301,7 +280,7 @@
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
 }
 
-#virtualclassCont.congrea #virtualclassAppRightPanel .active #speakerPressingbtn:before {
+#virtualclassCont.congrea .active #speakerPressingbtn:before {
   content: "on";
   font-weight: normal;
   font-size: 17px;
@@ -310,7 +289,7 @@
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
 }
 
-#virtualclassCont.congrea #virtualclassAppRightPanel .deactive #speakerPressingbtnIcon:before {
+#virtualclassCont.congrea .deactive #speakerPressingbtnIcon:before {
   content: "\e983";
   font-weight: normal;
   font-size: 1.25rem;
@@ -318,7 +297,7 @@
   color: red !important;
 }
 
-#virtualclassCont.congrea #virtualclassAppRightPanel .active #speakerPressingbtnIcon:before {
+#virtualclassCont.congrea .active #speakerPressingbtnIcon:before {
   content: "\e9ad";
   font-weight: normal;
   font-size: 1.1875rem;
@@ -332,7 +311,7 @@
   font-size: 19px;
 }
 
-#virtualclassCont.congrea #virtualclassAppRightPanel #audioWidget .audioMute:before {
+#virtualclassCont.congrea #audioWidget .audioMute:before {
   content: "\e997";
   font-weight: normal;
   font-size: 16px;
@@ -344,7 +323,7 @@
   z-index: 88888888888888;
 }
 
-#virtualclassCont.congrea #virtualclassAppRightPanel #speakerPressingbtnIcon.silenceDetect[data-silence-detect="notSending"]:before {
+#virtualclassCont.congrea #speakerPressingbtnIcon.silenceDetect[data-silence-detect="notSending"]:before {
   content: "\e982";
   font-weight: normal;
   font-size: 1.25rem;
@@ -352,7 +331,7 @@
   color: orange !important;
 }
 
-#virtualclassCont.congrea #virtualclassAppRightPanel .deactive #speakerPressingbtnIcon.silenceDetect[data-silence-detect="stop"]:before {
+#virtualclassCont.congrea .deactive #speakerPressingbtnIcon.silenceDetect[data-silence-detect="stop"]:before {
   content: "\e9ad";
   font-weight: normal;
   font-size: 1.1875rem;
@@ -360,7 +339,7 @@
   color: #fff !important;
 }
 
-#virtualclassCont.congrea #virtualclassApp #virtualclassAppRightPanel .deactive #speakerPressingbtnIcon.silenceDetect[data-silence-detect="stop"]::after {
+#virtualclassCont.congrea .deactive #speakerPressingbtnIcon.silenceDetect[data-silence-detect="stop"]::after {
   content: "\f00e";
   font-weight: normal;
   font-size: .875rem;
@@ -370,7 +349,6 @@
   top: 0px;
   right: -7px;
 }
-
 
 #virtualclassCont.congrea .commandToolsWrapper .icon-rectangle:before {
   content: "\e60b";
@@ -704,7 +682,7 @@
   color: darkgray;
 }
 
-#virtualclassCont.congrea #virtualclassAppRightPanel span#videoSwitch.video.off:before {
+#virtualclassCont.congrea span#videoSwitch.video.off:before {
   content: "\e9af";
   font-weight: normal;
   color: gray;
@@ -713,7 +691,7 @@
   color: #fff;
 }
 
-#virtualclassCont.congrea #virtualclassApp #virtualclassAppRightPanel span#videoSwitch.video.off:after {
+#virtualclassCont.congrea span#videoSwitch.video.off:after {
   content: "\f00e";
   font-weight: normal;
   font-size: .875rem;
@@ -724,7 +702,7 @@
   right: -11px;
 }
 
-#virtualclassCont.congrea.nowebcam #virtualclassAppRightPanel span#videoSwitch.video.on:before {
+#virtualclassCont.congrea.nowebcam span#videoSwitch.video.on:before {
   content: "\e9af";
   font-weight: normal;
   font-family: 'icomoon';

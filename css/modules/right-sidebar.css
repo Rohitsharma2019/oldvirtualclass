@@ -40,6 +40,7 @@ body, html {
 
 #virtualclassCont.congrea #stickycontainer {
   z-index: 1000;
+  float: right;
 }
 
 #virtualclassCont.congrea.playMode #rightSubContainer .chatBarTab {
@@ -703,14 +704,14 @@ body, html {
 
 /* Tool Tip */
 
-#virtualclassCont.congrea #virtualclassAppRightPanel #audioWidget .congtooltip:hover:after {
+#virtualclassCont.congrea #audioWidget .congtooltip:hover:after {
   left: auto;
   right: 24px;
   position: fixed;
   bottom: auto;
 }
 
-#virtualclassCont.congrea #virtualclassApp #virtualclassAppRightPanel #audioWidget #appSettingCtrl.congtooltip:hover:after {
+#virtualclassCont.congrea #virtualclassApp #audioWidget #appSettingCtrl.congtooltip:hover:after {
   top: 104px;
 }
 
@@ -718,18 +719,18 @@ body, html {
   /* top: 7px; */
 }
 
-#virtualclassCont.congrea #virtualclassApp #virtualclassAppRightPanel #audioWidget #speakerPressOnce .congtooltip:hover:after {
+#virtualclassCont.congrea #virtualclassApp #audioWidget #speakerPressOnce .congtooltip:hover:after {
   bottom: 108px;
 }
 
-#virtualclassCont.congrea #virtualclassAppRightPanel #audioWidget .videoSwitchCont.congtooltip:hover:after {
-  right: 126px;
-  bottom: 58px;
+#virtualclassCont.congrea #audioWidget .videoSwitchCont.congtooltip:hover:after {
+  bottom: 49px;
+  right: auto;
 }
 
-#virtualclassCont.congrea #virtualclassAppRightPanel #audioWidget .audioTool a.congtooltip:hover:after {
-  right: 233px;
-  /* top: 209px; */
+#virtualclassCont.congrea #audioWidget .audioTool a.congtooltip:hover:after {
+  bottom: 50px;
+  right: auto;
 }
 
 #virtualclassCont.congrea #virtualclassAppRightPanel #audioWidget .audioTool a.congtooltip:hover:after {
