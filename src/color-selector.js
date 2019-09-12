@@ -160,9 +160,6 @@
         + '#virtualclassCont.congrea .active .cgIcon:before'
         + `{color:${active.frontColor}!important}`
 
-        + '#virtualclassCont.congrea .commandToolsWrapper .tool:hover .cgIcon:before'
-        + `{color:${hover.frontColor}!important}`
-
         + '#virtualclassCont.congrea .cgIcon:before'
         + `{color:${frontColor}}`
         + '#virtualclassCont.congrea #docShareNav .pageNav'

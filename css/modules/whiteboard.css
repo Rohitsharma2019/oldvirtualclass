@@ -172,7 +172,6 @@
   float: left;
   position: relative;
   z-index: 100000;
-  border-right: 0.01em solid #c1c1c1 !important;
   cursor: pointer;
 }
 
@@ -292,12 +291,12 @@
 
 #virtualclassCont.congrea .disActiveColor {
   height: 4px;
-  width: 26px;
+  width: 21px;
   color: white;
   background-color: white;
   position: absolute;
-  top: 31px;
-  right: 18px;
+  top: 34px;
+  right: 12px;
   border: .5px solid #55575a;
 }
 
