@@ -3025,7 +3025,8 @@
   }
 
   #virtualclassCont.congrea #audioWidget {
-    float: left;
+    position: absolute;
+    left: 48%;
   }
 
 /*}*/
@@ -3625,10 +3626,10 @@
 /*}*/
 
 #virtualclassCont.congrea #congHr.enable {
-  width: 25%;
+  /* width: 25%;
   position: relative;
   left: 0;
-  top: 0;
+  top: 0; */
   cursor: pointer;
   border-radius: 0;
 }
@@ -4825,7 +4826,8 @@ and (max-device-width: 1024px) {
 
 #virtualclassCont.congrea .chatBarTab li {
   border-right: 0.01em solid #021317!important;
-  display: inline-block;
+  float: left;
+  width: 80px;
 }
 
 #virtualclassCont.congrea .chatBarTab li#appSettingCtrl a#appSettingCtrlAnchor {
@@ -4945,5 +4947,6 @@ and (max-device-width: 900px) {
 
 .footerBar {
   height: 48px;
-  background-image :linear-gradient(to bottom, #021317 0%,#2c393d 100%)
+  background-image :linear-gradient(to bottom, #021317 0%,#2c393d 100%);
+  position: relative;
 }
