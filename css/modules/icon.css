@@ -336,7 +336,7 @@
   font-weight: normal;
   font-size: 1.1875rem;
   font-family: 'icomoon';
-  color: #000 !important;
+  color: #232323 !important;
 }
 
 #virtualclassCont.congrea .deactive #speakerPressingbtnIcon.silenceDetect[data-silence-detect="stop"]::after {
@@ -715,7 +715,7 @@
   content: "\e9af";
   font-weight: normal;
   font-family: 'icomoon';
-  font-size: 1.25rem;
+  font-size: 1.125rem;
   color: #000;
 }
 
