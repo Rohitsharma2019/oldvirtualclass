@@ -152,7 +152,7 @@
 }
 
 #virtualclassCont.congrea .commandToolsWrapper {
-  position: relative;
+  /* position: relative; */
   z-index: 1;
 }
 
@@ -587,7 +587,7 @@
 #virtualclassCont.congrea #virtualclassOptionsCont .appOptions .congtooltip:hover:after {
   padding: 0.3em .8em;
   right: auto;
-  left: 52px;
+  left: 102px;
   bottom: -0.4em;
 }
 
@@ -2815,8 +2815,8 @@
 
 #virtualclassCont.congrea #virtualclassAppLeftPanel .containerWb .commandToolsWrapper .tool a {
   /* padding: 11px 18px 12px; */
-  margin-top: 2px;
-  margin-bottom: 2px;
+  /* margin-top: 2px;
+  margin-bottom: 2px; */
   color: #4a4a4a !important;
 }
 
@@ -2847,7 +2847,8 @@
   padding: 11px 15px 13px 15px !important;
 }
 
-#virtualclassCont.congrea .containerWb .commandToolsWrapper .tool a:hover {
+#virtualclassCont.congrea .containerWb .commandToolsWrapper .tool a:hover,
+#virtualclassCont.congrea .commandToolsWrapper .tool.active a {
   background-color: #d0d0d0;
 }
 
@@ -3650,8 +3651,14 @@
 }
 
 #virtualclassCont.congrea .whiteboardContainer .commandToolsWrapper .tool .congtooltip:hover:after {
-  bottom: -31px !important;
-  left: 0em;
+  bottom: 15px !important;
+  left: 55px;
+}
+
+#virtualclassCont.congrea .whiteboardContainer .commandToolsWrapper .open .tool .congtooltip:hover:after,
+#virtualclassCont.congrea #screen-docs .pageContainer .open .congtooltip:hover:after {
+  bottom: 42px !important;
+  left: -1px;
 }
 
 #virtualclassCont.congrea #audioWidget .congtooltip:hover:after {
@@ -3985,8 +3992,8 @@
 }
 
 #virtualclassCont.congrea #screen-docs .pageContainer .congtooltip:hover:after {
-  bottom: -31px !important;
-  left: 4px;
+  bottom: 15px !important;
+  left: 55px;
 }
 
 #virtualclassCont.congrea #docMsgStudent {
@@ -4360,9 +4367,9 @@ li.ui-state-highlight #chatroom_icon {
   border-color: #555 transparent transparent transparent;
 }
 
-#virtualclassCont.congrea .commandToolsWrapper .tool[data-tool="freeDrawing"] a {
+/* #virtualclassCont.congrea .commandToolsWrapper .tool[data-tool="freeDrawing"] a {
   border-bottom-left-radius: 5px;
-}
+} */
 
 #virtualclassCont.congrea #DocumentShareDashboard #docsListContainer #listdocs .controls.delete {
   margin-top: 0;

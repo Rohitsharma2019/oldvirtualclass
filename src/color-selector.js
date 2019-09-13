@@ -139,8 +139,7 @@
 
         + '#virtualclassCont.congrea .commandToolsWrapper'
         + `{background-color: ${allbg.tcolor}} `
-        + '#virtualclassCont.congrea #virtualclassOptionsCont .appOptions.active, '
-        + '#virtualclassCont.congrea .commandToolsWrapper .tool.active a '
+        + '#virtualclassCont.congrea #virtualclassOptionsCont .appOptions.active '
         + `{background-image: radial-gradient(ellipse at center, ${active.fcolor} 0%,${active.scolor} 100%);} `
         + '#virtualclassCont.congrea .tool.active a span:before '
         + `{color:${frontColor}!important}`

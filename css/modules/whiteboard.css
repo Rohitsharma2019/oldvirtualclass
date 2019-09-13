@@ -119,8 +119,8 @@
 #virtualclassCont.congrea #virtualclassAppLeftPanel #virtualclassWhiteboard .whiteboardContainer .table,
 #virtualclassCont.congrea #virtualclassAppLeftPanel #virtualclassDocumentShare #documentScreen #notesContainer .table {
   position: absolute;
-  top: 50px;
-  left: 285px;
+  top: 215px;
+  left: 108px;
   width: auto;
   height: auto;
   border: 1px solid lightgray;
@@ -176,8 +176,8 @@
 }
 
 #virtualclassCont.congrea .shapesToolbox .shapes_icon .congtooltip:hover::after {
-  bottom: -31px;
-  left: 0px;
+  bottom: 15px;
+  left: 55px;
 }
 
 #virtualclassCont.congrea .shapesToolbox a {
@@ -196,7 +196,7 @@
   display: none;
   /* background-image: linear-gradient(to right, #021317 0%, #2c393d 100%); */
   background-color: #e8e8e8;
-  width: 205px;
+  width: 201px;
   /*border-bottom-right-radius: 10px;*/
 }
 
@@ -211,8 +211,9 @@
 
 #virtualclassCont.congrea .commandToolsWrapper .shapesTool {
   position: absolute;
-  top: 48.5px;
-  left: 2px;
+  top: 15px;
+  left: 55px;
+  border: 1px solid #d6d6d6;
 }
 
 /*#virtualclassCont.congrea .shapesToolbox[data-currTool="shapes"] .shapes_icon .icon-shapes.cgIcon {*/
@@ -220,8 +221,8 @@
 /*}*/
 
 #virtualclassCont.congrea .shapesToolbox[data-currTool="shapes"] .shapes_icon a.congtooltip:hover::after {
-  bottom: -31px;
-  left: 0;
+  bottom: 15px;
+  left: 55px;
 }
 
 #virtualclassCont.congrea .shapesToolbox[data-currTool="shapes"] .shapes_icon a {
@@ -241,10 +242,20 @@
   margin-left: -2px;
 }
 
-#virtualclassCont.congrea .shapesToolbox[data-currtool="oval"] .shapes_icon a, .shapesToolbox[data-currtool="line"] .shapes_icon a, .shapesToolbox[data-currtool="rectangle"] .shapes_icon a, .shapesToolbox[data-currtool="triangle"] .shapes_icon a {
+#virtualclassCont.congrea .shapesToolbox[data-currtool="oval"] .shapes_icon a,
+#virtualclassCont.congrea .shapesToolbox[data-currtool="line"] .shapes_icon a, 
+#virtualclassCont.congrea .shapesToolbox[data-currtool="rectangle"] .shapes_icon a, 
+#virtualclassCont.congrea .shapesToolbox[data-currtool="triangle"] .shapes_icon a {
   padding: 10px 13px 11px 14px !important;
 }
 
+#virtualclassCont.congrea .shapesToolbox[data-currtool="oval"] .shapes_icon.active a,
+#virtualclassCont.congrea .shapesToolbox[data-currtool="line"] .shapes_icon.active a, 
+#virtualclassCont.congrea .shapesToolbox[data-currtool="rectangle"] .shapes_icon.active a, 
+#virtualclassCont.congrea .shapesToolbox[data-currtool="triangle"] .shapes_icon.active a {
+  background-color: grey;
+
+}
 /* #virtualclassCont.congrea .shapes_icon .icon-shapes.cgIcon:after {
   content: "\e967";
   color: #404040;
