@@ -3054,6 +3054,12 @@
   #virtualclassCont.congrea #audioWidget #mainAudioPanel {
     margin: 0;
     padding: 0;
+    background-image: linear-gradient(to bottom, #021317 0%,#2c393d 100%);
+    height: 54px;
+    position: fixed;
+    bottom: 2px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
   }
 
   #virtualclassCont.congrea #audioWidget {
@@ -3107,7 +3113,12 @@
 }
 
 #virtualclassCont.congrea #audioWidget .nav > li#speakerPressOnce > a {
-  padding: .8125rem .9375rem  .75rem .9375rem !important;
+  /* padding: .8125rem .9375rem .75rem .9375rem !important; */ 
+  padding: 8px 8px 7px 10px;
+  /* border: 1px solid #e6e6e6; */
+  border-radius: 30px;
+  margin-top: 10px;
+  margin-left: 12px;
 }
 
 #virtualclassCont.congrea #audioWidget .nav > li#speakerPressOnce > a span {
