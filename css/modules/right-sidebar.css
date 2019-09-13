@@ -10,7 +10,13 @@ body, html {
 
 #audioWidget ul li a {
   text-align: center;
-  padding: .8125rem .9375rem .75rem .9375rem !important;
+  padding: 13px 8px 9px 9px;
+  /* border: 1px solid #e6e6e6; */
+  border-radius: 28px;
+  background-color: #ffffff;
+  margin-left: 12px;
+  margin-right: 12px;
+  /* padding: .8125rem .9375rem .75rem .9375rem !important; */
 }
 
 #audioWidget ul li a span#videoSwitch {

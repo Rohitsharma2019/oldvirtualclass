@@ -332,14 +332,15 @@
 }
 
 #virtualclassCont.congrea .deactive #speakerPressingbtnIcon.silenceDetect[data-silence-detect="stop"]:before {
-  content: "\e9ad";
+  content: "\e97a";
   font-weight: normal;
   font-size: 1.1875rem;
   font-family: 'icomoon';
-  color: #fff !important;
+  color: #000 !important;
 }
 
 #virtualclassCont.congrea .deactive #speakerPressingbtnIcon.silenceDetect[data-silence-detect="stop"]::after {
+  display: none;
   content: "\f00e";
   font-weight: normal;
   font-size: .875rem;
@@ -715,7 +716,7 @@
   font-weight: normal;
   font-family: 'icomoon';
   font-size: 1.25rem;
-  color: #fff;
+  color: #000;
 }
 
 #virtualclassCont.congrea #virtualclassCont .icon-chatImg.enable:before {
