@@ -697,10 +697,10 @@
   color: gray;
   font-family: 'icomoon';
   font-size: 1.1875rem;
-  color: #fff;
+  color: #000;
 }
 
-#virtualclassCont.congrea span#videoSwitch.video.off:after {
+/* #virtualclassCont.congrea span#videoSwitch.video.off:after {
   content: "\f00e";
   font-weight: normal;
   font-size: .875rem;
@@ -709,7 +709,7 @@
   position: absolute;
   top: -1px;
   right: -11px;
-}
+} */
 
 #virtualclassCont.congrea.nowebcam span#videoSwitch.video.on:before {
   content: "\e9af";

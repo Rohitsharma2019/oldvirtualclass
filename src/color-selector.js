@@ -43,6 +43,7 @@
 
       allbg.fcolor = color;
       allbg.scolor = chroma(color).brighten().hex();
+      allbg.tcolor = allbg.fcolor + "1a";
 
       const frontColor = iconColor;
       active.frontColor = iconColor;
@@ -137,7 +138,7 @@
         + `{background-image: linear-gradient(to right, ${allbg.fcolor} 0%,${allbg.scolor} 100%)} `
 
         + '#virtualclassCont.congrea .commandToolsWrapper'
-        + `{background-image: linear-gradient(to bottom, ${allbg.fcolor} 0%,${allbg.scolor} 100%)} `
+        + `{background-color: ${allbg.tcolor}} `
         + '#virtualclassCont.congrea #virtualclassOptionsCont .appOptions.active, '
         + '#virtualclassCont.congrea .commandToolsWrapper .tool.active a '
         + `{background-image: radial-gradient(ellipse at center, ${active.fcolor} 0%,${active.scolor} 100%);} `

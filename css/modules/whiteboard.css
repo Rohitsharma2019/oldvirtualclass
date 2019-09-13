@@ -245,11 +245,11 @@
   padding: 10px 13px 11px 14px !important;
 }
 
-#virtualclassCont.congrea .shapes_icon .icon-shapes.cgIcon:after {
+/* #virtualclassCont.congrea .shapes_icon .icon-shapes.cgIcon:after {
   content: "\e967";
   color: #404040;
   font-size: 15px;
-}
+} */
 
 #virtualclassCont.congrea #virtualclassAppLeftPanel .containerWb .commandToolsWrapper .tool a[data-title="Rectangle"], #virtualclassCont.congrea #virtualclassAppLeftPanel .containerWb .commandToolsWrapper .tool a[data-title="Line"], #virtualclassCont.congrea #virtualclassAppLeftPanel .containerWb .commandToolsWrapper .tool a[data-title="Oval"], #virtualclassCont.congrea #virtualclassAppLeftPanel .containerWb .commandToolsWrapper .tool a[data-title="Triangle"] {
   padding: 7px 13px 8px;
