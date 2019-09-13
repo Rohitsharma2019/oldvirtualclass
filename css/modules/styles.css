@@ -2854,7 +2854,7 @@
 #virtualclassCont.congrea .containerWb .commandToolsWrapper .tool a {
   text-decoration: none;
   /* padding: 11px 18px 10px; */
-  font-size: 25px;
+  font-size: 27px;
 }
 
 #virtualclassCont.congrea #virtualclassVideo .linkvideo.playing {
@@ -3123,7 +3123,6 @@
 #virtualclassCont.congrea #audioWidget .nav > li#speakerPressOnce > a {
   padding: 7px 7px 6px 9px;
   border-radius: 30px;
-  margin-top: 6px;
 }
 
 #virtualclassCont.congrea #audioWidget .nav > li#speakerPressOnce > a span {

@@ -264,7 +264,7 @@
   font-weight: normal;
   font-family: 'icomoon';
   font-size: 1.1875rem;
-  color: #fff;
+  color: #000;
 }
 
 #virtualclassCont.congrea #virtualclassApp.collapsedRightbar span#videoSwitch.video.on:before {
@@ -302,7 +302,7 @@
   font-weight: normal;
   font-size: 1.1875rem;
   font-family: 'icomoon';
-  color: #fff !important;
+  color: #000 !important;
   z-index: -1;
 }
 

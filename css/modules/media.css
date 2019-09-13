@@ -1,6 +1,7 @@
 #virtualclassCont.congrea #audioWidget ul li {
   cursor: pointer;
   display: inline-block;
+  margin: 6px 7px;
 }
 
 #virtualclassCont.congrea #audioWidget.fixed {

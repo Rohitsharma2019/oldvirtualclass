@@ -404,7 +404,7 @@
             // } else if(canvas.offsetWidth === 0 && document.querySelector('#virtualclassApp').style.display === "none"){
           } else {
             // (53 + 320 + 10) = (left toolbar + rightbar + scroll of canvas)
-            canvas.width = (document.querySelector("#virtualclassAppContainer").offsetWidth - 8);
+            canvas.width = (document.querySelector(".canvasWrapper").offsetWidth - 8);
             console.log('==== a canvas width click to continue');
             console.log('==== a canvas width fit to screen ', canvas.width, 'rightbar width ', document.querySelector('#chat_div').offsetWidth);
           }
