@@ -263,9 +263,9 @@
   cursor: pointer;
 }
 
-#virtualclassCont.congrea.student .vmchat_room_bt {
+/* #virtualclassCont.congrea.student .vmchat_room_bt {
   width: 33.3%;
-}
+} */
 
 #virtualclassCont.congrea #usertab_icon {
   background: url('/virtualclass/images/offline.png') no-repeat top left;
@@ -782,9 +782,9 @@ virtualclassCont.congrea.playMode.student .ui-chatroom {
   word-break: break-word;
 }
 
-#virtualclassCont.congrea.student .vmchat_bar_button {
+/* #virtualclassCont.congrea.student .vmchat_bar_button {
   width: 33.3%;
-}
+} */
 
 #virtualclassCont.congrea a.inner_bt:hover {
   /* background-color: #cacaca; */

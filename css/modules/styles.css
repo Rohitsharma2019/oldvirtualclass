@@ -492,8 +492,9 @@
   z-index: 0;
 }
 
-#virtualclassCont.congrea #virtualclassAppLeftPanel #virtualclassAppOptionsCont #networkStatusContainer {
-  justify-content: flex-end;
+#virtualclassCont.congrea .footerBar #networkStatusContainer {
+  position: absolute;
+  left: 0px;
 }
 
 #virtualclassCont.congrea #fixedRight .congtooltip:hover:after {
@@ -4586,6 +4587,8 @@ and (max-device-width: 1024px) {
   display: inline-block;
   color: #fff;
   cursor: pointer;
+  position: absolute;
+  left: 54px;
 }
 
 #virtualclassCont.congrea #fullScreenButton .congtooltip.fullScreen:hover:after ,
